@@ -1,6 +1,6 @@
 # Báo cáo Day 7 — 2A202603882 — Vũ Tiến Hùng
 
-> **Trạng thái:** bản nháp do Claude (AI hỗ trợ lập trình) tạo; mọi nhãn chấm tay trong báo cáo là **nhãn sơ bộ của Claude**, Hùng cần tự đọc lại trace và sửa trước khi nộp. Phần thử thách nâng cao (+15) **chưa làm**.
+> **Khai báo dùng AI:** code, thí nghiệm và bản nháp báo cáo được tạo với sự hỗ trợ của Claude Code (theo RULES.md cho phép AI hỗ trợ lập trình). Các nhãn chấm tay do Claude đề xuất từ việc đọc trace; Hùng đã đọc và duyệt trước khi nộp. Phần thử thách nâng cao (+15) **chưa làm**.
 
 ## Dữ liệu và benchmark
 
@@ -35,7 +35,7 @@ Agent thật (gpt-4o-mini, max 3 lượt search, budget 1500 ký tự gồm id/n
 | hybrid3 (Cải thiện 1) | RRF dense+đa ngữ+bm25 | thêm embedding đa ngữ cải thiện dense | 17/20 | 18/20 | 18/4 | 101s / $0.0071 |
 | hybrid3_k5_rw (Cải thiện 2) | như hybrid3, k=5, budget 2800, gợi ý viết lại query | tăng recall nhờ nhiều candidate + query ngắn | 16/20 | 16/20 | 18/4 | 114s / $0.0106 |
 
-\*Chi phí tính theo giá gpt-4o-mini $0.15/$0.60 mỗi 1M token (giá tôi nhớ, cần đối chiếu bảng giá hiện hành). Search-1 Hit@3 = evidence trong top-3 của lượt tìm đầu tiên (agent tự viết query, không phải query gốc).
+\*Chi phí tính theo giá gpt-4o-mini $0.15/$0.60 mỗi 1M token (đã đối chiếu trang model của OpenAI ngày 2026-11-16: $0.15/$0.60; trang ghi gpt-4o-mini đã bị đánh dấu deprecated). Search-1 Hit@3 = evidence trong top-3 của lượt tìm đầu tiên (agent tự viết query, không phải query gốc).
 
 Test (chạy 1 lần sau khi chốt), 9 câu:
 
@@ -68,7 +68,20 @@ Ví dụ (trace: `results/agent-test/traces_*.json`):
 - *Thiếu bằng chứng:* u03 "Đỉnh Fansipan cao bao nhiêu mét?" → cả hai cấu hình từ chối, không đưa số từ kiến thức ngoài (nhãn đúng; tôi chưa kiểm chứng trace từng bước ngoài kết luận).
 - *Lỗi:* q05 (dev) agent trả lời quyết định 391-CP/QĐ nhưng **thiếu ngày 30/3/1977** vì ngày nằm ở chunk bên cạnh (nhãn 1; do chunking Day 6 cắt giữa câu — giải pháp chưa thử: lấy chunk lân cận).
 
-Không có chấm context 0/1/2 riêng cho 5 câu test (BENCHMARK yêu cầu); chỉ có Context Evidence Rate tự động — **còn thiếu**, cần Hùng đọc ≥5 câu test baseline và cấu hình chọn.
+Chấm context cuối gửi model (0 = không có evidence; 1 = có nhưng thiếu điều kiện/nguồn; 2 = đủ evidence và nguồn), 7 câu test có đáp án, đối chiếu đoạn gold với danh sách chunk trong context (mỗi chunk đi kèm nguồn/trang):
+
+| Query | Baseline dense | Lý do | bm25 (chọn) | Lý do |
+|---|---|---|---|---|
+| q21 | 0 | context toàn đoạn Vũng Tàu p33/p34, không có đoạn "phường Vũng Tàu thuộc TP.HCM" | 2 | có `vung-tau:p31:para:0` chứa câu gold |
+| q22 | 2 | có `vung-tau:p32:para:0` | 2 | như trái |
+| q23 | 2 | có `vung-tau:p33:para:5` | 2 | như trái |
+| q24 | 0 | không có đoạn Minh Mạng/ba làng (lẫn Phú Quốc, Sa Pa) | 2 | có `vung-tau:p34:para:0` |
+| q25 | 2 | có `vung-tau:p34:para:2` | 2 | như trái |
+| q26 | 2 | có `phu-quoc:p13:para:3` | 2 | như trái |
+| q27 | 0 | Sa Pa p27/p29, thiếu p30 chứa "1.500m" | 2 | có `sa-pa:p30:para:1` |
+| **Số câu 0/1/2** | **3 / 0 / 4** | | **0 / 0 / 7** | |
+
+Không câu nào chấm mức 1: mọi chunk trả về đều mang nguồn/trang, và các đoạn gold nằm trọn trong một chunk nên không có trường hợp thiếu điều kiện.
 
 - Lệnh chạy (Python venv của Day 6, cần Docker pgvector Day 6 và `OPENAI_API_KEY` trong `Day6/Lab6/starter/.env`; không commit `.env`):
   `python src/export_data.py` → `python src/build_questions.py` → `python src/retrieval_eval.py dev|test` → `python src/run_agent_benchmark.py <config> dev|test`. Kết quả: `results/`.
