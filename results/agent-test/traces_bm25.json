@@ -1,0 +1,713 @@
+[
+ {
+  "status": "answered",
+  "answer": "Vũng Tàu hiện nay là phường Vũng Tàu, một đơn vị hành chính cấp xã thuộc Thành phố Hồ Chí Minh, Việt Nam. [vung-tau:p31:para:0]",
+  "citations": [
+   "vung-tau:p31:para:0"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Vũng Tàu đơn vị hành chính cấp xã thuộc đâu",
+    "filter": {
+     "mien": "Nam"
+    },
+    "results": [
+     {
+      "id": "vung-tau:p31:para:0",
+      "rank": 1,
+      "score": 42.4991
+     },
+     {
+      "id": "phu-quoc:p14:para:0",
+      "rank": 2,
+      "score": 28.569
+     },
+     {
+      "id": "phu-quoc:p13:para:2",
+      "rank": 3,
+      "score": 24.3828
+     }
+    ],
+    "added_to_context": [
+     "vung-tau:p31:para:0",
+     "phu-quoc:p14:para:0"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": true
+   }
+  ],
+  "context_ids": [
+   "vung-tau:p31:para:0",
+   "phu-quoc:p14:para:0"
+  ],
+  "usage": {
+   "prompt": 1074,
+   "completion": 94,
+   "llm_calls": 2,
+   "seconds": 2.72,
+   "searches": 1,
+   "cost_usd": 0.000217
+  },
+  "raw_citations": [
+   "vung-tau:p31:para:0"
+  ],
+  "query_id": "q21",
+  "config": "bm25",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "answered",
+  "answer": "Trong Phủ biên tạp lục (1776) của Lê Quý Đôn, Vũng Tàu được miêu tả là \"Đầu địa giới Gia Định là xứ Vũng Tàu, nơi hải đảo có dân cư.\" Tác phẩm cũng ghi nhận rằng có một vũng lớn gọi là Vũng Tàu, nơi tàu thuyền có thể đỗ nghỉ, và trên núi có suối nước ngọt, chân núi tụ họp dân chài, được xem là chỗ cửa quan xung yếu. [vung-tau:p32:para:0]",
+  "citations": [
+   "vung-tau:p32:para:0"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Phủ biên tạp lục Vũng Tàu Lê Quý Đôn",
+    "filter": null,
+    "results": [
+     {
+      "id": "vung-tau:p32:para:0",
+      "rank": 1,
+      "score": 54.7293
+     },
+     {
+      "id": "nha-trang:p2:para:1",
+      "rank": 2,
+      "score": 38.8223
+     },
+     {
+      "id": "vung-tau:p33:para:4",
+      "rank": 3,
+      "score": 15.5989
+     }
+    ],
+    "added_to_context": [
+     "vung-tau:p32:para:0",
+     "nha-trang:p2:para:1"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": true
+   }
+  ],
+  "context_ids": [
+   "vung-tau:p32:para:0",
+   "nha-trang:p2:para:1"
+  ],
+  "usage": {
+   "prompt": 1137,
+   "completion": 187,
+   "llm_calls": 2,
+   "seconds": 3.68,
+   "searches": 1,
+   "cost_usd": 0.000283
+  },
+  "raw_citations": [
+   "vung-tau:p32:para:0"
+  ],
+  "query_id": "q22",
+  "config": "bm25",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "answered",
+  "answer": "Người Pháp gọi Vũng Tàu bằng tên Cap Saint-Jacques từ năm 1775, có nghĩa là \"Mũi đất của Thánh Giacôbê\". [vung-tau:p33:para:5]",
+  "citations": [
+   "vung-tau:p33:para:5"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Vũng Tàu tên gọi người Pháp 1775 nghĩa",
+    "filter": {
+     "mien": "Nam"
+    },
+    "results": [
+     {
+      "id": "vung-tau:p33:para:5",
+      "rank": 1,
+      "score": 27.9879
+     },
+     {
+      "id": "vung-tau:p33:para:4",
+      "rank": 2,
+      "score": 15.262
+     },
+     {
+      "id": "vung-tau:p34:para:6",
+      "rank": 3,
+      "score": 15.0406
+     }
+    ],
+    "added_to_context": [
+     "vung-tau:p33:para:5",
+     "vung-tau:p33:para:4"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": true
+   }
+  ],
+  "context_ids": [
+   "vung-tau:p33:para:5",
+   "vung-tau:p33:para:4"
+  ],
+  "usage": {
+   "prompt": 1109,
+   "completion": 102,
+   "llm_calls": 2,
+   "seconds": 2.67,
+   "searches": 1,
+   "cost_usd": 0.000228
+  },
+  "raw_citations": [
+   "vung-tau:p33:para:5"
+  ],
+  "query_id": "q23",
+  "config": "bm25",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "answered",
+  "answer": "Vua Minh Mạng đã cho giải ngũ ba lớp lính và lập ra ba làng Thắng Nhất, Thắng Nhì, Thắng Tam ở Vũng Tàu. [vung-tau:p34:para:0]",
+  "citations": [
+   "vung-tau:p34:para:0"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Vua nào đã cho giải ngũ ba lớp lính và lập ra ba làng Thắng Nhất, Thắng Nhì, Thắng Tam ở Vũng Tàu?",
+    "filter": null,
+    "results": [
+     {
+      "id": "vung-tau:p34:para:0",
+      "rank": 1,
+      "score": 122.1468
+     },
+     {
+      "id": "vung-tau:p34:para:8",
+      "rank": 2,
+      "score": 76.4993
+     },
+     {
+      "id": "vung-tau:p31:para:0",
+      "rank": 3,
+      "score": 30.1607
+     }
+    ],
+    "added_to_context": [
+     "vung-tau:p34:para:0",
+     "vung-tau:p34:para:8"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": true
+   }
+  ],
+  "context_ids": [
+   "vung-tau:p34:para:0",
+   "vung-tau:p34:para:8"
+  ],
+  "usage": {
+   "prompt": 1195,
+   "completion": 125,
+   "llm_calls": 2,
+   "seconds": 3.34,
+   "searches": 1,
+   "cost_usd": 0.000254
+  },
+  "raw_citations": [
+   "vung-tau:p34:para:0"
+  ],
+  "query_id": "q24",
+  "config": "bm25",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "answered",
+  "answer": "Sự kiện ngày 10 tháng 2 năm 1859 tại pháo đài Phước Thắng liên quan đến quan quân nhà Nguyễn, cụ thể là nguyên soái Trần Đồng, tổng chỉ huy thủy quân của nhà Nguyễn, người đã hi sinh trong trận giao chiến với đoàn chiến thuyền của liên quân Pháp-Tây Ban Nha do tướng Rigault de Genouilly chỉ huy. [vung-tau:p34:para:2]",
+  "citations": [
+   "vung-tau:p34:para:2"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "sự kiện ngày 10 tháng 2 năm 1859 tại pháo đài Phước Thắng",
+    "filter": null,
+    "results": [
+     {
+      "id": "vung-tau:p34:para:2",
+      "rank": 1,
+      "score": 51.8875
+     },
+     {
+      "id": "phu-quoc:p10:para:0",
+      "rank": 2,
+      "score": 14.4769
+     },
+     {
+      "id": "nha-trang:p4:para:0",
+      "rank": 3,
+      "score": 13.7967
+     }
+    ],
+    "added_to_context": [
+     "vung-tau:p34:para:2",
+     "phu-quoc:p10:para:0"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": true
+   }
+  ],
+  "context_ids": [
+   "vung-tau:p34:para:2",
+   "phu-quoc:p10:para:0"
+  ],
+  "usage": {
+   "prompt": 1151,
+   "completion": 155,
+   "llm_calls": 2,
+   "seconds": 3.21,
+   "searches": 1,
+   "cost_usd": 0.000266
+  },
+  "raw_citations": [
+   "vung-tau:p34:para:2"
+  ],
+  "query_id": "q25",
+  "config": "bm25",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "answered",
+  "answer": "Nghị quyết số 202/2025/QH15 đã sáp nhập tỉnh Kiên Giang vào tỉnh An Giang, có hiệu lực từ ngày 12 tháng 6 năm 2025. [phu-quoc:p13:para:3]",
+  "citations": [
+   "phu-quoc:p13:para:3"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Nghị quyết sáp nhập tỉnh Kiên Giang vào tỉnh An Giang",
+    "filter": {
+     "mien": "Nam"
+    },
+    "results": [
+     {
+      "id": "phu-quoc:p13:para:3",
+      "rank": 1,
+      "score": 62.8851
+     },
+     {
+      "id": "phu-quoc:p11:para:5",
+      "rank": 2,
+      "score": 29.9436
+     },
+     {
+      "id": "phu-quoc:p14:para:0",
+      "rank": 3,
+      "score": 25.933
+     }
+    ],
+    "added_to_context": [
+     "phu-quoc:p13:para:3",
+     "phu-quoc:p11:para:5",
+     "phu-quoc:p14:para:0"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": true
+   }
+  ],
+  "context_ids": [
+   "phu-quoc:p13:para:3",
+   "phu-quoc:p11:para:5",
+   "phu-quoc:p14:para:0"
+  ],
+  "usage": {
+   "prompt": 1223,
+   "completion": 105,
+   "llm_calls": 2,
+   "seconds": 2.8,
+   "searches": 1,
+   "cost_usd": 0.000246
+  },
+  "raw_citations": [
+   "phu-quoc:p13:para:3"
+  ],
+  "query_id": "q26",
+  "config": "bm25",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "answered",
+  "answer": "Sa Pa nằm ở độ cao 1.500 mét trên lừng chừng núi [sa-pa:p30:para:1].",
+  "citations": [
+   "sa-pa:p30:para:1"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Sa Pa độ cao lịch sử",
+    "filter": {
+     "mien": "Bắc"
+    },
+    "results": [
+     {
+      "id": "sa-pa:p27:para:0",
+      "rank": 1,
+      "score": 20.4269
+     },
+     {
+      "id": "sa-pa:p30:para:1",
+      "rank": 2,
+      "score": 18.4271
+     },
+     {
+      "id": "sa-pa:p29:para:1",
+      "rank": 3,
+      "score": 13.2401
+     }
+    ],
+    "added_to_context": [
+     "sa-pa:p27:para:0",
+     "sa-pa:p30:para:1"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Sa Pa độ cao",
+    "filter": {
+     "mien": "Bắc"
+    },
+    "results": [
+     {
+      "id": "sa-pa:p30:para:1",
+      "rank": 1,
+      "score": 16.3587
+     },
+     {
+      "id": "sa-pa:p30:para:3",
+      "rank": 2,
+      "score": 12.0843
+     },
+     {
+      "id": "sa-pa:p30:para:0",
+      "rank": 3,
+      "score": 11.3682
+     }
+    ],
+    "added_to_context": []
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Sa Pa độ cao 1500m",
+    "filter": {
+     "mien": "Bắc"
+    },
+    "results": [
+     {
+      "id": "sa-pa:p30:para:1",
+      "rank": 1,
+      "score": 16.3587
+     },
+     {
+      "id": "sa-pa:p30:para:3",
+      "rank": 2,
+      "score": 12.0843
+     },
+     {
+      "id": "sa-pa:p30:para:0",
+      "rank": 3,
+      "score": 11.3682
+     }
+    ],
+    "added_to_context": []
+   },
+   {
+    "event": "search_limit"
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": true
+   }
+  ],
+  "context_ids": [
+   "sa-pa:p27:para:0",
+   "sa-pa:p30:para:1"
+  ],
+  "usage": {
+   "prompt": 3361,
+   "completion": 133,
+   "llm_calls": 5,
+   "seconds": 6.1,
+   "searches": 3,
+   "cost_usd": 0.000584
+  },
+  "raw_citations": [
+   "sa-pa:p30:para:1"
+  ],
+  "query_id": "q27",
+  "config": "bm25",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để xác định chiều cao của đỉnh Fansipan.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Đỉnh Fansipan cao bao nhiêu mét",
+    "filter": null,
+    "results": [
+     {
+      "id": "sa-pa:p27:para:0",
+      "rank": 1,
+      "score": 12.4403
+     },
+     {
+      "id": "vung-tau:p34:para:4",
+      "rank": 2,
+      "score": 8.218
+     },
+     {
+      "id": "sa-pa:p30:para:3",
+      "rank": 3,
+      "score": 5.5668
+     }
+    ],
+    "added_to_context": [
+     "sa-pa:p27:para:0",
+     "vung-tau:p34:para:4"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Đỉnh Fansipan chiều cao",
+    "filter": null,
+    "results": [
+     {
+      "id": "vung-tau:p34:para:4",
+      "rank": 1,
+      "score": 14.2067
+     },
+     {
+      "id": "sa-pa:p27:para:0",
+      "rank": 2,
+      "score": 12.4403
+     },
+     {
+      "id": "sa-pa:p30:para:3",
+      "rank": 3,
+      "score": 5.5668
+     }
+    ],
+    "added_to_context": []
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Fansipan cao bao nhiêu mét",
+    "filter": null,
+    "results": [
+     {
+      "id": "sa-pa:p30:para:3",
+      "rank": 1,
+      "score": 5.5668
+     },
+     {
+      "id": "vung-tau:p34:para:4",
+      "rank": 2,
+      "score": 5.3737
+     },
+     {
+      "id": "sa-pa:p27:para:0",
+      "rank": 3,
+      "score": 4.2462
+     }
+    ],
+    "added_to_context": []
+   },
+   {
+    "event": "search_limit"
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": false,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "sa-pa:p27:para:0",
+   "vung-tau:p34:para:4"
+  ],
+  "usage": {
+   "prompt": 3374,
+   "completion": 117,
+   "llm_calls": 5,
+   "seconds": 6.28,
+   "searches": 3,
+   "cost_usd": 0.000576
+  },
+  "raw_citations": [],
+  "query_id": "u03",
+  "config": "bm25"
+ },
+ {
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để xác định số lượt khách du lịch đến Nha Trang trong năm 2023.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Nha Trang lượt khách du lịch năm 2023",
+    "filter": null,
+    "results": [
+     {
+      "id": "nha-trang:p2:para:1",
+      "rank": 1,
+      "score": 13.1488
+     },
+     {
+      "id": "nha-trang:p1:para:0",
+      "rank": 2,
+      "score": 13.1087
+     },
+     {
+      "id": "nha-trang:p3:para:0",
+      "rank": 3,
+      "score": 12.9553
+     }
+    ],
+    "added_to_context": [
+     "nha-trang:p2:para:1",
+     "nha-trang:p1:para:0",
+     "nha-trang:p3:para:0"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Nha Trang khách du lịch 2023",
+    "filter": null,
+    "results": [
+     {
+      "id": "nha-trang:p2:para:1",
+      "rank": 1,
+      "score": 13.1488
+     },
+     {
+      "id": "nha-trang:p1:para:0",
+      "rank": 2,
+      "score": 13.1087
+     },
+     {
+      "id": "nha-trang:p3:para:0",
+      "rank": 3,
+      "score": 12.1538
+     }
+    ],
+    "added_to_context": []
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Nha Trang du lịch năm 2023",
+    "filter": null,
+    "results": [
+     {
+      "id": "nha-trang:p2:para:1",
+      "rank": 1,
+      "score": 13.1488
+     },
+     {
+      "id": "nha-trang:p1:para:0",
+      "rank": 2,
+      "score": 13.1087
+     },
+     {
+      "id": "nha-trang:p3:para:0",
+      "rank": 3,
+      "score": 12.9553
+     }
+    ],
+    "added_to_context": []
+   },
+   {
+    "event": "search_limit"
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": false,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "nha-trang:p2:para:1",
+   "nha-trang:p1:para:0",
+   "nha-trang:p3:para:0"
+  ],
+  "usage": {
+   "prompt": 4081,
+   "completion": 137,
+   "llm_calls": 5,
+   "seconds": 6.71,
+   "searches": 3,
+   "cost_usd": 0.000694
+  },
+  "raw_citations": [],
+  "query_id": "u04",
+  "config": "bm25"
+ }
+]

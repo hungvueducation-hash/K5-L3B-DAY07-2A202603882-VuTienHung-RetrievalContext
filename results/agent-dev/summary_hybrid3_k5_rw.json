@@ -1,0 +1,28 @@
+{
+ "config": "hybrid3_k5_rw",
+ "split": "dev",
+ "params": {
+  "r": "hybrid3_rrf",
+  "top_k": 5,
+  "budget": 2800,
+  "max_searches": 3,
+  "rewrite_hint": true
+ },
+ "model": "gpt-4o-mini",
+ "n_run_ok": 22,
+ "n_error": 0,
+ "context_evidence": "16/20",
+ "first_query_hit@3": "16/20",
+ "tool_use": "22/22",
+ "searches_distribution": {
+  "0": 0,
+  "1": 16,
+  "2": 0,
+  "3": 6,
+  "4": 0
+ },
+ "answered": 18,
+ "abstain": 4,
+ "seconds": 113.5,
+ "cost_usd": 0.0106
+}

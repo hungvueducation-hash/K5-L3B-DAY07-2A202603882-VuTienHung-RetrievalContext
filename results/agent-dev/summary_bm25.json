@@ -1,0 +1,27 @@
+{
+ "config": "bm25",
+ "split": "dev",
+ "params": {
+  "r": "bm25",
+  "top_k": 3,
+  "budget": 1500,
+  "max_searches": 3
+ },
+ "model": "gpt-4o-mini",
+ "n_run_ok": 22,
+ "n_error": 0,
+ "context_evidence": "19/20",
+ "first_query_hit@3": "20/20",
+ "tool_use": "22/22",
+ "searches_distribution": {
+  "0": 0,
+  "1": 20,
+  "2": 0,
+  "3": 2,
+  "4": 0
+ },
+ "answered": 20,
+ "abstain": 2,
+ "seconds": 66.2,
+ "cost_usd": 0.0059
+}

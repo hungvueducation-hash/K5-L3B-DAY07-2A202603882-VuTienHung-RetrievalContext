@@ -1,0 +1,27 @@
+{
+ "config": "base_dense",
+ "split": "test",
+ "params": {
+  "r": "dense",
+  "top_k": 3,
+  "budget": 1500,
+  "max_searches": 3
+ },
+ "model": "gpt-4o-mini",
+ "n_run_ok": 9,
+ "n_error": 0,
+ "context_evidence": "4/7",
+ "first_query_hit@3": "5/7",
+ "tool_use": "9/9",
+ "searches_distribution": {
+  "0": 0,
+  "1": 3,
+  "2": 1,
+  "3": 5,
+  "4": 0
+ },
+ "answered": 4,
+ "abstain": 5,
+ "seconds": 72.2,
+ "cost_usd": 0.0046
+}

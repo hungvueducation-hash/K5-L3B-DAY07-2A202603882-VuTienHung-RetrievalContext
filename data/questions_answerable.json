@@ -1,0 +1,440 @@
+[
+ {
+  "id": "q01",
+  "split": "dev",
+  "question": "Nha Trang hiện nay là đơn vị hành chính cấp xã thuộc tỉnh nào?",
+  "expected_answer": "Tỉnh Khánh Hòa.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "nha-trang",
+    "page": 1,
+    "evidence": "Hiện tại, địa danh này được dùng chính thức để chỉ đến phường Nha Trang, một đơn vị hành chính cấp xã thuộc tỉnh Khánh Hòa, Việt Nam."
+   }
+  ]
+ },
+ {
+  "id": "q02",
+  "split": "dev",
+  "question": "Theo bài viết, tên gọi Nha Trang bắt nguồn từ đâu?",
+  "expected_answer": "Từ cách đọc của người Việt phỏng theo âm địa danh Chăm Aia Trang/Ea Trang (nghĩa là 'nước Hến').",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "nha-trang",
+    "page": 2,
+    "evidence": "tên Nha Trang được hình thành do cách đọc của người Việt phỏng theo âm một địa danh Chăm vốn có trước là Aia Trang theo tiếng Chăm và Ea Trang theo tiếng Rađe"
+   }
+  ]
+ },
+ {
+  "id": "q03",
+  "split": "dev",
+  "question": "Nghị định nào của Toàn quyền Đông Dương đã nâng Nha Trang lên thành thị xã, và vào năm nào?",
+  "expected_answer": "Nghị định ngày 7 tháng 5 năm 1937.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "nha-trang",
+    "page": 3,
+    "evidence": "Đến Nghị định ngày 7 tháng 5 năm 1937 của Toàn quyền Đông Dương, Nha Trang được nâng lên thị xã (commune)."
+   }
+  ]
+ },
+ {
+  "id": "q04",
+  "split": "dev",
+  "question": "Theo Nghị định 18-BNV ngày 27/1/1958, Nha Trang bị chia thành những đơn vị nào?",
+  "expected_answer": "Hai xã: Nha Trang Đông và Nha Trang Tây, thuộc quận Vĩnh Xương.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "nha-trang",
+    "page": 3,
+    "evidence": "Ngày 27 tháng 1 năm 1958, chính quyền Ngô Đình Diệm ban hành Nghị định 18-BNV bãi bỏ quy chế thị xã, chia Nha Trang thành 2 xã là Nha Trang Đông và Nha Trang Tây thuộc quận Vĩnh Xương."
+   }
+  ]
+ },
+ {
+  "id": "q05",
+  "split": "dev",
+  "question": "Nha Trang được nâng lên cấp thành phố trực thuộc tỉnh vào ngày nào, theo quyết định nào?",
+  "expected_answer": "Ngày 30 tháng 3 năm 1977, theo quyết định số 391-CP/QĐ.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "nha-trang",
+    "page": 4,
+    "evidence": "Ngày 30 tháng 3 năm 1977, theo quyết định số 391-CP/QĐ của Hội đồng Chính phủ nước Cộng hòa Xã hội chủ nghĩa Việt Nam, thị xã Nha Trang được nâng lên cấp thành phố trực thuộc tỉnh"
+   }
+  ]
+ },
+ {
+  "id": "q06",
+  "split": "dev",
+  "question": "Phường Nha Trang (sau sắp xếp 2025) được hợp nhất từ những phường nào?",
+  "expected_answer": "Vạn Thạnh, Lộc Thọ, Vĩnh Nguyên, Tân Tiến và Phước Hoà.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "nha-trang",
+    "page": 5,
+    "evidence": "Phường Nha Trang được hình thành từ việc hợp nhất các phường Vạn Thạnh, Lộc Thọ, Vĩnh Nguyên, Tân Tiến và Phước Hoà."
+   }
+  ],
+  "filter": {
+   "mien": "Trung"
+  }
+ },
+ {
+  "id": "q07",
+  "split": "dev",
+  "question": "Đặc khu Phú Quốc cùng với đặc khu nào hợp thành đô thị Phú Quốc?",
+  "expected_answer": "Đặc khu Thổ Châu.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "phu-quoc",
+    "page": 6,
+    "evidence": "Đặc khu Phú Quốc cùng với đặc khu Thổ Châu hợp thành đô thị Phú Quốc – đô thị loại II thuộc tỉnh An Giang."
+   }
+  ],
+  "filter": {
+   "mien": "Nam"
+  }
+ },
+ {
+  "id": "q08",
+  "split": "dev",
+  "question": "Đảo Phú Quốc có diện tích bao nhiêu và dài bao nhiêu km?",
+  "expected_answer": "Diện tích 580 km2, dài 49 km.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "phu-quoc",
+    "page": 7,
+    "evidence": "trong đó đảo Phú Quốc lớn nhất có diện tích 580 km2, dài 49 km"
+   }
+  ]
+ },
+ {
+  "id": "q09",
+  "split": "dev",
+  "question": "Mùa mưa ở Phú Quốc kéo dài từ tháng nào đến tháng nào, và độ ẩm trong mùa này ra sao?",
+  "expected_answer": "Từ tháng 5 đến đầu tháng 10, độ ẩm cao từ 85-90%.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "phu-quoc",
+    "page": 7,
+    "evidence": "Mùa mưa (từ tháng 5 đến đầu tháng 10): Đảo Phú Quốc là cửa ngõ đón gió mùa Tây – Tây Nam, độ ẩm cao từ 85 – 90%."
+   }
+  ]
+ },
+ {
+  "id": "q10",
+  "split": "dev",
+  "question": "Ai là người Hoa đã lập ấp và cai quản vùng đất mà sau này đổi tên thành Phú Quốc?",
+  "expected_answer": "Mạc Cửu (Mạc Kính Cửu).",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "phu-quoc",
+    "page": 9,
+    "evidence": "Năm 1671, một người Hoa tên Mạc Cửu (Mạc Kính Cửu), quê ở Lôi Châu tỉnh Quảng Đông, mang cả gia đình, binh sĩ và một số sĩ phu khoảng 400 người lên thuyền rời khỏi Phúc Kiến."
+   }
+  ]
+ },
+ {
+  "id": "q11",
+  "split": "dev",
+  "question": "Theo bài viết, ai đã xác nhận Phú Quốc thuộc chủ quyền Việt Nam vào năm 1855?",
+  "expected_answer": "Hoàng đế Napoleon III của Pháp.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "phu-quoc",
+    "page": 9,
+    "evidence": "Năm 1855, Hoàng để Napoleon III của Pháp xác nhận Phú Quốc thuộc chủ quyền Việt Nam."
+   }
+  ]
+ },
+ {
+  "id": "q12",
+  "split": "dev",
+  "question": "Thành phố Phú Quốc được công nhận là đô thị loại I theo quyết định nào, vào ngày nào?",
+  "expected_answer": "Quyết định số 199/QĐ-TTg, ngày 21 tháng 1 năm 2025.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "phu-quoc",
+    "page": 13,
+    "evidence": "Ngày 21 tháng 1 năm 2025, Thủ tướng Chính phủ ban hành Quyết định số 199/QĐ-TTg về việc công nhận thành phố Phú Quốc là đô thị loại I, trực thuộc tỉnh Kiên Giang."
+   }
+  ]
+ },
+ {
+  "id": "q13",
+  "split": "dev",
+  "question": "Đặc khu Phú Quốc có diện tích tự nhiên và quy mô dân số là bao nhiêu (theo Nghị quyết 1654/NQ-UBTVQH15)?",
+  "expected_answer": "575,29 km2 diện tích tự nhiên và 157.629 người.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "phu-quoc",
+    "page": 14,
+    "evidence": "Đặc khu Phú Quốc có 575,29 km2 diện tích tự nhiên và quy mô dân số là 157.629 người."
+   }
+  ],
+  "filter": {
+   "mien": "Nam"
+  }
+ },
+ {
+  "id": "q14",
+  "split": "dev",
+  "question": "Hồ tiêu Phú Quốc tập trung trồng chủ yếu ở 3 xã nào?",
+  "expected_answer": "Cửa Dương, Cửa Cạn và Dương Tơ.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "phu-quoc",
+    "page": 19,
+    "evidence": "Với diện tích trung bình là 471 ha tập trung ở 3 xã Cửa Dương, Cửa Cạn và Dương Tơ."
+   }
+  ],
+  "filter": {
+   "section": "Phân bố"
+  }
+ },
+ {
+  "id": "q15",
+  "split": "dev",
+  "question": "Chó Phú Quốc có những đặc điểm ngoại hình gì nổi bật?",
+  "expected_answer": "Có bờm lông dựng đứng và xoáy trên lưng, chân dài, dáng người thon, khỏe mạnh.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "phu-quoc",
+    "page": 21,
+    "evidence": "Chó Phú Quốc luôn có một bờm lông dựng đứng và xoáy trên lưng, có chân dài, dáng người thon, và rất khỏe mạnh."
+   }
+  ]
+ },
+ {
+  "id": "q16",
+  "split": "dev",
+  "question": "Phú Quốc được xem là nơi phát tích của tôn giáo nào?",
+  "expected_answer": "Đạo Cao Đài.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "phu-quoc",
+    "page": 23,
+    "evidence": "Phú Quốc được xem là nơi phát tích của đạo Cao Đài."
+   }
+  ],
+  "filter": {
+   "mien": "Nam"
+  }
+ },
+ {
+  "id": "q17",
+  "split": "dev",
+  "question": "Sa Pa là tên gọi của người dân địa phương, xuất phát từ tiếng gì và có nghĩa là gì?",
+  "expected_answer": "Từ tiếng Quan thoại, có nghĩa là 'bãi cát'.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "sa-pa",
+    "page": 28,
+    "evidence": "Tên \"Sa Pa\" là tên gọi của người dân địa phương vùng này xuất phát từ tiếng Quan thoại có nghĩa là \"bãi cát\""
+   }
+  ],
+  "filter": {
+   "mien": "Bắc"
+  }
+ },
+ {
+  "id": "q18",
+  "split": "dev",
+  "question": "Tuyến đường sắt nào hoàn thành năm 1920 giúp Sa Pa trở thành 'thủ đô mùa hè của Bắc Kỳ'?",
+  "expected_answer": "Tuyến đường sắt Hà Nội - Lào Cai.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "sa-pa",
+    "page": 29,
+    "evidence": "Năm 1920, tuyến đường sắt Hà Nội - Lào Cai hoàn thành, Sa Pa được xem như thủ đô mùa hè của Bắc Kỳ."
+   }
+  ],
+  "filter": {
+   "mien": "Bắc"
+  }
+ },
+ {
+  "id": "q19",
+  "split": "dev",
+  "question": "Sa Pa bị tàn phá nặng trong những cuộc chiến tranh/sự kiện nào?",
+  "expected_answer": "Cuộc kháng chiến chống Pháp năm 1947 và chiến tranh biên giới Việt - Trung năm 1979.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "sa-pa",
+    "page": 29,
+    "evidence": "Sa Pa bị tàn phá nhiều theo chủ trương tiêu thổ bởi cuộc kháng chiến chống Pháp năm 1947 và trong chiến tranh biên giới Việt - Trung năm 1979."
+   }
+  ]
+ },
+ {
+  "id": "q20",
+  "split": "dev",
+  "question": "Sau khi sắp xếp năm 2019, thị xã Sa Pa có bao nhiêu phường và bao nhiêu xã?",
+  "expected_answer": "6 phường và 10 xã.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "sa-pa",
+    "page": 30,
+    "evidence": "Sau khi sắp xếp, sáp nhập và điều chỉnh địa giới các đơn vị hành chính, thị xã Sa Pa có 6 phường và 10 xã như hiện nay."
+   }
+  ]
+ },
+ {
+  "id": "q21",
+  "split": "test",
+  "question": "Vũng Tàu hiện nay là đơn vị hành chính cấp xã thuộc đâu?",
+  "expected_answer": "Thành phố Hồ Chí Minh.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "vung-tau",
+    "page": 31,
+    "evidence": "Hiện tại, địa danh này được dùng chính thức để chỉ đến phường Vũng Tàu, một đơn vị hành chính cấp xã thuộc Thành phố Hồ Chí Minh, Việt Nam."
+   }
+  ],
+  "filter": {
+   "mien": "Nam"
+  }
+ },
+ {
+  "id": "q22",
+  "split": "test",
+  "question": "Theo Phủ biên tạp lục (1776) của Lê Quý Đôn, Vũng Tàu được miêu tả như thế nào?",
+  "expected_answer": "Là 'xứ Vũng Tàu, nơi hải đảo có dân cư', nằm ở đầu địa giới Gia Định.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "vung-tau",
+    "page": 32,
+    "evidence": "Đầu địa giới Gia Định là xứ Vũng Tàu, nơi hải đảo có dân cư."
+   }
+  ]
+ },
+ {
+  "id": "q23",
+  "split": "test",
+  "question": "Người Pháp gọi Vũng Tàu bằng tên gì từ năm 1775, và tên đó có nghĩa là gì?",
+  "expected_answer": "Cap Saint-Jacques, nghĩa là 'Mũi đất của Thánh Giacôbê'.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "vung-tau",
+    "page": 33,
+    "evidence": "người Pháp gọi Vũng Tàu với tên Cap Saint-Jacques (nghĩa là \"Mũi đất của Thánh Giacôbê\")."
+   }
+  ],
+  "filter": {
+   "mien": "Nam"
+  }
+ },
+ {
+  "id": "q24",
+  "split": "test",
+  "question": "Vua nào đã cho giải ngũ ba lớp lính và lập ra ba làng Thắng Nhất, Thắng Nhì, Thắng Tam ở Vũng Tàu?",
+  "expected_answer": "Vua Minh Mạng.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "vung-tau",
+    "page": 34,
+    "evidence": "vua Minh Mạng cho ba lớp lính trên giải ngũ và lập ra ba làng Thắng Nhất, Thắng Nhì, Thắng Tam."
+   }
+  ]
+ },
+ {
+  "id": "q25",
+  "split": "test",
+  "question": "Sự kiện ngày 10 tháng 2 năm 1859 tại pháo đài Phước Thắng liên quan đến ai?",
+  "expected_answer": "Quan quân nhà Nguyễn khai hỏa súng thần công bắn vào đoàn chiến thuyền liên quân Pháp-Tây Ban Nha do tướng Rigault de Genouilly chỉ huy.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "vung-tau",
+    "page": 34,
+    "evidence": "quan quân nhà Nguyễn đã khai hỏa lần đầu tiên những khẩu súng thần công đặt ở pháo đài Phước Thắng, cao 30 m và cách bờ biển Bãi Trước gần 100 m, bắn vào đoàn chiến thuyền của liên quân Pháp-Tây Ban Nha do tướng Rigault de Genouilly chỉ huy"
+   }
+  ]
+ },
+ {
+  "id": "q26",
+  "split": "test",
+  "question": "Theo phần Lịch sử của Phú Quốc, Nghị quyết nào (có hiệu lực 12/6/2025) đã sáp nhập tỉnh Kiên Giang vào tỉnh An Giang?",
+  "expected_answer": "Nghị quyết số 202/2025/QH15.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "phu-quoc",
+    "page": 13,
+    "evidence": "Ngày 12 tháng 6 năm 2025, Quốc hội ban hành Nghị quyết số 202/2025/QH15 về việc sắp xếp đơn vị hành chính cấp tỉnh (nghị quyết có hiệu lực từ ngày 12 tháng 6 năm 2025). Theo đó, sáp nhập tỉnh Kiên Giang vào tỉnh An Giang."
+   }
+  ],
+  "filter": {
+   "mien": "Nam"
+  }
+ },
+ {
+  "id": "q27",
+  "split": "test",
+  "question": "Sa Pa nằm ở độ cao bao nhiêu mét, theo phần lịch sử?",
+  "expected_answer": "1.500 mét.",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "gold": [
+   {
+    "source_id": "sa-pa",
+    "page": 30,
+    "evidence": "Nằm ở độ cao 1.500m trên lừng chừng núi, Sa Pa được biết đến từ năm 1901."
+   }
+  ],
+  "filter": {
+   "mien": "Bắc"
+  }
+ }
+]

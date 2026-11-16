@@ -1,0 +1,1590 @@
+[
+ {
+  "status": "abstain",
+  "answer": "Nha Trang là một đơn vị hành chính cấp xã thuộc tỉnh Khánh Hòa, Việt Nam.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Nha Trang đơn vị hành chính cấp xã thuộc tỉnh nào",
+    "filter": null,
+    "results": [
+     {
+      "id": "nha-trang:p1:para:0",
+      "rank": 1,
+      "score": 0.0328
+     },
+     {
+      "id": "sa-pa:p27:para:0",
+      "rank": 2,
+      "score": 0.0323
+     },
+     {
+      "id": "phu-quoc:p13:para:2",
+      "rank": 3,
+      "score": 0.0305
+     }
+    ],
+    "added_to_context": [
+     "nha-trang:p1:para:0",
+     "sa-pa:p27:para:0",
+     "phu-quoc:p13:para:2"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "nha-trang:p1:para:0",
+   "sa-pa:p27:para:0",
+   "phu-quoc:p13:para:2"
+  ],
+  "usage": {
+   "prompt": 1146,
+   "completion": 80,
+   "llm_calls": 2,
+   "seconds": 13.31,
+   "searches": 1,
+   "cost_usd": 0.00022
+  },
+  "raw_citations": [
+   "nha-trang:p1:para:0"
+  ],
+  "query_id": "q01",
+  "config": "hybrid",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "answered",
+  "answer": "Tên gọi Nha Trang được hình thành do cách đọc của người Việt phỏng theo âm một địa danh Chăm trước đó là Aia Trang theo tiếng Chăm và Ea Trang theo tiếng Rađe, có nghĩa là \"nước Hến\". Tên này liên quan đến sông Cái chảy qua Nha Trang, và từ tên sông, nó đã được mở rộng ra vùng đất từ năm 1653 [nha-trang:p2:para:0].",
+  "citations": [
+   "nha-trang:p2:para:0"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "tên gọi Nha Trang",
+    "filter": null,
+    "results": [
+     {
+      "id": "nha-trang:p2:para:1",
+      "rank": 1,
+      "score": 0.0328
+     },
+     {
+      "id": "nha-trang:p2:para:0",
+      "rank": 2,
+      "score": 0.0318
+     },
+     {
+      "id": "nha-trang:p3:para:0",
+      "rank": 3,
+      "score": 0.0302
+     }
+    ],
+    "added_to_context": [
+     "nha-trang:p2:para:1",
+     "nha-trang:p2:para:0"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": true
+   }
+  ],
+  "context_ids": [
+   "nha-trang:p2:para:1",
+   "nha-trang:p2:para:0"
+  ],
+  "usage": {
+   "prompt": 1069,
+   "completion": 153,
+   "llm_calls": 2,
+   "seconds": 3.64,
+   "searches": 1,
+   "cost_usd": 0.000252
+  },
+  "raw_citations": [
+   "nha-trang:p2:para:0"
+  ],
+  "query_id": "q02",
+  "config": "hybrid",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "abstain",
+  "answer": "Nghị định ngày 7 tháng 5 năm 1937 của Toàn quyền Đông Dương đã nâng Nha Trang lên thành thị xã.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Nghị định Toàn quyền Đông Dương nâng Nha Trang thành thị xã",
+    "filter": null,
+    "results": [
+     {
+      "id": "nha-trang:p3:para:0",
+      "rank": 1,
+      "score": 0.0325
+     },
+     {
+      "id": "nha-trang:p3:para:3",
+      "rank": 2,
+      "score": 0.0325
+     },
+     {
+      "id": "sa-pa:p29:para:0",
+      "rank": 3,
+      "score": 0.0296
+     }
+    ],
+    "added_to_context": [
+     "nha-trang:p3:para:0",
+     "nha-trang:p3:para:3"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "nha-trang:p3:para:0",
+   "nha-trang:p3:para:3"
+  ],
+  "usage": {
+   "prompt": 1115,
+   "completion": 93,
+   "llm_calls": 2,
+   "seconds": 2.58,
+   "searches": 1,
+   "cost_usd": 0.000223
+  },
+  "raw_citations": [
+   "nha-trang:p3:para:3"
+  ],
+  "query_id": "q03",
+  "config": "hybrid",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "abstain",
+  "answer": "Theo Nghị định 18-BNV ngày 27 tháng 1 năm 1958, Nha Trang bị chia thành 2 xã là Nha Trang Đông và Nha Trang Tây thuộc quận Vĩnh Xương.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Nghị định 18-BNV ngày 27/1/1958 Nha Trang đơn vị",
+    "filter": null,
+    "results": [
+     {
+      "id": "nha-trang:p3:para:3",
+      "rank": 1,
+      "score": 0.0325
+     },
+     {
+      "id": "nha-trang:p3:para:6",
+      "rank": 2,
+      "score": 0.0325
+     },
+     {
+      "id": "nha-trang:p4:para:2",
+      "rank": 3,
+      "score": 0.0303
+     }
+    ],
+    "added_to_context": [
+     "nha-trang:p3:para:3",
+     "nha-trang:p3:para:6",
+     "nha-trang:p4:para:2"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "nha-trang:p3:para:3",
+   "nha-trang:p3:para:6",
+   "nha-trang:p4:para:2"
+  ],
+  "usage": {
+   "prompt": 1271,
+   "completion": 113,
+   "llm_calls": 2,
+   "seconds": 2.96,
+   "searches": 1,
+   "cost_usd": 0.000258
+  },
+  "raw_citations": [
+   "nha-trang:p3:para:3"
+  ],
+  "query_id": "q04",
+  "config": "hybrid",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "abstain",
+  "answer": "Nha Trang được nâng lên cấp thành phố trực thuộc tỉnh theo quyết định số 391-CP/QĐ của Hội đồng Chính phủ nước Cộng hòa Xã hội chủ nghĩa Việt Nam.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Nha Trang nâng cấp thành phố trực thuộc tỉnh ngày nào, quyết định nào",
+    "filter": null,
+    "results": [
+     {
+      "id": "nha-trang:p4:para:1",
+      "rank": 1,
+      "score": 0.032
+     },
+     {
+      "id": "nha-trang:p1:para:0",
+      "rank": 2,
+      "score": 0.0315
+     },
+     {
+      "id": "phu-quoc:p13:para:2",
+      "rank": 3,
+      "score": 0.0308
+     }
+    ],
+    "added_to_context": [
+     "nha-trang:p4:para:1",
+     "nha-trang:p1:para:0",
+     "phu-quoc:p13:para:2"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "nha-trang:p4:para:1",
+   "nha-trang:p1:para:0",
+   "phu-quoc:p13:para:2"
+  ],
+  "usage": {
+   "prompt": 1228,
+   "completion": 102,
+   "llm_calls": 2,
+   "seconds": 2.6,
+   "searches": 1,
+   "cost_usd": 0.000245
+  },
+  "raw_citations": [
+   "nha-trang:p4:para:1"
+  ],
+  "query_id": "q05",
+  "config": "hybrid",
+  "context_has_evidence": false,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "abstain",
+  "answer": "Phường Nha Trang được hình thành từ việc hợp nhất các phường Vạn Thạnh, Lộc Thọ, Vĩnh Nguyên, Tân Tiến và Phước Hoà.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Phường Nha Trang hợp nhất từ những phường nào",
+    "filter": {
+     "mien": "Trung"
+    },
+    "results": [
+     {
+      "id": "nha-trang:p5:para:0",
+      "rank": 1,
+      "score": 0.032
+     },
+     {
+      "id": "nha-trang:p2:para:1",
+      "rank": 2,
+      "score": 0.0318
+     },
+     {
+      "id": "nha-trang:p1:para:0",
+      "rank": 3,
+      "score": 0.0315
+     }
+    ],
+    "added_to_context": [
+     "nha-trang:p5:para:0",
+     "nha-trang:p2:para:1",
+     "nha-trang:p1:para:0"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "nha-trang:p5:para:0",
+   "nha-trang:p2:para:1",
+   "nha-trang:p1:para:0"
+  ],
+  "usage": {
+   "prompt": 1217,
+   "completion": 99,
+   "llm_calls": 2,
+   "seconds": 2.8,
+   "searches": 1,
+   "cost_usd": 0.000242
+  },
+  "raw_citations": [
+   "nha-trang:p5:para:0"
+  ],
+  "query_id": "q06",
+  "config": "hybrid",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "abstain",
+  "answer": "Đặc khu Phú Quốc cùng với đặc khu Thổ Châu hợp thành đô thị Phú Quốc – đô thị loại II thuộc tỉnh An Giang.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "đặc khu Phú Quốc đô thị Phú Quốc",
+    "filter": {
+     "mien": "Nam"
+    },
+    "results": [
+     {
+      "id": "phu-quoc:p6:para:0",
+      "rank": 1,
+      "score": 0.0325
+     },
+     {
+      "id": "phu-quoc:p8:para:0",
+      "rank": 2,
+      "score": 0.0301
+     },
+     {
+      "id": "phu-quoc:p14:para:4",
+      "rank": 3,
+      "score": 0.03
+     }
+    ],
+    "added_to_context": [
+     "phu-quoc:p6:para:0",
+     "phu-quoc:p8:para:0",
+     "phu-quoc:p14:para:4"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "phu-quoc:p6:para:0",
+   "phu-quoc:p8:para:0",
+   "phu-quoc:p14:para:4"
+  ],
+  "usage": {
+   "prompt": 1074,
+   "completion": 90,
+   "llm_calls": 2,
+   "seconds": 2.43,
+   "searches": 1,
+   "cost_usd": 0.000215
+  },
+  "raw_citations": [
+   "phu-quoc:p6:para:0"
+  ],
+  "query_id": "q07",
+  "config": "hybrid",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "abstain",
+  "answer": "Đảo Phú Quốc có diện tích 580 km² và chiều dài 49 km.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "diện tích đảo Phú Quốc và chiều dài",
+    "filter": null,
+    "results": [
+     {
+      "id": "phu-quoc:p24:para:2",
+      "rank": 1,
+      "score": 0.0303
+     },
+     {
+      "id": "phu-quoc:p7:para:1",
+      "rank": 2,
+      "score": 0.0291
+     },
+     {
+      "id": "phu-quoc:p9:para:8",
+      "rank": 3,
+      "score": 0.0276
+     }
+    ],
+    "added_to_context": [
+     "phu-quoc:p24:para:2",
+     "phu-quoc:p7:para:1"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "phu-quoc:p24:para:2",
+   "phu-quoc:p7:para:1"
+  ],
+  "usage": {
+   "prompt": 1104,
+   "completion": 76,
+   "llm_calls": 2,
+   "seconds": 2.43,
+   "searches": 1,
+   "cost_usd": 0.000211
+  },
+  "raw_citations": [
+   "phu-quoc:p7:para:1"
+  ],
+  "query_id": "q08",
+  "config": "hybrid",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "abstain",
+  "answer": "Mùa mưa ở Phú Quốc kéo dài từ tháng 5 đến đầu tháng 10. Trong mùa này, độ ẩm cao từ 85 – 90%.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "mùa mưa Phú Quốc tháng nào đến tháng nào độ ẩm",
+    "filter": null,
+    "results": [
+     {
+      "id": "phu-quoc:p7:para:3",
+      "rank": 1,
+      "score": 0.0328
+     },
+     {
+      "id": "phu-quoc:p7:para:1",
+      "rank": 2,
+      "score": 0.0304
+     },
+     {
+      "id": "phu-quoc:p23:para:0",
+      "rank": 3,
+      "score": 0.0288
+     }
+    ],
+    "added_to_context": [
+     "phu-quoc:p7:para:3",
+     "phu-quoc:p7:para:1"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "phu-quoc:p7:para:3",
+   "phu-quoc:p7:para:1"
+  ],
+  "usage": {
+   "prompt": 1108,
+   "completion": 98,
+   "llm_calls": 2,
+   "seconds": 2.67,
+   "searches": 1,
+   "cost_usd": 0.000225
+  },
+  "raw_citations": [
+   "phu-quoc:p7:para:3"
+  ],
+  "query_id": "q09",
+  "config": "hybrid",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "abstain",
+  "answer": "Người Hoa đã lập ấp và cai quản vùng đất mà sau này đổi tên thành Phú Quốc là Mạc Cửu, quê ở Lôi Châu tỉnh Quảng Đông. Ông đã mang theo gia đình, binh sĩ và một số sĩ phu khoảng 400 người đến vùng đất này vào năm 1671.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "người Hoa lập ấp cai quản Phú Quốc",
+    "filter": null,
+    "results": [
+     {
+      "id": "phu-quoc:p9:para:9",
+      "rank": 1,
+      "score": 0.0315
+     },
+     {
+      "id": "phu-quoc:p9:para:0",
+      "rank": 2,
+      "score": 0.0309
+     },
+     {
+      "id": "phu-quoc:p24:para:2",
+      "rank": 3,
+      "score": 0.0301
+     }
+    ],
+    "added_to_context": [
+     "phu-quoc:p9:para:9",
+     "phu-quoc:p9:para:0"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Mạc Cửu lập ấp cai quản Phú Quốc",
+    "filter": null,
+    "results": [
+     {
+      "id": "phu-quoc:p9:para:0",
+      "rank": 1,
+      "score": 0.0317
+     },
+     {
+      "id": "phu-quoc:p9:para:2",
+      "rank": 2,
+      "score": 0.0312
+     },
+     {
+      "id": "phu-quoc:p9:para:3",
+      "rank": 3,
+      "score": 0.0306
+     }
+    ],
+    "added_to_context": []
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Mạc Cửu Phú Quốc",
+    "filter": null,
+    "results": [
+     {
+      "id": "phu-quoc:p9:para:0",
+      "rank": 1,
+      "score": 0.0328
+     },
+     {
+      "id": "phu-quoc:p9:para:2",
+      "rank": 2,
+      "score": 0.0323
+     },
+     {
+      "id": "phu-quoc:p25:para:0",
+      "rank": 3,
+      "score": 0.0308
+     }
+    ],
+    "added_to_context": []
+   },
+   {
+    "event": "search_limit"
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "phu-quoc:p9:para:9",
+   "phu-quoc:p9:para:0"
+  ],
+  "usage": {
+   "prompt": 3804,
+   "completion": 199,
+   "llm_calls": 5,
+   "seconds": 7.14,
+   "searches": 3,
+   "cost_usd": 0.00069
+  },
+  "raw_citations": [
+   "phu-quoc:p9:para:0"
+  ],
+  "query_id": "q10",
+  "config": "hybrid",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "abstain",
+  "answer": "Phú Quốc thuộc chủ quyền Việt Nam đã được Hoàng đế Napoleon III của Pháp xác nhận vào năm 1855.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Phú Quốc thuộc chủ quyền Việt Nam 1855",
+    "filter": null,
+    "results": [
+     {
+      "id": "phu-quoc:p9:para:9",
+      "rank": 1,
+      "score": 0.032
+     },
+     {
+      "id": "phu-quoc:p10:para:2",
+      "rank": 2,
+      "score": 0.0303
+     },
+     {
+      "id": "phu-quoc:p12:para:1",
+      "rank": 3,
+      "score": 0.0302
+     }
+    ],
+    "added_to_context": [
+     "phu-quoc:p9:para:9",
+     "phu-quoc:p10:para:2"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "phu-quoc:p9:para:9",
+   "phu-quoc:p10:para:2"
+  ],
+  "usage": {
+   "prompt": 1112,
+   "completion": 85,
+   "llm_calls": 2,
+   "seconds": 2.73,
+   "searches": 1,
+   "cost_usd": 0.000218
+  },
+  "raw_citations": [
+   "phu-quoc:p9:para:9"
+  ],
+  "query_id": "q11",
+  "config": "hybrid",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng về việc Phú Quốc được công nhận là đô thị loại I, bao gồm quyết định và ngày cụ thể.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Phú Quốc đô thị loại I quyết định ngày",
+    "filter": null,
+    "results": [
+     {
+      "id": "phu-quoc:p6:para:0",
+      "rank": 1,
+      "score": 0.0325
+     },
+     {
+      "id": "phu-quoc:p16:para:0",
+      "rank": 2,
+      "score": 0.031
+     },
+     {
+      "id": "vung-tau:p34:para:3",
+      "rank": 3,
+      "score": 0.0292
+     }
+    ],
+    "added_to_context": [
+     "phu-quoc:p6:para:0",
+     "phu-quoc:p16:para:0",
+     "vung-tau:p34:para:3"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Phú Quốc đô thị loại I quyết định",
+    "filter": null,
+    "results": [
+     {
+      "id": "phu-quoc:p6:para:0",
+      "rank": 1,
+      "score": 0.0325
+     },
+     {
+      "id": "phu-quoc:p17:para:0",
+      "rank": 2,
+      "score": 0.0302
+     },
+     {
+      "id": "vung-tau:p34:para:3",
+      "rank": 3,
+      "score": 0.0294
+     }
+    ],
+    "added_to_context": [
+     "phu-quoc:p17:para:0"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Phú Quốc đô thị loại I",
+    "filter": null,
+    "results": [
+     {
+      "id": "phu-quoc:p6:para:0",
+      "rank": 1,
+      "score": 0.0325
+     },
+     {
+      "id": "phu-quoc:p17:para:0",
+      "rank": 2,
+      "score": 0.0306
+     },
+     {
+      "id": "vung-tau:p34:para:3",
+      "rank": 3,
+      "score": 0.0301
+     }
+    ],
+    "added_to_context": []
+   },
+   {
+    "event": "search_limit"
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": false,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "phu-quoc:p6:para:0",
+   "phu-quoc:p16:para:0",
+   "vung-tau:p34:para:3",
+   "phu-quoc:p17:para:0"
+  ],
+  "usage": {
+   "prompt": 3688,
+   "completion": 137,
+   "llm_calls": 5,
+   "seconds": 7.7,
+   "searches": 3,
+   "cost_usd": 0.000635
+  },
+  "raw_citations": [],
+  "query_id": "q12",
+  "config": "hybrid",
+  "context_has_evidence": false,
+  "first_query_hit": [
+   false
+  ]
+ },
+ {
+  "status": "abstain",
+  "answer": "Đặc khu Phú Quốc có diện tích tự nhiên là 575,29 km2 và quy mô dân số là 157.629 người theo Nghị quyết 1654/NQ-UBTVQH15.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Nghị quyết 1654/NQ-UBTVQH15 Phú Quốc diện tích tự nhiên quy mô dân số",
+    "filter": {
+     "mien": "Nam"
+    },
+    "results": [
+     {
+      "id": "phu-quoc:p14:para:2",
+      "rank": 1,
+      "score": 0.0328
+     },
+     {
+      "id": "phu-quoc:p14:para:0",
+      "rank": 2,
+      "score": 0.0313
+     },
+     {
+      "id": "phu-quoc:p16:para:0",
+      "rank": 3,
+      "score": 0.0303
+     }
+    ],
+    "added_to_context": [
+     "phu-quoc:p14:para:2",
+     "phu-quoc:p14:para:0"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "phu-quoc:p14:para:2",
+   "phu-quoc:p14:para:0"
+  ],
+  "usage": {
+   "prompt": 1141,
+   "completion": 117,
+   "llm_calls": 2,
+   "seconds": 3.08,
+   "searches": 1,
+   "cost_usd": 0.000241
+  },
+  "raw_citations": [
+   "phu-quoc:p14:para:2"
+  ],
+  "query_id": "q13",
+  "config": "hybrid",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "abstain",
+  "answer": "Hồ tiêu Phú Quốc tập trung trồng chủ yếu ở 3 xã: Cửa Dương, Cửa Cạn và Dương Tơ.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Hồ tiêu Phú Quốc trồng ở 3 xã nào",
+    "filter": {
+     "section": "Phân bố"
+    },
+    "results": [
+     {
+      "id": "phu-quoc:p19:para:0",
+      "rank": 1,
+      "score": 0.0328
+     }
+    ],
+    "added_to_context": [
+     "phu-quoc:p19:para:0"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "phu-quoc:p19:para:0"
+  ],
+  "usage": {
+   "prompt": 857,
+   "completion": 92,
+   "llm_calls": 2,
+   "seconds": 2.5,
+   "searches": 1,
+   "cost_usd": 0.000184
+  },
+  "raw_citations": [
+   "phu-quoc:p19:para:0"
+  ],
+  "query_id": "q14",
+  "config": "hybrid",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để cung cấp thông tin về đặc điểm ngoại hình của chó Phú Quốc.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Chó Phú Quốc đặc điểm ngoại hình",
+    "filter": null,
+    "results": [
+     {
+      "id": "phu-quoc:p25:para:0",
+      "rank": 1,
+      "score": 0.0315
+     },
+     {
+      "id": "phu-quoc:p21:para:1",
+      "rank": 2,
+      "score": 0.0313
+     },
+     {
+      "id": "phu-quoc:p17:para:0",
+      "rank": 3,
+      "score": 0.0311
+     }
+    ],
+    "added_to_context": [
+     "phu-quoc:p25:para:0",
+     "phu-quoc:p21:para:1",
+     "phu-quoc:p17:para:0"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "đặc điểm chó Phú Quốc",
+    "filter": null,
+    "results": [
+     {
+      "id": "phu-quoc:p25:para:0",
+      "rank": 1,
+      "score": 0.0323
+     },
+     {
+      "id": "phu-quoc:p17:para:0",
+      "rank": 2,
+      "score": 0.0315
+     },
+     {
+      "id": "phu-quoc:p21:para:0",
+      "rank": 3,
+      "score": 0.0311
+     }
+    ],
+    "added_to_context": []
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Chó Phú Quốc",
+    "filter": null,
+    "results": [
+     {
+      "id": "phu-quoc:p21:para:0",
+      "rank": 1,
+      "score": 0.032
+     },
+     {
+      "id": "phu-quoc:p25:para:0",
+      "rank": 2,
+      "score": 0.032
+     },
+     {
+      "id": "phu-quoc:p17:para:0",
+      "rank": 3,
+      "score": 0.032
+     }
+    ],
+    "added_to_context": []
+   },
+   {
+    "event": "search_limit"
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": false,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "phu-quoc:p25:para:0",
+   "phu-quoc:p21:para:1",
+   "phu-quoc:p17:para:0"
+  ],
+  "usage": {
+   "prompt": 3523,
+   "completion": 122,
+   "llm_calls": 5,
+   "seconds": 5.12,
+   "searches": 3,
+   "cost_usd": 0.000602
+  },
+  "raw_citations": [],
+  "query_id": "q15",
+  "config": "hybrid",
+  "context_has_evidence": false,
+  "first_query_hit": [
+   false
+  ]
+ },
+ {
+  "status": "abstain",
+  "answer": "Phú Quốc được xem là nơi phát tích của đạo Cao Đài. Ngày nay trên đảo có 2 Thánh thất Cao Đài ở phường Dương Đông.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Phú Quốc phát tích tôn giáo",
+    "filter": {
+     "mien": "Nam"
+    },
+    "results": [
+     {
+      "id": "phu-quoc:p23:para:0",
+      "rank": 1,
+      "score": 0.0318
+     },
+     {
+      "id": "phu-quoc:p6:para:0",
+      "rank": 2,
+      "score": 0.0299
+     },
+     {
+      "id": "phu-quoc:p17:para:0",
+      "rank": 3,
+      "score": 0.0298
+     }
+    ],
+    "added_to_context": [
+     "phu-quoc:p23:para:0",
+     "phu-quoc:p6:para:0",
+     "phu-quoc:p17:para:0"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "phu-quoc:p23:para:0",
+   "phu-quoc:p6:para:0",
+   "phu-quoc:p17:para:0"
+  ],
+  "usage": {
+   "prompt": 1070,
+   "completion": 91,
+   "llm_calls": 2,
+   "seconds": 2.66,
+   "searches": 1,
+   "cost_usd": 0.000215
+  },
+  "raw_citations": [
+   "phu-quoc:p23:para:0"
+  ],
+  "query_id": "q16",
+  "config": "hybrid",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "abstain",
+  "answer": "Tên gọi \"Sa Pa\" xuất phát từ tiếng Quan thoại có nghĩa là \"bãi cát\" (Hán Việt: Sa Bá, 沙壩).",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Sa Pa tên gọi người dân địa phương tiếng gì nghĩa là gì",
+    "filter": {
+     "mien": "Bắc"
+    },
+    "results": [
+     {
+      "id": "sa-pa:p28:para:0",
+      "rank": 1,
+      "score": 0.0328
+     },
+     {
+      "id": "sa-pa:p27:para:0",
+      "rank": 2,
+      "score": 0.032
+     },
+     {
+      "id": "sa-pa:p29:para:0",
+      "rank": 3,
+      "score": 0.0313
+     }
+    ],
+    "added_to_context": [
+     "sa-pa:p28:para:0",
+     "sa-pa:p27:para:0",
+     "sa-pa:p29:para:0"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "sa-pa:p28:para:0",
+   "sa-pa:p27:para:0",
+   "sa-pa:p29:para:0"
+  ],
+  "usage": {
+   "prompt": 1177,
+   "completion": 92,
+   "llm_calls": 2,
+   "seconds": 2.6,
+   "searches": 1,
+   "cost_usd": 0.000232
+  },
+  "raw_citations": [
+   "sa-pa:p28:para:0"
+  ],
+  "query_id": "q17",
+  "config": "hybrid",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "abstain",
+  "answer": "Tuyến đường sắt Hà Nội - Lào Cai hoàn thành năm 1920 đã giúp Sa Pa trở thành 'thủ đô mùa hè của Bắc Kỳ'.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "tuyến đường sắt hoàn thành năm 1920 Sa Pa thủ đô mùa hè Bắc Kỳ",
+    "filter": {
+     "mien": "Bắc"
+    },
+    "results": [
+     {
+      "id": "sa-pa:p29:para:1",
+      "rank": 1,
+      "score": 0.0328
+     },
+     {
+      "id": "sa-pa:p30:para:2",
+      "rank": 2,
+      "score": 0.0318
+     },
+     {
+      "id": "sa-pa:p27:para:0",
+      "rank": 3,
+      "score": 0.0315
+     }
+    ],
+    "added_to_context": [
+     "sa-pa:p29:para:1",
+     "sa-pa:p30:para:2"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "sa-pa:p29:para:1",
+   "sa-pa:p30:para:2"
+  ],
+  "usage": {
+   "prompt": 1087,
+   "completion": 100,
+   "llm_calls": 2,
+   "seconds": 2.75,
+   "searches": 1,
+   "cost_usd": 0.000223
+  },
+  "raw_citations": [
+   "sa-pa:p29:para:1"
+  ],
+  "query_id": "q18",
+  "config": "hybrid",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "abstain",
+  "answer": "Sa Pa bị tàn phá nặng nề trong cuộc kháng chiến chống Pháp năm 1947 và trong chiến tranh biên giới Việt - Trung năm 1979. Trong những sự kiện này, hàng ngàn ha rừng thông bao phủ thị trấn bị đốt sạch, nhiều toà biệt thự cổ do Pháp xây cũng bị phá huỷ.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Sa Pa tàn phá chiến tranh sự kiện",
+    "filter": null,
+    "results": [
+     {
+      "id": "sa-pa:p29:para:2",
+      "rank": 1,
+      "score": 0.0325
+     },
+     {
+      "id": "sa-pa:p27:para:0",
+      "rank": 2,
+      "score": 0.0313
+     },
+     {
+      "id": "sa-pa:p30:para:4",
+      "rank": 3,
+      "score": 0.031
+     }
+    ],
+    "added_to_context": [
+     "sa-pa:p29:para:2",
+     "sa-pa:p27:para:0"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "sa-pa:p29:para:2",
+   "sa-pa:p27:para:0"
+  ],
+  "usage": {
+   "prompt": 1019,
+   "completion": 131,
+   "llm_calls": 2,
+   "seconds": 3.16,
+   "searches": 1,
+   "cost_usd": 0.000231
+  },
+  "raw_citations": [
+   "sa-pa:p29:para:2"
+  ],
+  "query_id": "q19",
+  "config": "hybrid",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "abstain",
+  "answer": "Sau khi sắp xếp năm 2019, thị xã Sa Pa có 6 phường và 10 xã.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "thị xã Sa Pa năm 2019 có bao nhiêu phường và bao nhiêu xã",
+    "filter": null,
+    "results": [
+     {
+      "id": "sa-pa:p30:para:1",
+      "rank": 1,
+      "score": 0.0311
+     },
+     {
+      "id": "sa-pa:p29:para:0",
+      "rank": 2,
+      "score": 0.0308
+     },
+     {
+      "id": "sa-pa:p29:para:2",
+      "rank": 3,
+      "score": 0.0308
+     }
+    ],
+    "added_to_context": [
+     "sa-pa:p30:para:1",
+     "sa-pa:p29:para:0"
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "sa-pa:p30:para:1",
+   "sa-pa:p29:para:0"
+  ],
+  "usage": {
+   "prompt": 1076,
+   "completion": 90,
+   "llm_calls": 2,
+   "seconds": 2.61,
+   "searches": 1,
+   "cost_usd": 0.000215
+  },
+  "raw_citations": [
+   "sa-pa:p30:para:1"
+  ],
+  "query_id": "q20",
+  "config": "hybrid",
+  "context_has_evidence": true,
+  "first_query_hit": [
+   true
+  ]
+ },
+ {
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng về giá vé cáp treo Hòn Thơm ở Phú Quốc hiện nay.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "giá vé cáp treo Hòn Thơm Phú Quốc",
+    "filter": null,
+    "results": [
+     {
+      "id": "phu-quoc:p24:para:2",
+      "rank": 1,
+      "score": 0.0325
+     },
+     {
+      "id": "phu-quoc:p12:para:1",
+      "rank": 2,
+      "score": 0.0301
+     },
+     {
+      "id": "phu-quoc:p17:para:0",
+      "rank": 3,
+      "score": 0.0292
+     }
+    ],
+    "added_to_context": [
+     "phu-quoc:p24:para:2",
+     "phu-quoc:p12:para:1",
+     "phu-quoc:p17:para:0"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "cáp treo Hòn Thơm giá vé",
+    "filter": null,
+    "results": [
+     {
+      "id": "phu-quoc:p24:para:2",
+      "rank": 1,
+      "score": 0.0309
+     },
+     {
+      "id": "phu-quoc:p12:para:1",
+      "rank": 2,
+      "score": 0.0301
+     },
+     {
+      "id": "phu-quoc:p13:para:0",
+      "rank": 3,
+      "score": 0.0293
+     }
+    ],
+    "added_to_context": []
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "giá vé cáp treo Hòn Thơm",
+    "filter": null,
+    "results": [
+     {
+      "id": "phu-quoc:p24:para:2",
+      "rank": 1,
+      "score": 0.0311
+     },
+     {
+      "id": "phu-quoc:p12:para:1",
+      "rank": 2,
+      "score": 0.0296
+     },
+     {
+      "id": "phu-quoc:p11:para:5",
+      "rank": 3,
+      "score": 0.0282
+     }
+    ],
+    "added_to_context": []
+   },
+   {
+    "event": "search_limit"
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": false,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "phu-quoc:p24:para:2",
+   "phu-quoc:p12:para:1",
+   "phu-quoc:p17:para:0"
+  ],
+  "usage": {
+   "prompt": 4167,
+   "completion": 144,
+   "llm_calls": 5,
+   "seconds": 5.54,
+   "searches": 3,
+   "cost_usd": 0.000711
+  },
+  "raw_citations": [],
+  "query_id": "u01",
+  "config": "hybrid"
+ },
+ {
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng về nhiệt độ trung bình vào mùa đông ở Sa Pa.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "nhiệt độ trung bình mùa đông Sa Pa",
+    "filter": null,
+    "results": [
+     {
+      "id": "phu-quoc:p7:para:3",
+      "rank": 1,
+      "score": 0.032
+     },
+     {
+      "id": "sa-pa:p29:para:0",
+      "rank": 2,
+      "score": 0.0315
+     },
+     {
+      "id": "sa-pa:p27:para:0",
+      "rank": 3,
+      "score": 0.0311
+     }
+    ],
+    "added_to_context": [
+     "phu-quoc:p7:para:3",
+     "sa-pa:p29:para:0",
+     "sa-pa:p27:para:0"
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "nhiệt độ mùa đông Sa Pa",
+    "filter": null,
+    "results": [
+     {
+      "id": "sa-pa:p27:para:0",
+      "rank": 1,
+      "score": 0.0318
+     },
+     {
+      "id": "sa-pa:p29:para:0",
+      "rank": 2,
+      "score": 0.0318
+     },
+     {
+      "id": "phu-quoc:p7:para:3",
+      "rank": 3,
+      "score": 0.0307
+     }
+    ],
+    "added_to_context": []
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Sa Pa khí hậu nhiệt độ",
+    "filter": null,
+    "results": [
+     {
+      "id": "sa-pa:p27:para:0",
+      "rank": 1,
+      "score": 0.0313
+     },
+     {
+      "id": "phu-quoc:p7:para:3",
+      "rank": 2,
+      "score": 0.0311
+     },
+     {
+      "id": "sa-pa:p30:para:2",
+      "rank": 3,
+      "score": 0.0298
+     }
+    ],
+    "added_to_context": []
+   },
+   {
+    "event": "search_limit"
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": false,
+    "citations_valid_ids": false
+   }
+  ],
+  "context_ids": [
+   "phu-quoc:p7:para:3",
+   "sa-pa:p29:para:0",
+   "sa-pa:p27:para:0"
+  ],
+  "usage": {
+   "prompt": 3934,
+   "completion": 123,
+   "llm_calls": 5,
+   "seconds": 6.65,
+   "searches": 3,
+   "cost_usd": 0.000664
+  },
+  "raw_citations": [],
+  "query_id": "u02",
+  "config": "hybrid"
+ }
+]

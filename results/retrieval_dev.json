@@ -1,0 +1,1318 @@
+{
+ "dense": {
+  "n": 20,
+  "hit@1": "8/20",
+  "hit@3": "13/20",
+  "recall@10": "14/20",
+  "mrr@10": 0.504,
+  "sec": 4.81,
+  "per_question": [
+   {
+    "id": "q01",
+    "first_hit_rank": 1,
+    "top3": [
+     "nha-trang:p1:para:0",
+     "sa-pa:p27:para:0",
+     "vung-tau:p34:para:6"
+    ]
+   },
+   {
+    "id": "q02",
+    "first_hit_rank": null,
+    "top3": [
+     "phu-quoc:p10:para:4",
+     "sa-pa:p28:para:1",
+     "sa-pa:p29:para:2"
+    ]
+   },
+   {
+    "id": "q03",
+    "first_hit_rank": null,
+    "top3": [
+     "sa-pa:p27:para:0",
+     "sa-pa:p29:para:0",
+     "phu-quoc:p23:para:3"
+    ]
+   },
+   {
+    "id": "q04",
+    "first_hit_rank": 3,
+    "top3": [
+     "nha-trang:p3:para:6",
+     "nha-trang:p4:para:2",
+     "nha-trang:p3:para:3"
+    ]
+   },
+   {
+    "id": "q05",
+    "first_hit_rank": 1,
+    "top3": [
+     "nha-trang:p4:para:1",
+     "nha-trang:p2:para:0",
+     "nha-trang:p2:para:1"
+    ]
+   },
+   {
+    "id": "q06",
+    "first_hit_rank": null,
+    "top3": [
+     "nha-trang:p4:para:3",
+     "nha-trang:p3:para:6",
+     "nha-trang:p2:para:1"
+    ]
+   },
+   {
+    "id": "q07",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p6:para:0",
+     "phu-quoc:p9:para:2",
+     "phu-quoc:p12:para:3"
+    ]
+   },
+   {
+    "id": "q08",
+    "first_hit_rank": 4,
+    "top3": [
+     "phu-quoc:p22:para:0",
+     "phu-quoc:p7:para:0",
+     "phu-quoc:p14:para:2"
+    ]
+   },
+   {
+    "id": "q09",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p7:para:3",
+     "phu-quoc:p21:para:1",
+     "sa-pa:p27:para:0"
+    ]
+   },
+   {
+    "id": "q10",
+    "first_hit_rank": null,
+    "top3": [
+     "vung-tau:p34:para:0",
+     "phu-quoc:p24:para:2",
+     "sa-pa:p28:para:0"
+    ]
+   },
+   {
+    "id": "q11",
+    "first_hit_rank": 3,
+    "top3": [
+     "vung-tau:p34:para:2",
+     "phu-quoc:p9:para:6",
+     "phu-quoc:p9:para:9"
+    ]
+   },
+   {
+    "id": "q12",
+    "first_hit_rank": null,
+    "top3": [
+     "phu-quoc:p16:para:0",
+     "vung-tau:p34:para:0",
+     "nha-trang:p3:para:6"
+    ]
+   },
+   {
+    "id": "q13",
+    "first_hit_rank": 2,
+    "top3": [
+     "vung-tau:p34:para:7",
+     "phu-quoc:p14:para:2",
+     "phu-quoc:p10:para:1"
+    ]
+   },
+   {
+    "id": "q14",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p19:para:0"
+    ]
+   },
+   {
+    "id": "q15",
+    "first_hit_rank": null,
+    "top3": [
+     "phu-quoc:p21:para:1",
+     "phu-quoc:p8:para:0",
+     "phu-quoc:p14:para:13"
+    ]
+   },
+   {
+    "id": "q16",
+    "first_hit_rank": 3,
+    "top3": [
+     "phu-quoc:p6:para:0",
+     "phu-quoc:p17:para:0",
+     "phu-quoc:p23:para:0"
+    ]
+   },
+   {
+    "id": "q17",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p28:para:0",
+     "sa-pa:p28:para:1",
+     "sa-pa:p29:para:2"
+    ]
+   },
+   {
+    "id": "q18",
+    "first_hit_rank": 3,
+    "top3": [
+     "sa-pa:p27:para:0",
+     "sa-pa:p30:para:1",
+     "sa-pa:p29:para:1"
+    ]
+   },
+   {
+    "id": "q19",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p29:para:2",
+     "sa-pa:p28:para:0",
+     "sa-pa:p30:para:4"
+    ]
+   },
+   {
+    "id": "q20",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p30:para:1",
+     "nha-trang:p4:para:3",
+     "sa-pa:p27:para:0"
+    ]
+   }
+  ]
+ },
+ "bm25_syllable": {
+  "n": 20,
+  "hit@1": "18/20",
+  "hit@3": "20/20",
+  "recall@10": "20/20",
+  "mrr@10": 0.95,
+  "sec": 0.11,
+  "per_question": [
+   {
+    "id": "q01",
+    "first_hit_rank": 1,
+    "top3": [
+     "nha-trang:p1:para:0",
+     "sa-pa:p27:para:0",
+     "nha-trang:p4:para:1"
+    ]
+   },
+   {
+    "id": "q02",
+    "first_hit_rank": 2,
+    "top3": [
+     "nha-trang:p2:para:1",
+     "nha-trang:p2:para:0",
+     "sa-pa:p28:para:0"
+    ]
+   },
+   {
+    "id": "q03",
+    "first_hit_rank": 1,
+    "top3": [
+     "nha-trang:p3:para:3",
+     "nha-trang:p3:para:0",
+     "nha-trang:p4:para:1"
+    ]
+   },
+   {
+    "id": "q04",
+    "first_hit_rank": 1,
+    "top3": [
+     "nha-trang:p3:para:3",
+     "nha-trang:p3:para:6",
+     "nha-trang:p4:para:0"
+    ]
+   },
+   {
+    "id": "q05",
+    "first_hit_rank": 1,
+    "top3": [
+     "nha-trang:p4:para:1",
+     "nha-trang:p3:para:3",
+     "nha-trang:p4:para:3"
+    ]
+   },
+   {
+    "id": "q06",
+    "first_hit_rank": 1,
+    "top3": [
+     "nha-trang:p5:para:0",
+     "nha-trang:p4:para:3",
+     "nha-trang:p3:para:3"
+    ]
+   },
+   {
+    "id": "q07",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p6:para:0",
+     "phu-quoc:p16:para:0",
+     "phu-quoc:p14:para:4"
+    ]
+   },
+   {
+    "id": "q08",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p7:para:1",
+     "phu-quoc:p12:para:3",
+     "phu-quoc:p22:para:0"
+    ]
+   },
+   {
+    "id": "q09",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p7:para:3",
+     "phu-quoc:p20:para:0",
+     "phu-quoc:p9:para:8"
+    ]
+   },
+   {
+    "id": "q10",
+    "first_hit_rank": 2,
+    "top3": [
+     "phu-quoc:p9:para:2",
+     "phu-quoc:p9:para:0",
+     "phu-quoc:p9:para:3"
+    ]
+   },
+   {
+    "id": "q11",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p9:para:9",
+     "phu-quoc:p10:para:2",
+     "phu-quoc:p9:para:6"
+    ]
+   },
+   {
+    "id": "q12",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p13:para:2",
+     "phu-quoc:p16:para:0",
+     "sa-pa:p29:para:4"
+    ]
+   },
+   {
+    "id": "q13",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p14:para:2",
+     "phu-quoc:p14:para:1",
+     "phu-quoc:p22:para:0"
+    ]
+   },
+   {
+    "id": "q14",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p19:para:0"
+    ]
+   },
+   {
+    "id": "q15",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p21:para:0",
+     "phu-quoc:p21:para:1",
+     "phu-quoc:p19:para:0"
+    ]
+   },
+   {
+    "id": "q16",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p23:para:0",
+     "phu-quoc:p23:para:2",
+     "phu-quoc:p21:para:1"
+    ]
+   },
+   {
+    "id": "q17",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p28:para:0",
+     "sa-pa:p27:para:0",
+     "sa-pa:p30:para:4"
+    ]
+   },
+   {
+    "id": "q18",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p29:para:1",
+     "sa-pa:p30:para:2",
+     "sa-pa:p30:para:6"
+    ]
+   },
+   {
+    "id": "q19",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p29:para:2",
+     "sa-pa:p29:para:0",
+     "sa-pa:p30:para:4"
+    ]
+   },
+   {
+    "id": "q20",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p30:para:1",
+     "sa-pa:p30:para:0",
+     "sa-pa:p28:para:0"
+    ]
+   }
+  ]
+ },
+ "bm25": {
+  "n": 20,
+  "hit@1": "18/20",
+  "hit@3": "20/20",
+  "recall@10": "20/20",
+  "mrr@10": 0.942,
+  "sec": 0.03,
+  "per_question": [
+   {
+    "id": "q01",
+    "first_hit_rank": 1,
+    "top3": [
+     "nha-trang:p1:para:0",
+     "sa-pa:p27:para:0",
+     "vung-tau:p31:para:0"
+    ]
+   },
+   {
+    "id": "q02",
+    "first_hit_rank": 2,
+    "top3": [
+     "nha-trang:p2:para:1",
+     "nha-trang:p2:para:0",
+     "sa-pa:p28:para:0"
+    ]
+   },
+   {
+    "id": "q03",
+    "first_hit_rank": 1,
+    "top3": [
+     "nha-trang:p3:para:3",
+     "nha-trang:p3:para:0",
+     "sa-pa:p29:para:0"
+    ]
+   },
+   {
+    "id": "q04",
+    "first_hit_rank": 1,
+    "top3": [
+     "nha-trang:p3:para:3",
+     "nha-trang:p3:para:6",
+     "vung-tau:p34:para:5"
+    ]
+   },
+   {
+    "id": "q05",
+    "first_hit_rank": 1,
+    "top3": [
+     "nha-trang:p4:para:1",
+     "nha-trang:p3:para:3",
+     "phu-quoc:p13:para:2"
+    ]
+   },
+   {
+    "id": "q06",
+    "first_hit_rank": 1,
+    "top3": [
+     "nha-trang:p5:para:0",
+     "nha-trang:p4:para:3",
+     "nha-trang:p1:para:0"
+    ]
+   },
+   {
+    "id": "q07",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p6:para:0",
+     "phu-quoc:p16:para:0",
+     "phu-quoc:p14:para:4"
+    ]
+   },
+   {
+    "id": "q08",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p7:para:1",
+     "phu-quoc:p22:para:0",
+     "phu-quoc:p12:para:3"
+    ]
+   },
+   {
+    "id": "q09",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p7:para:3",
+     "phu-quoc:p20:para:0",
+     "phu-quoc:p9:para:8"
+    ]
+   },
+   {
+    "id": "q10",
+    "first_hit_rank": 3,
+    "top3": [
+     "phu-quoc:p9:para:2",
+     "phu-quoc:p9:para:3",
+     "phu-quoc:p9:para:0"
+    ]
+   },
+   {
+    "id": "q11",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p9:para:9",
+     "phu-quoc:p10:para:2",
+     "phu-quoc:p12:para:1"
+    ]
+   },
+   {
+    "id": "q12",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p13:para:2",
+     "phu-quoc:p16:para:0",
+     "sa-pa:p29:para:4"
+    ]
+   },
+   {
+    "id": "q13",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p14:para:2",
+     "phu-quoc:p14:para:1",
+     "phu-quoc:p22:para:0"
+    ]
+   },
+   {
+    "id": "q14",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p19:para:0"
+    ]
+   },
+   {
+    "id": "q15",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p21:para:0",
+     "phu-quoc:p21:para:1",
+     "phu-quoc:p7:para:0"
+    ]
+   },
+   {
+    "id": "q16",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p23:para:0",
+     "phu-quoc:p23:para:2",
+     "phu-quoc:p7:para:1"
+    ]
+   },
+   {
+    "id": "q17",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p28:para:0",
+     "sa-pa:p27:para:0",
+     "sa-pa:p29:para:0"
+    ]
+   },
+   {
+    "id": "q18",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p29:para:1",
+     "sa-pa:p30:para:2",
+     "sa-pa:p29:para:3"
+    ]
+   },
+   {
+    "id": "q19",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p29:para:2",
+     "sa-pa:p29:para:0",
+     "sa-pa:p30:para:4"
+    ]
+   },
+   {
+    "id": "q20",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p30:para:1",
+     "sa-pa:p30:para:0",
+     "sa-pa:p29:para:4"
+    ]
+   }
+  ]
+ },
+ "hybrid_rrf": {
+  "n": 20,
+  "hit@1": "12/20",
+  "hit@3": "18/20",
+  "recall@10": "20/20",
+  "mrr@10": 0.749,
+  "sec": 1.15,
+  "per_question": [
+   {
+    "id": "q01",
+    "first_hit_rank": 1,
+    "top3": [
+     "nha-trang:p1:para:0",
+     "sa-pa:p27:para:0",
+     "vung-tau:p31:para:0"
+    ]
+   },
+   {
+    "id": "q02",
+    "first_hit_rank": 2,
+    "top3": [
+     "nha-trang:p2:para:1",
+     "nha-trang:p2:para:0",
+     "nha-trang:p3:para:3"
+    ]
+   },
+   {
+    "id": "q03",
+    "first_hit_rank": 3,
+    "top3": [
+     "sa-pa:p29:para:0",
+     "nha-trang:p3:para:0",
+     "nha-trang:p3:para:3"
+    ]
+   },
+   {
+    "id": "q04",
+    "first_hit_rank": 2,
+    "top3": [
+     "nha-trang:p3:para:6",
+     "nha-trang:p3:para:3",
+     "nha-trang:p4:para:2"
+    ]
+   },
+   {
+    "id": "q05",
+    "first_hit_rank": 1,
+    "top3": [
+     "nha-trang:p4:para:1",
+     "nha-trang:p4:para:3",
+     "nha-trang:p2:para:0"
+    ]
+   },
+   {
+    "id": "q06",
+    "first_hit_rank": 6,
+    "top3": [
+     "nha-trang:p4:para:3",
+     "nha-trang:p1:para:0",
+     "nha-trang:p2:para:1"
+    ]
+   },
+   {
+    "id": "q07",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p6:para:0",
+     "phu-quoc:p14:para:4",
+     "phu-quoc:p8:para:0"
+    ]
+   },
+   {
+    "id": "q08",
+    "first_hit_rank": 2,
+    "top3": [
+     "phu-quoc:p22:para:0",
+     "phu-quoc:p7:para:1",
+     "phu-quoc:p7:para:0"
+    ]
+   },
+   {
+    "id": "q09",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p7:para:3",
+     "phu-quoc:p21:para:1",
+     "phu-quoc:p23:para:0"
+    ]
+   },
+   {
+    "id": "q10",
+    "first_hit_rank": 3,
+    "top3": [
+     "phu-quoc:p9:para:2",
+     "vung-tau:p34:para:0",
+     "phu-quoc:p9:para:0"
+    ]
+   },
+   {
+    "id": "q11",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p9:para:9",
+     "phu-quoc:p9:para:6",
+     "phu-quoc:p12:para:1"
+    ]
+   },
+   {
+    "id": "q12",
+    "first_hit_rank": 7,
+    "top3": [
+     "phu-quoc:p16:para:0",
+     "phu-quoc:p24:para:0",
+     "phu-quoc:p6:para:0"
+    ]
+   },
+   {
+    "id": "q13",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p14:para:2",
+     "phu-quoc:p14:para:0",
+     "vung-tau:p34:para:7"
+    ]
+   },
+   {
+    "id": "q14",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p19:para:0"
+    ]
+   },
+   {
+    "id": "q15",
+    "first_hit_rank": 2,
+    "top3": [
+     "phu-quoc:p21:para:1",
+     "phu-quoc:p21:para:0",
+     "phu-quoc:p7:para:1"
+    ]
+   },
+   {
+    "id": "q16",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p23:para:0",
+     "phu-quoc:p24:para:0",
+     "phu-quoc:p14:para:2"
+    ]
+   },
+   {
+    "id": "q17",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p28:para:0",
+     "sa-pa:p27:para:0",
+     "sa-pa:p29:para:0"
+    ]
+   },
+   {
+    "id": "q18",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p29:para:1",
+     "sa-pa:p27:para:0",
+     "sa-pa:p30:para:2"
+    ]
+   },
+   {
+    "id": "q19",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p29:para:2",
+     "sa-pa:p30:para:4",
+     "sa-pa:p28:para:0"
+    ]
+   },
+   {
+    "id": "q20",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p30:para:1",
+     "sa-pa:p29:para:2",
+     "nha-trang:p4:para:3"
+    ]
+   }
+  ]
+ },
+ "dense_multilingual": {
+  "n": 20,
+  "hit@1": "10/20",
+  "hit@3": "13/20",
+  "recall@10": "17/20",
+  "mrr@10": 0.611,
+  "sec": 0.88,
+  "per_question": [
+   {
+    "id": "q01",
+    "first_hit_rank": null,
+    "top3": [
+     "nha-trang:p3:para:1",
+     "nha-trang:p4:para:3",
+     "nha-trang:p3:para:3"
+    ]
+   },
+   {
+    "id": "q02",
+    "first_hit_rank": 2,
+    "top3": [
+     "nha-trang:p2:para:1",
+     "nha-trang:p2:para:0",
+     "sa-pa:p28:para:1"
+    ]
+   },
+   {
+    "id": "q03",
+    "first_hit_rank": 1,
+    "top3": [
+     "nha-trang:p3:para:3",
+     "phu-quoc:p12:para:1",
+     "phu-quoc:p12:para:0"
+    ]
+   },
+   {
+    "id": "q04",
+    "first_hit_rank": 1,
+    "top3": [
+     "nha-trang:p3:para:3",
+     "nha-trang:p3:para:6",
+     "nha-trang:p4:para:3"
+    ]
+   },
+   {
+    "id": "q05",
+    "first_hit_rank": 4,
+    "top3": [
+     "nha-trang:p3:para:3",
+     "phu-quoc:p11:para:1",
+     "phu-quoc:p13:para:2"
+    ]
+   },
+   {
+    "id": "q06",
+    "first_hit_rank": 9,
+    "top3": [
+     "nha-trang:p4:para:3",
+     "nha-trang:p3:para:3",
+     "nha-trang:p3:para:6"
+    ]
+   },
+   {
+    "id": "q07",
+    "first_hit_rank": null,
+    "top3": [
+     "phu-quoc:p16:para:0",
+     "phu-quoc:p12:para:3",
+     "phu-quoc:p13:para:2"
+    ]
+   },
+   {
+    "id": "q08",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p7:para:1",
+     "phu-quoc:p12:para:3",
+     "phu-quoc:p25:para:0"
+    ]
+   },
+   {
+    "id": "q09",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p7:para:3",
+     "phu-quoc:p16:para:0",
+     "phu-quoc:p22:para:0"
+    ]
+   },
+   {
+    "id": "q10",
+    "first_hit_rank": 6,
+    "top3": [
+     "vung-tau:p32:para:0",
+     "phu-quoc:p9:para:6",
+     "phu-quoc:p9:para:4"
+    ]
+   },
+   {
+    "id": "q11",
+    "first_hit_rank": null,
+    "top3": [
+     "phu-quoc:p10:para:2",
+     "phu-quoc:p9:para:6",
+     "phu-quoc:p10:para:4"
+    ]
+   },
+   {
+    "id": "q12",
+    "first_hit_rank": 2,
+    "top3": [
+     "phu-quoc:p16:para:0",
+     "phu-quoc:p13:para:2",
+     "phu-quoc:p12:para:3"
+    ]
+   },
+   {
+    "id": "q13",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p14:para:2",
+     "phu-quoc:p14:para:1",
+     "phu-quoc:p12:para:3"
+    ]
+   },
+   {
+    "id": "q14",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p19:para:0"
+    ]
+   },
+   {
+    "id": "q15",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p21:para:0",
+     "phu-quoc:p21:para:1",
+     "vung-tau:p34:para:1"
+    ]
+   },
+   {
+    "id": "q16",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p23:para:0",
+     "phu-quoc:p23:para:1",
+     "phu-quoc:p23:para:2"
+    ]
+   },
+   {
+    "id": "q17",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p28:para:0",
+     "sa-pa:p27:para:0",
+     "sa-pa:p28:para:1"
+    ]
+   },
+   {
+    "id": "q18",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p29:para:1",
+     "sa-pa:p30:para:5",
+     "sa-pa:p30:para:6"
+    ]
+   },
+   {
+    "id": "q19",
+    "first_hit_rank": 2,
+    "top3": [
+     "sa-pa:p30:para:4",
+     "sa-pa:p29:para:2",
+     "vung-tau:p33:para:3"
+    ]
+   },
+   {
+    "id": "q20",
+    "first_hit_rank": 5,
+    "top3": [
+     "sa-pa:p29:para:4",
+     "sa-pa:p30:para:0",
+     "phu-quoc:p13:para:2"
+    ]
+   }
+  ]
+ },
+ "hybrid_ml_rrf": {
+  "n": 20,
+  "hit@1": "13/20",
+  "hit@3": "18/20",
+  "recall@10": "20/20",
+  "mrr@10": 0.768,
+  "sec": 1.22,
+  "per_question": [
+   {
+    "id": "q01",
+    "first_hit_rank": 3,
+    "top3": [
+     "nha-trang:p4:para:3",
+     "phu-quoc:p13:para:2",
+     "nha-trang:p1:para:0"
+    ]
+   },
+   {
+    "id": "q02",
+    "first_hit_rank": 2,
+    "top3": [
+     "nha-trang:p2:para:1",
+     "nha-trang:p2:para:0",
+     "sa-pa:p28:para:0"
+    ]
+   },
+   {
+    "id": "q03",
+    "first_hit_rank": 1,
+    "top3": [
+     "nha-trang:p3:para:3",
+     "nha-trang:p3:para:6",
+     "phu-quoc:p12:para:1"
+    ]
+   },
+   {
+    "id": "q04",
+    "first_hit_rank": 1,
+    "top3": [
+     "nha-trang:p3:para:3",
+     "nha-trang:p3:para:6",
+     "nha-trang:p4:para:2"
+    ]
+   },
+   {
+    "id": "q05",
+    "first_hit_rank": 2,
+    "top3": [
+     "nha-trang:p3:para:3",
+     "nha-trang:p4:para:1",
+     "phu-quoc:p13:para:2"
+    ]
+   },
+   {
+    "id": "q06",
+    "first_hit_rank": 3,
+    "top3": [
+     "nha-trang:p4:para:3",
+     "nha-trang:p3:para:3",
+     "nha-trang:p5:para:0"
+    ]
+   },
+   {
+    "id": "q07",
+    "first_hit_rank": 9,
+    "top3": [
+     "phu-quoc:p16:para:0",
+     "phu-quoc:p14:para:4",
+     "phu-quoc:p14:para:11"
+    ]
+   },
+   {
+    "id": "q08",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p7:para:1",
+     "phu-quoc:p12:para:3",
+     "phu-quoc:p22:para:0"
+    ]
+   },
+   {
+    "id": "q09",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p7:para:3",
+     "phu-quoc:p20:para:0",
+     "phu-quoc:p22:para:0"
+    ]
+   },
+   {
+    "id": "q10",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p9:para:0",
+     "phu-quoc:p9:para:3",
+     "phu-quoc:p9:para:2"
+    ]
+   },
+   {
+    "id": "q11",
+    "first_hit_rank": 4,
+    "top3": [
+     "phu-quoc:p10:para:2",
+     "phu-quoc:p9:para:6",
+     "phu-quoc:p10:para:3"
+    ]
+   },
+   {
+    "id": "q12",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p13:para:2",
+     "phu-quoc:p16:para:0",
+     "sa-pa:p29:para:4"
+    ]
+   },
+   {
+    "id": "q13",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p14:para:2",
+     "phu-quoc:p14:para:1",
+     "phu-quoc:p12:para:3"
+    ]
+   },
+   {
+    "id": "q14",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p19:para:0"
+    ]
+   },
+   {
+    "id": "q15",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p21:para:0",
+     "phu-quoc:p21:para:1",
+     "phu-quoc:p18:para:0"
+    ]
+   },
+   {
+    "id": "q16",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p23:para:0",
+     "phu-quoc:p23:para:2",
+     "phu-quoc:p21:para:1"
+    ]
+   },
+   {
+    "id": "q17",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p28:para:0",
+     "sa-pa:p27:para:0",
+     "sa-pa:p30:para:0"
+    ]
+   },
+   {
+    "id": "q18",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p29:para:1",
+     "sa-pa:p30:para:2",
+     "sa-pa:p30:para:6"
+    ]
+   },
+   {
+    "id": "q19",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p29:para:2",
+     "sa-pa:p30:para:4",
+     "vung-tau:p33:para:3"
+    ]
+   },
+   {
+    "id": "q20",
+    "first_hit_rank": 3,
+    "top3": [
+     "sa-pa:p29:para:4",
+     "sa-pa:p30:para:0",
+     "sa-pa:p30:para:1"
+    ]
+   }
+  ]
+ },
+ "hybrid3_rrf": {
+  "n": 20,
+  "hit@1": "14/20",
+  "hit@3": "19/20",
+  "recall@10": "20/20",
+  "mrr@10": 0.821,
+  "sec": 1.78,
+  "per_question": [
+   {
+    "id": "q01",
+    "first_hit_rank": 1,
+    "top3": [
+     "nha-trang:p1:para:0",
+     "phu-quoc:p13:para:2",
+     "phu-quoc:p12:para:1"
+    ]
+   },
+   {
+    "id": "q02",
+    "first_hit_rank": 2,
+    "top3": [
+     "nha-trang:p2:para:1",
+     "nha-trang:p2:para:0",
+     "nha-trang:p3:para:3"
+    ]
+   },
+   {
+    "id": "q03",
+    "first_hit_rank": 1,
+    "top3": [
+     "nha-trang:p3:para:3",
+     "phu-quoc:p12:para:0",
+     "nha-trang:p3:para:0"
+    ]
+   },
+   {
+    "id": "q04",
+    "first_hit_rank": 1,
+    "top3": [
+     "nha-trang:p3:para:3",
+     "nha-trang:p3:para:6",
+     "nha-trang:p4:para:2"
+    ]
+   },
+   {
+    "id": "q05",
+    "first_hit_rank": 1,
+    "top3": [
+     "nha-trang:p4:para:1",
+     "nha-trang:p4:para:3",
+     "nha-trang:p3:para:3"
+    ]
+   },
+   {
+    "id": "q06",
+    "first_hit_rank": 4,
+    "top3": [
+     "nha-trang:p4:para:3",
+     "nha-trang:p3:para:3",
+     "nha-trang:p3:para:6"
+    ]
+   },
+   {
+    "id": "q07",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p6:para:0",
+     "phu-quoc:p12:para:3",
+     "phu-quoc:p14:para:4"
+    ]
+   },
+   {
+    "id": "q08",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p7:para:1",
+     "phu-quoc:p22:para:0",
+     "phu-quoc:p7:para:0"
+    ]
+   },
+   {
+    "id": "q09",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p7:para:3",
+     "phu-quoc:p21:para:1",
+     "phu-quoc:p20:para:0"
+    ]
+   },
+   {
+    "id": "q10",
+    "first_hit_rank": 3,
+    "top3": [
+     "vung-tau:p34:para:0",
+     "phu-quoc:p9:para:2",
+     "phu-quoc:p9:para:0"
+    ]
+   },
+   {
+    "id": "q11",
+    "first_hit_rank": 2,
+    "top3": [
+     "phu-quoc:p9:para:6",
+     "phu-quoc:p9:para:9",
+     "phu-quoc:p10:para:3"
+    ]
+   },
+   {
+    "id": "q12",
+    "first_hit_rank": 3,
+    "top3": [
+     "phu-quoc:p16:para:0",
+     "sa-pa:p29:para:4",
+     "phu-quoc:p13:para:2"
+    ]
+   },
+   {
+    "id": "q13",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p14:para:2",
+     "phu-quoc:p14:para:1",
+     "phu-quoc:p12:para:3"
+    ]
+   },
+   {
+    "id": "q14",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p19:para:0"
+    ]
+   },
+   {
+    "id": "q15",
+    "first_hit_rank": 2,
+    "top3": [
+     "phu-quoc:p21:para:1",
+     "phu-quoc:p21:para:0",
+     "phu-quoc:p18:para:0"
+    ]
+   },
+   {
+    "id": "q16",
+    "first_hit_rank": 1,
+    "top3": [
+     "phu-quoc:p23:para:0",
+     "phu-quoc:p23:para:2",
+     "phu-quoc:p24:para:0"
+    ]
+   },
+   {
+    "id": "q17",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p28:para:0",
+     "sa-pa:p27:para:0",
+     "sa-pa:p29:para:0"
+    ]
+   },
+   {
+    "id": "q18",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p29:para:1",
+     "sa-pa:p30:para:2",
+     "sa-pa:p27:para:0"
+    ]
+   },
+   {
+    "id": "q19",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p29:para:2",
+     "sa-pa:p30:para:4",
+     "vung-tau:p34:para:2"
+    ]
+   },
+   {
+    "id": "q20",
+    "first_hit_rank": 1,
+    "top3": [
+     "sa-pa:p30:para:1",
+     "nha-trang:p4:para:3",
+     "sa-pa:p30:para:6"
+    ]
+   }
+  ]
+ }
+}
