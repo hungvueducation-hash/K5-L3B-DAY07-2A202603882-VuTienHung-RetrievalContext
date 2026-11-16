@@ -1,0 +1,362 @@
+{
+ "dense": {
+  "hit@1(any gold page)": "12/15",
+  "evidence_hit@3": "15/15",
+  "evidence_hit@5": "15/15",
+  "evidence_hit@10": "15/15",
+  "by_cat@5": {
+   "chart": "3/3",
+   "image": "3/3",
+   "multihop": "2/2",
+   "table": "4/4",
+   "text": "3/3"
+  },
+  "per_question": {
+   "d01": {
+    "cat": "table",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d02": {
+    "cat": "table",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d03": {
+    "cat": "table",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d04": {
+    "cat": "table",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d05": {
+    "cat": "image",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d06": {
+    "cat": "image",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d07": {
+    "cat": "image",
+    "need_rank": 2,
+    "min_rank": 2
+   },
+   "d08": {
+    "cat": "chart",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d09": {
+    "cat": "chart",
+    "need_rank": 2,
+    "min_rank": 2
+   },
+   "d10": {
+    "cat": "chart",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d11": {
+    "cat": "multihop",
+    "need_rank": 3,
+    "min_rank": 1
+   },
+   "d12": {
+    "cat": "multihop",
+    "need_rank": 2,
+    "min_rank": 1
+   },
+   "d13": {
+    "cat": "text",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d14": {
+    "cat": "text",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d15": {
+    "cat": "text",
+    "need_rank": 2,
+    "min_rank": 2
+   }
+  }
+ },
+ "bm25": {
+  "hit@1(any gold page)": "13/15",
+  "evidence_hit@3": "13/15",
+  "evidence_hit@5": "13/15",
+  "evidence_hit@10": "15/15",
+  "by_cat@5": {
+   "chart": "3/3",
+   "image": "3/3",
+   "multihop": "1/2",
+   "table": "4/4",
+   "text": "2/3"
+  },
+  "per_question": {
+   "d01": {
+    "cat": "table",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d02": {
+    "cat": "table",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d03": {
+    "cat": "table",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d04": {
+    "cat": "table",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d05": {
+    "cat": "image",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d06": {
+    "cat": "image",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d07": {
+    "cat": "image",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d08": {
+    "cat": "chart",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d09": {
+    "cat": "chart",
+    "need_rank": 2,
+    "min_rank": 2
+   },
+   "d10": {
+    "cat": "chart",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d11": {
+    "cat": "multihop",
+    "need_rank": 7,
+    "min_rank": 1
+   },
+   "d12": {
+    "cat": "multihop",
+    "need_rank": 2,
+    "min_rank": 1
+   },
+   "d13": {
+    "cat": "text",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d14": {
+    "cat": "text",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d15": {
+    "cat": "text",
+    "need_rank": 9,
+    "min_rank": 9
+   }
+  }
+ },
+ "hybrid_rrf": {
+  "hit@1(any gold page)": "13/15",
+  "evidence_hit@3": "14/15",
+  "evidence_hit@5": "15/15",
+  "evidence_hit@10": "15/15",
+  "by_cat@5": {
+   "chart": "3/3",
+   "image": "3/3",
+   "multihop": "2/2",
+   "table": "4/4",
+   "text": "3/3"
+  },
+  "per_question": {
+   "d01": {
+    "cat": "table",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d02": {
+    "cat": "table",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d03": {
+    "cat": "table",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d04": {
+    "cat": "table",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d05": {
+    "cat": "image",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d06": {
+    "cat": "image",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d07": {
+    "cat": "image",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d08": {
+    "cat": "chart",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d09": {
+    "cat": "chart",
+    "need_rank": 2,
+    "min_rank": 2
+   },
+   "d10": {
+    "cat": "chart",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d11": {
+    "cat": "multihop",
+    "need_rank": 4,
+    "min_rank": 1
+   },
+   "d12": {
+    "cat": "multihop",
+    "need_rank": 2,
+    "min_rank": 1
+   },
+   "d13": {
+    "cat": "text",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d14": {
+    "cat": "text",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d15": {
+    "cat": "text",
+    "need_rank": 2,
+    "min_rank": 2
+   }
+  }
+ },
+ "dense_visual_only": {
+  "hit@1(any gold page)": "13/15",
+  "evidence_hit@3": "13/15",
+  "evidence_hit@5": "14/15",
+  "evidence_hit@10": "14/15",
+  "by_cat@5": {
+   "chart": "3/3",
+   "image": "3/3",
+   "multihop": "2/2",
+   "table": "4/4",
+   "text": "2/3"
+  },
+  "per_question": {
+   "d01": {
+    "cat": "table",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d02": {
+    "cat": "table",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d03": {
+    "cat": "table",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d04": {
+    "cat": "table",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d05": {
+    "cat": "image",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d06": {
+    "cat": "image",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d07": {
+    "cat": "image",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d08": {
+    "cat": "chart",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d09": {
+    "cat": "chart",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d10": {
+    "cat": "chart",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d11": {
+    "cat": "multihop",
+    "need_rank": 2,
+    "min_rank": 1
+   },
+   "d12": {
+    "cat": "multihop",
+    "need_rank": 2,
+    "min_rank": 1
+   },
+   "d13": {
+    "cat": "text",
+    "need_rank": 1,
+    "min_rank": 1
+   },
+   "d14": {
+    "cat": "text",
+    "need_rank": 4,
+    "min_rank": 4
+   },
+   "d15": {
+    "cat": "text",
+    "need_rank": 99,
+    "min_rank": 99
+   }
+  }
+ }
+}

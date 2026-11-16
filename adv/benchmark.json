@@ -1,0 +1,753 @@
+[
+ {
+  "id": "t01",
+  "split": "test",
+  "category": "table",
+  "question": "According to the table on marginal contribution and cost-effectiveness of inequality reduction by tax and spending, what is the budget (% of GDP) and cost-effectiveness of VAT?",
+  "expected_answer": "Budget 8.0% of GDP; cost-effectiveness 0.03.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 234,
+    "kind": "table",
+    "region": "Table 15, row VAT",
+    "evidence": "VAT: marginal contribution 0.1, budget 8.0, cost effectiveness 0.03"
+   }
+  ]
+ },
+ {
+  "id": "t02",
+  "split": "test",
+  "category": "table",
+  "question": "In the simulation of cash-transfer expansion, what are the marginal contribution (MC) and fiscal impact (% of GDP) when targeting is improved to the Q3 cost-effectiveness level and social assistance spending is doubled?",
+  "expected_answer": "MC 2.1; fiscal impact -0.7% of GDP.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 237,
+    "kind": "table",
+    "region": "Table 16, 'Improved targeting, double SA' / Q3 CE",
+    "evidence": "Q3 CE: %GDP 1.4, CE 1.4, MC 2.1, change 1.7, fiscal impact -0.7"
+   }
+  ]
+ },
+ {
+  "id": "t03",
+  "split": "test",
+  "category": "table",
+  "question": "By how many percentage points does social pension coverage of people aged 60+ rise between the 2019 baseline and the 2030 reform scenario?",
+  "expected_answer": "From 15.7% to 35.4%, i.e. +19.7 percentage points.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 239,
+    "kind": "table",
+    "region": "Table 17, row Total 60+",
+    "evidence": "Total 60+: baseline coverage 15.7, reform scenario 2030 coverage 35.4"
+   }
+  ]
+ },
+ {
+  "id": "t04",
+  "split": "test",
+  "category": "table",
+  "question": "In the carbon-tax simulation table, what is the Gini effect and the effect at the US$6.85 poverty line of the 'Ambitious' scenario?",
+  "expected_answer": "Gini -0.09; US$6.85 poverty -1.7.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 240,
+    "kind": "table",
+    "region": "Table 18, row Ambitious",
+    "evidence": "Ambitious: Gini -0.09, US$3.65 -0.5, US$3.65 gap -0.2, US$6.85 -1.7, US$6.85 gap -0.6"
+   }
+  ]
+ },
+ {
+  "id": "t05",
+  "split": "test",
+  "category": "table",
+  "question": "Which of the six strategic areas of the Viet Nam 2035 recommendations had the lowest share of recommendations included in policy documents, and what was that share?",
+  "expected_answer": "Managing urbanization for greater efficiency: 5% (1 of 19).",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 68,
+    "kind": "table",
+    "region": "Table 1, row 3",
+    "evidence": "Managing urbanization for greater efficiency: total 19, in policy docs 1, 5%"
+   }
+  ]
+ },
+ {
+  "id": "t06",
+  "split": "test",
+  "category": "table",
+  "question": "In the legal framework table for public investment management, at which stage is the Public Investment Law NOT ticked?",
+  "expected_answer": "Operations.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 200,
+    "kind": "table",
+    "region": "Table 2, row Public Investment Law",
+    "evidence": "Public Investment Law ticked at strategic guidance, ex-ante evaluation, selection & budgeting, implementation & adjustment, ex post review; not Operations"
+   }
+  ]
+ },
+ {
+  "id": "t07",
+  "split": "test",
+  "category": "image",
+  "question": "In the diagram of the five policy packages, which package forms the base that supports the other packages?",
+  "expected_answer": "PP5: Modernizing institutions.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 33,
+    "kind": "diagram",
+    "region": "Figure 0.10",
+    "evidence": "PP5 'Modernizing institution' at the bottom with arrows up to both the PP1-PP2 box and the PP3-PP4 box"
+   }
+  ]
+ },
+ {
+  "id": "t08",
+  "split": "test",
+  "category": "image",
+  "question": "According to the diagram organizing the report's chapters into four (five) parts, which chapters belong to the part on infrastructure and resources?",
+  "expected_answer": "Chapter 8 (spatial and digital connectivity), Chapter 9 (adapting to climate change), Chapter 10 (resource mobilization).",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 60,
+    "kind": "diagram",
+    "region": "Figure 11, Part 3",
+    "evidence": "Part 3: Infrastructure and resources - Chapter 8, Chapter 9, Chapter 10"
+   }
+  ]
+ },
+ {
+  "id": "t09",
+  "split": "test",
+  "category": "image",
+  "question": "In the integrated social protection information system diagram, which four external connections are shown along the top?",
+  "expected_answer": "VSS, MoET, MoH and MARD (Disaster Management).",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 149,
+    "kind": "diagram",
+    "region": "Figure 85, top row 'External Connections'",
+    "evidence": "VSS, MoET, MoH, MARD-Disaster Management"
+   }
+  ]
+ },
+ {
+  "id": "t10",
+  "split": "test",
+  "category": "image",
+  "question": "In the Mekong Delta salinity-intrusion map (present climate), how many classes does the legend have and what is the highest class?",
+  "expected_answer": "Four classes; the highest is 10 g/l for more than 6 months.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 224,
+    "kind": "diagram",
+    "region": "Figure 146, Panel C legend",
+    "evidence": "<1 g/l for <1 month; 1-4 g/l for 1-3 months; 4-10 g/l for 4-6 months; 10 g/l for >6 months"
+   }
+  ]
+ },
+ {
+  "id": "t11",
+  "split": "test",
+  "category": "image",
+  "question": "In the 'Drivers of growth' framework diagram, which three elements feed into output and which element influences all of them from above?",
+  "expected_answer": "Capital, Labor and Productivity feed output; Institutions influence them (with Shocks acting from below).",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 59,
+    "kind": "diagram",
+    "region": "Figure 10",
+    "evidence": "Institutions box above Capital, Labor, Productivity -> OUTPUT; Shocks boxes below each"
+   }
+  ]
+ },
+ {
+  "id": "t12",
+  "split": "test",
+  "category": "chart",
+  "question": "In the chart on achieving high-income status by 2045, what was Viet Nam's GDP per capita in 2023 and what yearly growth rate is required from then to reach the 2045 level?",
+  "expected_answer": "US$4,347 in 2023; +6.0% per annum is required (vs +5.1% p.a. achieved 1986-2023).",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 21,
+    "kind": "chart",
+    "region": "Figure O.1",
+    "evidence": "682 (1986), 2310 (2010), 4347 (2023), 15584 (2045); +5.1% p.a. then +6.0% p.a."
+   }
+  ],
+  "note": "Cùng biểu đồ xuất hiện lại ở Figure 7 (trang PDF 56): trang 56 cũng là gold hợp lệ."
+ },
+ {
+  "id": "t13",
+  "split": "test",
+  "category": "chart",
+  "question": "In the chart comparing due process and independence scores, which income group has the highest scores on both indicators?",
+  "expected_answer": "High-income countries (about 0.7 on both).",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 47,
+    "kind": "chart",
+    "region": "Figure 0.19",
+    "evidence": "High-Income bars highest (~0.7) for both series; Viet Nam ~0.45 and ~0.29"
+   }
+  ]
+ },
+ {
+  "id": "t14",
+  "split": "test",
+  "category": "chart",
+  "question": "In the chart of the share of US GNI per capita for selected countries, which country has risen to the highest share by 2023?",
+  "expected_answer": "China (about 26%).",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 56,
+    "kind": "chart",
+    "region": "Figure 8",
+    "evidence": "China line ends highest (~26) at 2023; upper middle income group ~13"
+   }
+  ]
+ },
+ {
+  "id": "t15",
+  "split": "test",
+  "category": "chart",
+  "question": "How many years does Viet Nam take to move from 7 to 14 percent of the population aged 65+, versus France?",
+  "expected_answer": "Viet Nam 15 years; France 115 years.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 130,
+    "kind": "chart",
+    "region": "Figure 67",
+    "evidence": "Vietnam (15) ... France (115)"
+   }
+  ]
+ },
+ {
+  "id": "t16",
+  "split": "test",
+  "category": "chart",
+  "question": "In the chart of economic damages by channel, which channel accounts for the largest share and does its share rise or fall between 2030 and 2045?",
+  "expected_answer": "Heat stress (labor productivity); its share rises (about 63% in 2030 to about 77% in 2045).",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 182,
+    "kind": "chart",
+    "region": "Figure 109",
+    "evidence": "Heat stress dark-blue segment largest, increasing across 2030-2045"
+   }
+  ]
+ },
+ {
+  "id": "t17",
+  "split": "test",
+  "category": "multihop",
+  "question": "By how much do climate impacts reduce Viet Nam's GDP level by 2045, and what yearly growth of GDP per capita is needed from 2023 to reach high-income status in 2045?",
+  "expected_answer": "GDP lower by 11.2% by 2045; growth of 6.0% per year is needed.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 182,
+    "kind": "text",
+    "region": "text near Figure 108",
+    "evidence": "projected loss from 11.2 percent to 6.0 percent"
+   },
+   {
+    "page": 21,
+    "kind": "chart",
+    "region": "Figure O.1",
+    "evidence": "+6.0% p.a. between 2023 and 2045"
+   }
+  ]
+ },
+ {
+  "id": "t18",
+  "split": "test",
+  "category": "multihop",
+  "question": "How does the current cost-effectiveness of cash transfers in Viet Nam compare with the global median cost-effectiveness of cash transfers?",
+  "expected_answer": "Viet Nam's cash transfers: 0.03; global median: 1.12 points (about 37 times higher).",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 234,
+    "kind": "table",
+    "region": "Table 15, row Cash transfers",
+    "evidence": "Cash transfers cost effectiveness 0.03"
+   },
+   {
+    "page": 237,
+    "kind": "text",
+    "region": "text above Table 16",
+    "evidence": "median cost-effectiveness of cash transfers, for countries for which there is data, is 1.12 points"
+   }
+  ]
+ },
+ {
+  "id": "t19",
+  "split": "test",
+  "category": "multihop",
+  "question": "Which policy package is meant to ensure everyone gains from the high-income transition, and to which part and chapter of the report does it correspond?",
+  "expected_answer": "PP4 (Ensuring everyone gains from the HIC transition) corresponds to Part 5 on Equity, Chapter 12.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 33,
+    "kind": "diagram",
+    "region": "Figure 0.10",
+    "evidence": "PP4: Ensuring everyone gains from the HIC transition"
+   },
+   {
+    "page": 60,
+    "kind": "diagram",
+    "region": "Figure 11, Part 5",
+    "evidence": "Part 5: Equity - Chapter 12: Equity"
+   }
+  ]
+ },
+ {
+  "id": "t20",
+  "split": "test",
+  "category": "multihop",
+  "question": "What share of their budget do the poorest households spend directly on fossil fuels and electricity, and what is the effect of a carbon tax on the Gini index?",
+  "expected_answer": "About 12% for the poorest two deciles; the carbon tax changes Gini by -0.03.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 239,
+    "kind": "text",
+    "region": "carbon taxes section",
+    "evidence": "slightly higher (12 percent) for the poorest two deciles"
+   },
+   {
+    "page": 240,
+    "kind": "table",
+    "region": "Table 18, row Carbon tax",
+    "evidence": "Carbon tax: Gini -0.03"
+   }
+  ]
+ },
+ {
+  "id": "t21",
+  "split": "test",
+  "category": "text",
+  "question": "How much did gross capital formation increase between 2000 and 2010?",
+  "expected_answer": "From 30 percent to 37 percent of GDP.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 60,
+    "kind": "text",
+    "region": "section 1.5.1",
+    "evidence": "Between 2000 and 2010, gross capital formation (GCF) increased from 30 percent to 37 percent of GDP"
+   }
+  ]
+ },
+ {
+  "id": "t22",
+  "split": "test",
+  "category": "text",
+  "question": "By how many jobs could net employment increase in 2030 under decarbonization policies aimed at net zero by 2050?",
+  "expected_answer": "By 726,000 jobs in 2030.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 240,
+    "kind": "text",
+    "region": "carbon transition paragraph",
+    "evidence": "net employment could increase by 726,000 jobs in 2030"
+   }
+  ]
+ },
+ {
+  "id": "t23",
+  "split": "test",
+  "category": "text",
+  "question": "If inequality stays at current levels, what share of Vietnamese would earn at or above the high-income level in 2045?",
+  "expected_answer": "38 percent (the remaining 62 percent would live on less).",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 21,
+    "kind": "text",
+    "region": "equitable prosperity paragraph",
+    "evidence": "only 38 percent of the population would earn at or above high-income level"
+   }
+  ]
+ },
+ {
+  "id": "t24",
+  "split": "test",
+  "category": "text",
+  "question": "By how many percentage points can adaptation measures reduce the projected climate-related GDP loss, and to what level?",
+  "expected_answer": "By 5.2 points: from 11.2 percent to 6.0 percent (an improvement of 46 percent).",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 182,
+    "kind": "text",
+    "region": "adaptation paragraph",
+    "evidence": "reducing the projected loss from 11.2 percent to 6.0 percent, an improvement of 46 percent"
+   }
+  ]
+ },
+ {
+  "id": "d01",
+  "split": "dev",
+  "category": "table",
+  "question": "In the green growth reform agenda table, what moderate carbon tax level is recommended?",
+  "expected_answer": "A moderate carbon tax of US$7.5-15 per ton, by reforming the EPT fuel excise tax starting with coal.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 125,
+    "kind": "table",
+    "region": "Table 5, first row",
+    "evidence": "Introduce a moderate carbon tax ($7.5-15/ton) by reforming the EPT fuel excise tax"
+   }
+  ]
+ },
+ {
+  "id": "d02",
+  "split": "dev",
+  "category": "table",
+  "question": "In the table of the objectives, policy pillars and programs of a social protection system, which pillar corresponds to the 'Promotion' objective?",
+  "expected_answer": "Labor Market.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 140,
+    "kind": "table",
+    "region": "Table 7, row Promotion",
+    "evidence": "Promotion - Labor Market - employment services, labor market information systems, passive programs"
+   }
+  ]
+ },
+ {
+  "id": "d03",
+  "split": "dev",
+  "category": "table",
+  "question": "In the resource mobilization reform agenda, which tax instruments should be modernized first under the domestic revenue mobilization package?",
+  "expected_answer": "VAT exemptions, PIT, CIT and property taxes.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 196,
+    "kind": "table",
+    "region": "Table 11, package 2",
+    "evidence": "Modernize major tax instruments, starting with VAT exemptions, PIT, CIT, and property taxes"
+   }
+  ]
+ },
+ {
+  "id": "d04",
+  "split": "dev",
+  "category": "table",
+  "question": "In the social protection reform agenda table, what medium-term funding target is set for social protection?",
+  "expected_answer": "6 percent of GDP.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 153,
+    "kind": "table",
+    "region": "Table 8, package 4",
+    "evidence": "Increase social protection funding to 6 percent of GDP in the medium term"
+   }
+  ]
+ },
+ {
+  "id": "d05",
+  "split": "dev",
+  "category": "image",
+  "question": "In the social protection framework diagram (Resolution 15), what are the four components under Social Protection?",
+  "expected_answer": "Social Assistance; Social Insurance; Employment, Incomes and Poverty Reduction; Minimum Basic Social Services.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 141,
+    "kind": "diagram",
+    "region": "Figure 73",
+    "evidence": "Social Assistance, Social Insurance, Employment Incomes and Poverty Reduction, Minimum Basic Social Services"
+   }
+  ]
+ },
+ {
+  "id": "d06",
+  "split": "dev",
+  "category": "image",
+  "question": "In the Mekong Delta maps of extreme heat for 1983-2016, what is the maximum number of days on the legend scale?",
+  "expected_answer": "40 days (Max. WBGT > 30C).",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 181,
+    "kind": "diagram",
+    "region": "Figure 107, Panel B legend",
+    "evidence": "legend Max. WBGT >30C: 0, 10, 20, 30, 40 days"
+   }
+  ]
+ },
+ {
+  "id": "d07",
+  "split": "dev",
+  "category": "image",
+  "question": "The two ASEAN maps of levelized cost of energy compare which two energy sources?",
+  "expected_answer": "Solar (PV) and wind.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 124,
+    "kind": "diagram",
+    "region": "Figures 62 and 63",
+    "evidence": "Figure 62 LCOE of solar energy; Figure 63 wind energy, ASEAN countries"
+   }
+  ]
+ },
+ {
+  "id": "d08",
+  "split": "dev",
+  "category": "chart",
+  "question": "According to the PDP8 power-mix chart, what are the shares of solar power in 2022 and in 2050?",
+  "expected_answer": "21% in 2022 and 34% in 2050 (+13 points).",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 122,
+    "kind": "chart",
+    "region": "Figure 61",
+    "evidence": "2022: solar 21%; 2050: solar 34%"
+   }
+  ]
+ },
+ {
+  "id": "d09",
+  "split": "dev",
+  "category": "chart",
+  "question": "In which year did venture capital investments in Viet Nam peak?",
+  "expected_answer": "2021.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 115,
+    "kind": "chart",
+    "region": "Figure 55",
+    "evidence": "VC investment bar highest in 2021 (~US$1.4 billion)"
+   }
+  ]
+ },
+ {
+  "id": "d10",
+  "split": "dev",
+  "category": "chart",
+  "question": "What was electricity demand (TWh) in 2023 and 2010 in the load growth chart, and how many times higher is it?",
+  "expected_answer": "251.3 TWh in 2023 vs 85.7 TWh in 2010, about 2.9 times.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 78,
+    "kind": "chart",
+    "region": "Figure 25",
+    "evidence": "85.7 (2010), 143.5 (2015), 214.3 (2020), 251.3 (2023)"
+   }
+  ]
+ },
+ {
+  "id": "d11",
+  "split": "dev",
+  "category": "multihop",
+  "question": "How much was electricity demand in 2023 and what share of the power mix is planned for solar in 2050?",
+  "expected_answer": "251.3 TWh in 2023; solar 34% of the power mix by 2050.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 78,
+    "kind": "chart",
+    "region": "Figure 25",
+    "evidence": "251.3 TWh in 2023"
+   },
+   {
+    "page": 122,
+    "kind": "chart",
+    "region": "Figure 61",
+    "evidence": "2050 solar 34%"
+   }
+  ]
+ },
+ {
+  "id": "d12",
+  "split": "dev",
+  "category": "multihop",
+  "question": "How many main components does the social protection framework diagram show, and which pillar covers programs that promote people's movement out of poverty?",
+  "expected_answer": "Four components; the Labor Market pillar (Promotion objective).",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 141,
+    "kind": "diagram",
+    "region": "Figure 73",
+    "evidence": "four components under Social Protection"
+   },
+   {
+    "page": 140,
+    "kind": "table",
+    "region": "Table 7, Promotion",
+    "evidence": "Promotion - Labor Market"
+   }
+  ]
+ },
+ {
+  "id": "d13",
+  "split": "dev",
+  "category": "text",
+  "question": "What current UMIC averages of GDP spending on social assistance and social insurance does the report cite as a financing target?",
+  "expected_answer": "2.0 percent of GDP on social assistance and 4.1 percent on social insurance.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 153,
+    "kind": "text",
+    "region": "text above Table 8",
+    "evidence": "The current UMIC average of 2.0 percent of GDP on social assistance and 4.1 percent on social insurance"
+   }
+  ]
+ },
+ {
+  "id": "d14",
+  "split": "dev",
+  "category": "text",
+  "question": "By what year is a domestic carbon market under an emissions trading system planned to be developed?",
+  "expected_answer": "By 2028.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 122,
+    "kind": "text",
+    "region": "carbon price paragraph",
+    "evidence": "roadmap for the development of a domestic carbon market by 2028"
+   }
+  ]
+ },
+ {
+  "id": "d15",
+  "split": "dev",
+  "category": "text",
+  "question": "How much installed power capacity did Viet Nam have in 2021, and how often must it be doubled?",
+  "expected_answer": "78 gigawatts in 2021; it must double every ten years.",
+  "answerable": true,
+  "gold": [
+   {
+    "page": 78,
+    "kind": "text",
+    "region": "infrastructure bottlenecks",
+    "evidence": "doubling the existing installed capacity (78 gigawatts in 2021) every ten years"
+   }
+  ]
+ },
+ {
+  "id": "t25",
+  "split": "test",
+  "category": "absent",
+  "question": "What was Viet Nam's unemployment rate in 2023?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Báo cáo bàn về việc làm/kỹ năng nhưng không nêu tỷ lệ thất nghiệp.",
+  "absence_check": "regex 'unemploy[a-z]* rate|rate of unemploy' trên text 248 trang + mô tả trực quan: 0 khớp"
+ },
+ {
+  "id": "t26",
+  "split": "test",
+  "category": "absent",
+  "question": "What is the total investment cost of the Ngoc Hoi station project in US dollars?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Box 4 mô tả quy hoạch (251 ha) nhưng không nêu chi phí đầu tư.",
+  "absence_check": "regex 'Ngoc Hoi[^.]{0,200}(\\\\$|billion|cost)' trên text 248 trang + mô tả trực quan: 0 khớp"
+ },
+ {
+  "id": "t27",
+  "split": "test",
+  "category": "absent",
+  "question": "How many unicorn companies does Viet Nam have?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Phần đổi mới sáng tạo/VC không nhắc unicorn.",
+  "absence_check": "regex 'unicorn' trên text 248 trang + mô tả trực quan: 0 khớp"
+ },
+ {
+  "id": "t28",
+  "split": "test",
+  "category": "absent",
+  "question": "What is the average retail electricity price in Viet Nam in US cents per kWh?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Phần năng lượng nói về feed-in tariff và chi phí LCOE, không nêu giá điện bán lẻ trung bình.",
+  "absence_check": "regex 'tariff[^.]{0,60}(cents?|kWh)|cents? per kWh' trên text 248 trang + mô tả trực quan: 0 khớp"
+ },
+ {
+  "id": "t29",
+  "split": "test",
+  "category": "absent",
+  "question": "How much FDI did Viet Nam disburse in 2024 in billions of US dollars?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Figure 112 chỉ so sánh FDI theo % GDP, không có giá trị giải ngân 2024.",
+  "absence_check": "regex 'FDI[^.]{0,60}\\\\$ ?\\\\d+(\\\\.\\\\d+)? billion|disbursed FDI' trên text 248 trang + mô tả trực quan: 0 khớp"
+ },
+ {
+  "id": "t30",
+  "split": "test",
+  "category": "absent",
+  "question": "What is the average monthly salary of a worker in Viet Nam in VND?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Không có lương trung bình tuyệt đối bằng VND.",
+  "absence_check": "regex 'average (monthly )?(wage|salary|income)[^.]{0,40}(VND|dong)' trên text 248 trang + mô tả trực quan: 0 khớp"
+ },
+ {
+  "id": "d16",
+  "split": "dev",
+  "category": "absent",
+  "question": "How many university students are enrolled in Viet Nam in 2023?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Báo cáo nêu tỷ lệ nhập học, không nêu số lượng sinh viên.",
+  "absence_check": "regex '\\\\d[\\\\d,\\\\.]* (million |thousand )?(university|tertiary|college) students' trên text 248 trang + mô tả trực quan: 0 khớp"
+ },
+ {
+  "id": "d17",
+  "split": "dev",
+  "category": "absent",
+  "question": "How many million internet users does Viet Nam have?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Chỉ có tỷ lệ % người dùng internet, không có số người dùng.",
+  "absence_check": "regex '\\\\d+(\\\\.\\\\d+)? million (internet|smartphone|mobile) (users|subscribers)' trên text 248 trang + mô tả trực quan: 0 khớp"
+ },
+ {
+  "id": "d18",
+  "split": "dev",
+  "category": "absent",
+  "question": "What is the ticket price of a Hanoi-Ho Chi Minh City train?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Phần đường sắt nói mật độ km/triệu dân, không nêu giá vé.",
+  "absence_check": "regex 'ticket (price|fare)|fare of' trên text 248 trang + mô tả trực quan: 1 khớp"
+ }
+]

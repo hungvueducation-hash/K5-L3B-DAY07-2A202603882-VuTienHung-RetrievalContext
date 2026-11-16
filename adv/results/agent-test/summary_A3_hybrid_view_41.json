@@ -1,0 +1,25 @@
+{
+ "config": "A3_hybrid_view_41",
+ "split": "test",
+ "cfg": {
+  "r": "hybrid",
+  "model": "gpt-4.1",
+  "use_view": true
+ },
+ "n": 30,
+ "errors": 0,
+ "pass_auto": "23/30",
+ "by_category": {
+  "table": "6/6",
+  "image": "5/5",
+  "chart": "2/5",
+  "multihop": "2/4",
+  "text": "3/4",
+  "absent": "5/6"
+ },
+ "answerable_pass": "18/24",
+ "tool_use": "30/30",
+ "avg_views": 2.1,
+ "seconds_total": 2286.0,
+ "cost_usd": 1.274
+}

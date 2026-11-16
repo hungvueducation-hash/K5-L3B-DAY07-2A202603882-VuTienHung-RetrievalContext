@@ -1,0 +1,3782 @@
+[
+ {
+  "status": "answered",
+  "answer": "According to Table 15, the budget for VAT is 8.0% of GDP and its cost-effectiveness is 0.03.",
+  "citations": [
+   "p234"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "marginal contribution and cost-effectiveness of inequality reduction by tax and spending table",
+    "results": [
+     {
+      "id": "p234:v0",
+      "page": 234,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p234:t2",
+      "page": 234,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p237:t1",
+      "page": 237,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p233:t0",
+      "page": 233,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p014:t1",
+      "page": 14,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 234
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p234:v0",
+   "p234:t2",
+   "p237:t1",
+   "p233:t0",
+   "p014:t1"
+  ],
+  "viewed_pages": [
+   234
+  ],
+  "usage": {
+   "prompt": 4758,
+   "completion": 98,
+   "calls": 3,
+   "seconds": 10.0,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.0103
+  },
+  "query_id": "t01",
+  "gold_pages": [
+   234
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly states both the budget (8.0% of GDP) and the cost-effectiveness (0.03) for VAT, matching the reference answer exactly. The mention of 'Table 15' is an extra but accurate detail."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "When targeting is improved to the Q3 cost-effectiveness level and social assistance spending is doubled, the marginal contribution (MC) is 2.1 and the fiscal impact is -0.7% of GDP.",
+  "citations": [
+   "p237"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "cash-transfer expansion simulation marginal contribution fiscal impact Q3 cost-effectiveness double social assistance",
+    "results": [
+     {
+      "id": "p237:v0",
+      "page": 237,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p234:v0",
+      "page": 234,
+      "kind": "visual",
+      "rank": 2
+     },
+     {
+      "id": "p237:t1",
+      "page": 237,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p234:t2",
+      "page": 234,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p237:t2",
+      "page": 237,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 237
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p237:v0",
+   "p234:v0",
+   "p237:t1",
+   "p234:t2",
+   "p237:t2"
+  ],
+  "viewed_pages": [
+   237
+  ],
+  "usage": {
+   "prompt": 5128,
+   "completion": 112,
+   "calls": 3,
+   "seconds": 9.8,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.01115
+  },
+  "query_id": "t02",
+  "gold_pages": [
+   237
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly states both the marginal contribution (2.1) and the fiscal impact (-0.7% of GDP) under the specified scenario, matching the reference answer exactly."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "Social pension coverage of people aged 60+ rises from 15.7% in the 2019 baseline to 35.4% in the 2030 reform scenario, an increase of 19.7 percentage points.",
+  "citations": [
+   "p239"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "social pension coverage people aged 60+ 2019 2030 reform scenario",
+    "results": [
+     {
+      "id": "p239:v0",
+      "page": 239,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p238:t1",
+      "page": 238,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p141:t1",
+      "page": 141,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p239:t2",
+      "page": 239,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p142:t2",
+      "page": 142,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 239
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p239:v0",
+   "p238:t1",
+   "p141:t1",
+   "p239:t2",
+   "p142:t2"
+  ],
+  "viewed_pages": [
+   239
+  ],
+  "usage": {
+   "prompt": 5418,
+   "completion": 115,
+   "calls": 3,
+   "seconds": 10.3,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.01176
+  },
+  "query_id": "t03",
+  "gold_pages": [
+   239
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer includes all the required facts: the initial percentage (15.7%), the final percentage (35.4%), and the increase in percentage points (19.7). All numbers are consistent with the reference answer."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "In the carbon-tax simulation table, the 'Ambitious' scenario has a Gini effect of -0.09 and an effect at the US$6.85 poverty line of -1.7 (marginal contribution).",
+  "citations": [
+   "p240"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "carbon-tax simulation table",
+    "results": [
+     {
+      "id": "p240:v0",
+      "page": 240,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p240:t2",
+      "page": 240,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p125:v0",
+      "page": 125,
+      "kind": "visual",
+      "rank": 3
+     },
+     {
+      "id": "p014:t1",
+      "page": 14,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p125:t2",
+      "page": 125,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 240
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p240:v0",
+   "p240:t2",
+   "p125:v0",
+   "p014:t1",
+   "p125:t2"
+  ],
+  "viewed_pages": [
+   240
+  ],
+  "usage": {
+   "prompt": 5205,
+   "completion": 104,
+   "calls": 3,
+   "seconds": 10.2,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.01124
+  },
+  "query_id": "t04",
+  "gold_pages": [
+   240
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly states both the Gini effect (-0.09) and the effect at the US$6.85 poverty line (-1.7) for the 'Ambitious' scenario, matching the reference answer. The mention of 'marginal contribution' is extra detail but does not contradict the required facts."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "The strategic area 'Managing urbanization for greater efficiency' had the lowest share of recommendations included in policy documents, with only 5%.",
+  "citations": [
+   "p068"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Viet Nam 2035 six strategic areas recommendations share included in policy documents",
+    "results": [
+     {
+      "id": "p068:v0",
+      "page": 68,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p068:t3",
+      "page": 68,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p014:t0",
+      "page": 14,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p102:t0",
+      "page": 102,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p244:t3",
+      "page": 244,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 68
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p068:v0",
+   "p068:t3",
+   "p014:t0",
+   "p102:t0",
+   "p244:t3"
+  ],
+  "viewed_pages": [
+   68
+  ],
+  "usage": {
+   "prompt": 4619,
+   "completion": 96,
+   "calls": 3,
+   "seconds": 7.5,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.01001
+  },
+  "query_id": "t05",
+  "gold_pages": [
+   68
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly identifies 'Managing urbanization for greater efficiency' as the strategic area with the lowest share and accurately states the share as 5%. All key facts from the reference are present and consistent."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "In the legal framework table for public investment management, the Public Investment Law is NOT ticked at the 'Operations' stage.",
+  "citations": [
+   "p200"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "legal framework table public investment management Public Investment Law",
+    "results": [
+     {
+      "id": "p200:v0",
+      "page": 200,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p201:t0",
+      "page": 201,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p199:t3",
+      "page": 199,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p046:t1",
+      "page": 46,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p200:t1",
+      "page": 200,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 200
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p200:v0",
+   "p201:t0",
+   "p199:t3",
+   "p046:t1",
+   "p200:t1"
+  ],
+  "viewed_pages": [
+   200
+  ],
+  "usage": {
+   "prompt": 4252,
+   "completion": 87,
+   "calls": 3,
+   "seconds": 6.2,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.0092
+  },
+  "query_id": "t06",
+  "gold_pages": [
+   200
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly identifies that the Public Investment Law is NOT ticked at the 'Operations' stage, matching the reference answer exactly."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "The policy package that forms the base and supports the other packages is PP5: Modernizing institution. This foundational set of policies underpins the effectiveness of the other four packages.",
+  "citations": [
+   "p033:v0",
+   "p032:t1"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "diagram five policy packages base supports other packages",
+    "results": [
+     {
+      "id": "p033:v0",
+      "page": 33,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p032:t1",
+      "page": 32,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p042:t0",
+      "page": 42,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p048:v0",
+      "page": 48,
+      "kind": "visual",
+      "rank": 4
+     },
+     {
+      "id": "p214:v0",
+      "page": 214,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 33
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "PP5 Modernizing institution base supports other packages",
+    "results": [
+     {
+      "id": "p032:t1",
+      "page": 32,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p214:v0",
+      "page": 214,
+      "kind": "visual",
+      "rank": 2
+     },
+     {
+      "id": "p033:t2",
+      "page": 33,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p033:v0",
+      "page": 33,
+      "kind": "visual",
+      "rank": 4
+     },
+     {
+      "id": "p045:t1",
+      "page": 45,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 32
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p033:v0",
+   "p032:t1",
+   "p042:t0",
+   "p048:v0",
+   "p214:v0",
+   "p033:t2",
+   "p045:t1"
+  ],
+  "viewed_pages": [
+   33,
+   32
+  ],
+  "usage": {
+   "prompt": 11661,
+   "completion": 139,
+   "calls": 5,
+   "seconds": 36.0,
+   "searches": 2,
+   "views": 2,
+   "cost_usd": 0.02443
+  },
+  "query_id": "t07",
+  "gold_pages": [
+   33
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly identifies PP5: Modernizing institutions as the base that supports the other packages, matching the reference answer. The additional explanation about it being foundational is accurate and does not contradict the reference."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "The chapters belonging to the part on infrastructure and resources are:\n- Chapter 8: Spatial and digital connectivity\n- Chapter 9: Adapting to Climate Change\n- Chapter 10: Resource mobilization",
+  "citations": [
+   "p060"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "diagram chapters parts infrastructure resources",
+    "results": [
+     {
+      "id": "p060:v0",
+      "page": 60,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p154:t0",
+      "page": 154,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p071:t1",
+      "page": 71,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p060:t0",
+      "page": 60,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p006:t0",
+      "page": 6,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 60
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p060:v0",
+   "p154:t0",
+   "p071:t1",
+   "p060:t0",
+   "p006:t0"
+  ],
+  "viewed_pages": [
+   60
+  ],
+  "usage": {
+   "prompt": 4973,
+   "completion": 102,
+   "calls": 3,
+   "seconds": 7.2,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.01076
+  },
+  "query_id": "t08",
+  "gold_pages": [
+   60
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer lists all the chapters (8, 9, and 10) and their correct titles as specified in the reference answer. No required information is missing or incorrect."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "The four external connections shown along the top of the integrated social protection information system diagram are:\n1. VSS\n2. MoET\n3. MoH\n4. MARD - Disaster Management",
+  "citations": [
+   "p149"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "integrated social protection information system diagram",
+    "results": [
+     {
+      "id": "p149:v0",
+      "page": 149,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p141:v0",
+      "page": 141,
+      "kind": "visual",
+      "rank": 2
+     },
+     {
+      "id": "p140:v0",
+      "page": 140,
+      "kind": "visual",
+      "rank": 3
+     },
+     {
+      "id": "p149:t0",
+      "page": 149,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p148:t0",
+      "page": 148,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 149
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p149:v0",
+   "p141:v0",
+   "p140:v0",
+   "p149:t0",
+   "p148:t0"
+  ],
+  "viewed_pages": [
+   149
+  ],
+  "usage": {
+   "prompt": 5085,
+   "completion": 102,
+   "calls": 3,
+   "seconds": 12.9,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.01099
+  },
+  "query_id": "t09",
+  "gold_pages": [
+   149
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer lists all four external connections (VSS, MoET, MoH, and MARD - Disaster Management) exactly as in the reference answer, with no missing or incorrect information."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "The legend for the Mekong Delta salinity-intrusion map (present climate) has 4 classes. The highest class is '10 g/l for > 6 months.'",
+  "citations": [
+   "p181",
+   "p224"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Mekong Delta salinity-intrusion map present climate",
+    "results": [
+     {
+      "id": "p181:v0",
+      "page": 181,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p224:v0",
+      "page": 224,
+      "kind": "visual",
+      "rank": 2
+     },
+     {
+      "id": "p181:t1",
+      "page": 181,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p180:t2",
+      "page": 180,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p224:t0",
+      "page": 224,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 181
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 224
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p181:v0",
+   "p224:v0",
+   "p181:t1",
+   "p180:t2",
+   "p224:t0"
+  ],
+  "viewed_pages": [
+   181,
+   224
+  ],
+  "usage": {
+   "prompt": 10341,
+   "completion": 119,
+   "calls": 4,
+   "seconds": 32.8,
+   "searches": 1,
+   "views": 2,
+   "cost_usd": 0.02163
+  },
+  "query_id": "t10",
+  "gold_pages": [
+   224
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly states that there are 4 classes in the legend and that the highest class is '10 g/l for > 6 months,' matching the reference answer exactly."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "In the 'Drivers of growth' framework diagram, the three elements that feed into output are Capital, Labor, and Productivity. The element that influences all of them from above is Institutions.",
+  "citations": [
+   "p059"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Drivers of growth framework diagram",
+    "results": [
+     {
+      "id": "p059:v0",
+      "page": 59,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p059:t1",
+      "page": 59,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p058:t3",
+      "page": 58,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p172:v0",
+      "page": 172,
+      "kind": "visual",
+      "rank": 4
+     },
+     {
+      "id": "p060:v0",
+      "page": 60,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 59
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p059:v0",
+   "p059:t1",
+   "p058:t3",
+   "p172:v0",
+   "p060:v0"
+  ],
+  "viewed_pages": [
+   59
+  ],
+  "usage": {
+   "prompt": 4816,
+   "completion": 95,
+   "calls": 3,
+   "seconds": 16.2,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.01039
+  },
+  "query_id": "t11",
+  "gold_pages": [
+   59
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly identifies Capital, Labor, and Productivity as feeding into output, and Institutions as influencing all of them from above, matching the reference answer. No key facts are missing or incorrect."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "According to the chart, Viet Nam's GDP per capita in 2023 was $4,347. To reach high-income status by 2045, a yearly growth rate of 6.0% is required from 2023 to 2045.",
+  "citations": [
+   "p021"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "chart GDP per capita 2023 high-income 2045 growth rate",
+    "results": [
+     {
+      "id": "p021:v0",
+      "page": 21,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p021:t2",
+      "page": 21,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p007:t2",
+      "page": 7,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p055:t0",
+      "page": 55,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p026:v0",
+      "page": 26,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 21
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p021:v0",
+   "p021:t2",
+   "p007:t2",
+   "p055:t0",
+   "p026:v0"
+  ],
+  "viewed_pages": [
+   21
+  ],
+  "usage": {
+   "prompt": 4848,
+   "completion": 119,
+   "calls": 3,
+   "seconds": 14.3,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.01065
+  },
+  "query_id": "t12",
+  "gold_pages": [
+   21
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly states Viet Nam's GDP per capita in 2023 as $4,347 and the required yearly growth rate as 6.0% to reach high-income status by 2045, matching the reference answer. All key facts are present and accurate."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "The high-income group has the highest scores on both due process and independence indicators in the chart. Both scores are approximately 0.65, higher than all other income groups.",
+  "citations": [
+   "p211"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "chart due process and independence scores by income group",
+    "results": [
+     {
+      "id": "p047:v0",
+      "page": 47,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p211:v0",
+      "page": 211,
+      "kind": "visual",
+      "rank": 2
+     },
+     {
+      "id": "p047:t1",
+      "page": 47,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p211:t1",
+      "page": 211,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p211:t2",
+      "page": 211,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 211
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p047:v0",
+   "p211:v0",
+   "p047:t1",
+   "p211:t1",
+   "p211:t2"
+  ],
+  "viewed_pages": [
+   211
+  ],
+  "usage": {
+   "prompt": 5477,
+   "completion": 97,
+   "calls": 3,
+   "seconds": 18.6,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.01173
+  },
+  "query_id": "t13",
+  "gold_pages": [
+   47
+  ],
+  "cites_all_gold_pages": false,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly identifies high-income countries as having the highest scores on both indicators and provides approximate values (~0.65), which is close enough to the reference's ~0.7 given the context of chart approximations."
+  },
+  "pass_auto": false
+ },
+ {
+  "status": "answered",
+  "answer": "In the chart of the share of US GNI per capita for selected countries, China has risen to the highest share by 2023, reaching over 25%.",
+  "citations": [
+   "p056"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "share of US GNI per capita chart",
+    "results": [
+     {
+      "id": "p053:t1",
+      "page": 53,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p056:t0",
+      "page": 56,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p053:v0",
+      "page": 53,
+      "kind": "visual",
+      "rank": 3
+     },
+     {
+      "id": "p053:t2",
+      "page": 53,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p056:v0",
+      "page": 56,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 56
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 53
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 54
+   },
+   {
+    "event": "no_tool_call"
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p053:t1",
+   "p056:t0",
+   "p053:v0",
+   "p053:t2",
+   "p056:v0"
+  ],
+  "viewed_pages": [
+   56,
+   53,
+   54
+  ],
+  "usage": {
+   "prompt": 23853,
+   "completion": 190,
+   "calls": 6,
+   "seconds": 122.3,
+   "searches": 1,
+   "views": 3,
+   "cost_usd": 0.04923
+  },
+  "query_id": "t14",
+  "gold_pages": [
+   56
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly identifies China as the country that has risen to the highest share by 2023 and gives an approximate value ('over 25%') that is consistent with the reference answer ('about 26%'). All key facts are present and accurate."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "abstain",
+  "answer": "No final answer.",
+  "citations": [],
+  "citations_valid": false,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "years to move from 7 to 14 percent population aged 65 France Viet Nam",
+    "results": [
+     {
+      "id": "p023:t4",
+      "page": 23,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p130:t0",
+      "page": 130,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p128:t1",
+      "page": 128,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p129:t0",
+      "page": 129,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p129:t2",
+      "page": 129,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 130
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 23
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 131
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "France years to move from 7 to 14 percent population aged 65",
+    "results": [
+     {
+      "id": "p130:t0",
+      "page": 130,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p023:t4",
+      "page": 23,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p129:t2",
+      "page": 129,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p132:t1",
+      "page": 132,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p128:t1",
+      "page": 128,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 130
+   },
+   {
+    "event": "view_rejected",
+    "page": 111
+   },
+   {
+    "event": "view_rejected",
+    "page": 129
+   },
+   {
+    "event": "view_rejected",
+    "page": 128
+   },
+   {
+    "event": "view_rejected",
+    "page": 110
+   },
+   {
+    "event": "view_rejected",
+    "page": 120
+   }
+  ],
+  "context_ids": [
+   "p023:t4",
+   "p130:t0",
+   "p128:t1",
+   "p129:t0",
+   "p129:t2",
+   "p132:t1"
+  ],
+  "viewed_pages": [
+   130,
+   23,
+   131,
+   130
+  ],
+  "usage": {
+   "prompt": 56634,
+   "completion": 184,
+   "calls": 11,
+   "seconds": 403.5,
+   "searches": 2,
+   "views": 4,
+   "cost_usd": 0.11474
+  },
+  "query_id": "t15",
+  "gold_pages": [
+   130
+  ],
+  "cites_all_gold_pages": false,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "wrong",
+   "reason": "abstained"
+  },
+  "pass_auto": false
+ },
+ {
+  "status": "answered",
+  "answer": "The channel accounting for the largest share of economic damages is heat stress. Its share rises slightly between 2030 and 2045, remaining dominant at around 70-80% throughout the period.",
+  "citations": [
+   "p182"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "chart economic damages by channel",
+    "results": [
+     {
+      "id": "p179:v0",
+      "page": 179,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p179:t1",
+      "page": 179,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p182:v0",
+      "page": 182,
+      "kind": "visual",
+      "rank": 3
+     },
+     {
+      "id": "p182:t2",
+      "page": 182,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p183:v0",
+      "page": 183,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 182
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p179:v0",
+   "p179:t1",
+   "p182:v0",
+   "p182:t2",
+   "p183:v0"
+  ],
+  "viewed_pages": [
+   182
+  ],
+  "usage": {
+   "prompt": 5978,
+   "completion": 98,
+   "calls": 3,
+   "seconds": 11.3,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.01274
+  },
+  "query_id": "t16",
+  "gold_pages": [
+   182
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "partial",
+   "reason": "The candidate correctly identifies heat stress as the largest channel and that its share rises between 2030 and 2045. However, it does not specify the approximate percentages (about 63% in 2030 and about 77% in 2045) as in the reference, instead giving a broader range (70-80%) and describing the rise as 'slight,' which is less precise than the reference."
+  },
+  "pass_auto": false
+ },
+ {
+  "status": "answered",
+  "answer": "Climate impacts are projected to reduce Viet Nam's GDP level by 11.2 percent by 2045 under the most likely scenario. To reach high-income status by 2045, Viet Nam's GDP per capita must grow at an average annual rate of 6.0% from 2023 to 2045.",
+  "citations": [
+   "p182",
+   "p021"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "climate impacts GDP 2045",
+    "results": [
+     {
+      "id": "p031:t3",
+      "page": 31,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p182:t2",
+      "page": 182,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p182:v0",
+      "page": 182,
+      "kind": "visual",
+      "rank": 3
+     },
+     {
+      "id": "p183:t1",
+      "page": 183,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p012:t1",
+      "page": 12,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "GDP per capita growth needed high-income 2045",
+    "results": [
+     {
+      "id": "p021:v0",
+      "page": 21,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p007:t2",
+      "page": 7,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p021:t2",
+      "page": 21,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p055:t0",
+      "page": 55,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p064:t0",
+      "page": 64,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 182
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 21
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p031:t3",
+   "p182:t2",
+   "p182:v0",
+   "p183:t1",
+   "p012:t1",
+   "p021:v0",
+   "p007:t2",
+   "p021:t2",
+   "p055:t0",
+   "p064:t0"
+  ],
+  "viewed_pages": [
+   182,
+   21
+  ],
+  "usage": {
+   "prompt": 11712,
+   "completion": 181,
+   "calls": 4,
+   "seconds": 31.7,
+   "searches": 2,
+   "views": 2,
+   "cost_usd": 0.02487
+  },
+  "query_id": "t17",
+  "gold_pages": [
+   21,
+   182
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly states that climate impacts are projected to reduce Viet Nam's GDP by 11.2% by 2045 and that a 6.0% annual growth in GDP per capita is needed from 2023 to 2045 to reach high-income status. All key facts and numbers from the reference are present and consistent."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "At the baseline, the cost-effectiveness of cash transfers in Viet Nam is 0.6 points of inequality reduction per point of GDP spent. The global median cost-effectiveness is 1.12 points, and in the most effective systems, it can be as high as 1.4 points. Thus, Viet Nam's current cost-effectiveness is below the global median and top performers.",
+  "citations": [
+   "p236",
+   "p237"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "cost-effectiveness of cash transfers Viet Nam global median",
+    "results": [
+     {
+      "id": "p237:t0",
+      "page": 237,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p236:t1",
+      "page": 236,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p232:t0",
+      "page": 232,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p234:t0",
+      "page": 234,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p237:v0",
+      "page": 237,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 237
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 236
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "cost-effectiveness definition cash transfers",
+    "results": [
+     {
+      "id": "p237:t0",
+      "page": 237,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p234:t2",
+      "page": 234,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p234:v0",
+      "page": 234,
+      "kind": "visual",
+      "rank": 3
+     },
+     {
+      "id": "p236:t1",
+      "page": 236,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p014:t1",
+      "page": 14,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 234
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p237:t0",
+   "p236:t1",
+   "p232:t0",
+   "p234:t0",
+   "p237:v0",
+   "p234:t2",
+   "p234:v0",
+   "p014:t1"
+  ],
+  "viewed_pages": [
+   237,
+   236,
+   234
+  ],
+  "usage": {
+   "prompt": 20053,
+   "completion": 192,
+   "calls": 6,
+   "seconds": 105.7,
+   "searches": 2,
+   "views": 3,
+   "cost_usd": 0.04164
+  },
+  "query_id": "t18",
+  "gold_pages": [
+   234,
+   237
+  ],
+  "cites_all_gold_pages": false,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "partial",
+   "reason": "The candidate answer gives the global median (1.12) and states Viet Nam is below this, but it gives Viet Nam's cost-effectiveness as 0.6 instead of the reference value 0.03. This is a significant discrepancy. The answer also adds information about top performers (1.4), which is not in the reference but is not penalized. However, the key fact about Viet Nam's actual cost-effectiveness (0.03) is incorrect, so the answer is only partial."
+  },
+  "pass_auto": false
+ },
+ {
+  "status": "answered",
+  "answer": "The policy package meant to ensure everyone gains from the high-income transition is Policy Package 4: Ensuring Everyone Gains from the HIC Transition. This package corresponds to Part 5: Equity, specifically Chapter 12: Equity of the report.",
+  "citations": [
+   "p049",
+   "p007",
+   "p060",
+   "p215",
+   "p032"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "policy package ensure everyone gains high-income transition",
+    "results": [
+     {
+      "id": "p042:t0",
+      "page": 42,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p049:t0",
+      "page": 49,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p032:t1",
+      "page": 32,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p050:t0",
+      "page": 50,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p020:t2",
+      "page": 20,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "report structure chapters parts policy packages",
+    "results": [
+     {
+      "id": "p060:v0",
+      "page": 60,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p214:v0",
+      "page": 214,
+      "kind": "visual",
+      "rank": 2
+     },
+     {
+      "id": "p071:t1",
+      "page": 71,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p005:t1",
+      "page": 5,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p048:v0",
+      "page": 48,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 60
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 214
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 49
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 32
+   },
+   {
+    "event": "view_rejected",
+    "page": 220
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "policy package 4 part chapter",
+    "results": [
+     {
+      "id": "p005:t1",
+      "page": 5,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p042:t0",
+      "page": 42,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p032:t1",
+      "page": 32,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p032:t2",
+      "page": 32,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p118:v0",
+      "page": 118,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Part 5 Equity Chapter 12",
+    "results": [
+     {
+      "id": "p007:t1",
+      "page": 7,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p060:t0",
+      "page": 60,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p215:t0",
+      "page": 215,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p071:t2",
+      "page": 71,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p218:t3",
+      "page": 218,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view_rejected",
+    "page": 197
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p042:t0",
+   "p049:t0",
+   "p032:t1",
+   "p050:t0",
+   "p020:t2",
+   "p060:v0",
+   "p214:v0",
+   "p071:t1",
+   "p005:t1",
+   "p048:v0",
+   "p032:t2",
+   "p118:v0",
+   "p007:t1",
+   "p060:t0",
+   "p215:t0",
+   "p071:t2",
+   "p218:t3"
+  ],
+  "viewed_pages": [
+   60,
+   214,
+   49,
+   32
+  ],
+  "usage": {
+   "prompt": 57674,
+   "completion": 250,
+   "calls": 11,
+   "seconds": 359.4,
+   "searches": 4,
+   "views": 4,
+   "cost_usd": 0.11735
+  },
+  "query_id": "t19",
+  "gold_pages": [
+   33,
+   60
+  ],
+  "cites_all_gold_pages": false,
+  "evidence_seen": false,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly identifies Policy Package 4 as the one meant to ensure everyone gains from the high-income transition and accurately states that it corresponds to Part 5: Equity, specifically Chapter 12 of the report. All key facts from the reference answer are present and consistent."
+  },
+  "pass_auto": false
+ },
+ {
+  "status": "answered",
+  "answer": "The poorest households (bottom two deciles) spend about 12% of their budgets directly on fossil fuels and electricity. The effect of a carbon tax on the Gini index is very small: less than 0.1 points (specifically, a marginal contribution of -0.03 under the main scenario, and up to -0.09 in the most ambitious scenario), indicating almost no impact on inequality.",
+  "citations": [
+   "p239",
+   "p240"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "poorest households budget share fossil fuels electricity",
+    "results": [
+     {
+      "id": "p239:t0",
+      "page": 239,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p119:t2",
+      "page": 119,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p123:t1",
+      "page": 123,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p143:t1",
+      "page": 143,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p234:t2",
+      "page": 234,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "carbon tax effect Gini index",
+    "results": [
+     {
+      "id": "p240:v0",
+      "page": 240,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p234:t1",
+      "page": 234,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p240:t2",
+      "page": 240,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p239:t1",
+      "page": 239,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p233:t0",
+      "page": 233,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 239
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 240
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p239:t0",
+   "p119:t2",
+   "p123:t1",
+   "p143:t1",
+   "p234:t2",
+   "p240:v0",
+   "p234:t1",
+   "p240:t2",
+   "p239:t1",
+   "p233:t0"
+  ],
+  "viewed_pages": [
+   239,
+   240
+  ],
+  "usage": {
+   "prompt": 13773,
+   "completion": 180,
+   "calls": 5,
+   "seconds": 46.8,
+   "searches": 2,
+   "views": 2,
+   "cost_usd": 0.02899
+  },
+  "query_id": "t20",
+  "gold_pages": [
+   239,
+   240
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly states that the poorest two deciles spend about 12% of their budgets on fossil fuels and electricity, and that the carbon tax changes the Gini index by -0.03 under the main scenario. The additional detail about the most ambitious scenario and the interpretation of the Gini change are accurate and do not contradict the reference."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "Between 2000 and 2010, gross capital formation in Viet Nam increased from 30 percent to 37 percent of GDP, an increase of 7 percentage points.",
+  "citations": [
+   "p022"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "gross capital formation 2000 2010",
+    "results": [
+     {
+      "id": "p060:t1",
+      "page": 60,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p022:t1",
+      "page": 22,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p022:t0",
+      "page": 22,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p015:t1",
+      "page": 15,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p061:t1",
+      "page": 61,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 22
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p060:t1",
+   "p022:t1",
+   "p022:t0",
+   "p015:t1",
+   "p061:t1"
+  ],
+  "viewed_pages": [
+   22
+  ],
+  "usage": {
+   "prompt": 4366,
+   "completion": 97,
+   "calls": 3,
+   "seconds": 13.1,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.00951
+  },
+  "query_id": "t21",
+  "gold_pages": [
+   60
+  ],
+  "cites_all_gold_pages": false,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly states that gross capital formation increased from 30 percent to 37 percent of GDP between 2000 and 2010, matching the reference. The additional calculation of a 7 percentage point increase is accurate and acceptable as extra detail."
+  },
+  "pass_auto": false
+ },
+ {
+  "status": "answered",
+  "answer": "Net employment in Viet Nam could increase by 726,000 jobs in 2030 under decarbonization policies aimed at net zero by 2050.",
+  "citations": [
+   "p240"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "net employment increase 2030 decarbonization net zero 2050",
+    "results": [
+     {
+      "id": "p240:t1",
+      "page": 240,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p124:t0",
+      "page": 124,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p097:t2",
+      "page": 97,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p120:t2",
+      "page": 120,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p119:t1",
+      "page": 119,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 240
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p240:t1",
+   "p124:t0",
+   "p097:t2",
+   "p120:t2",
+   "p119:t1"
+  ],
+  "viewed_pages": [
+   240
+  ],
+  "usage": {
+   "prompt": 4569,
+   "completion": 100,
+   "calls": 3,
+   "seconds": 20.1,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.00994
+  },
+  "query_id": "t22",
+  "gold_pages": [
+   240
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer includes all key facts from the reference: the net employment increase (726,000 jobs), the year (2030), and the context (decarbonization policies aimed at net zero by 2050 in Viet Nam)."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "If inequality stays at current levels, only 38 percent of Vietnamese would earn at or above the high-income level in 2045. The remaining 62 percent would be below this level, even if the country achieves high-income status by that year.",
+  "citations": [
+   "p066",
+   "p021",
+   "p216"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "share of Vietnamese earning at or above high-income level in 2045 if inequality stays at current levels",
+    "results": [
+     {
+      "id": "p066:t0",
+      "page": 66,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p021:t0",
+      "page": 21,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p216:t0",
+      "page": 216,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p066:t2",
+      "page": 66,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p066:v0",
+      "page": 66,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 66
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p066:t0",
+   "p021:t0",
+   "p216:t0",
+   "p066:t2",
+   "p066:v0"
+  ],
+  "viewed_pages": [
+   66
+  ],
+  "usage": {
+   "prompt": 5083,
+   "completion": 129,
+   "calls": 3,
+   "seconds": 23.4,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.0112
+  },
+  "query_id": "t23",
+  "gold_pages": [
+   21
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly states that 38 percent of Vietnamese would earn at or above the high-income level in 2045 if inequality stays at current levels, and that the remaining 62 percent would be below this level. All key facts and numbers from the reference are present and consistent."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "Adaptation measures can reduce the projected climate-related GDP loss by 5.2 percentage points, lowering the loss from 11.2 percent to 6.0 percent by 2045.",
+  "citations": [
+   "p182",
+   "p183"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "adaptation measures reduce projected climate-related GDP loss",
+    "results": [
+     {
+      "id": "p182:t1",
+      "page": 182,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p183:t1",
+      "page": 183,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p012:t1",
+      "page": 12,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p183:v0",
+      "page": 183,
+      "kind": "visual",
+      "rank": 4
+     },
+     {
+      "id": "p182:t0",
+      "page": 182,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 182
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 183
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p182:t1",
+   "p183:t1",
+   "p012:t1",
+   "p183:v0",
+   "p182:t0"
+  ],
+  "viewed_pages": [
+   182,
+   183
+  ],
+  "usage": {
+   "prompt": 9397,
+   "completion": 118,
+   "calls": 4,
+   "seconds": 39.2,
+   "searches": 1,
+   "views": 2,
+   "cost_usd": 0.01974
+  },
+  "query_id": "t24",
+  "gold_pages": [
+   182
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer includes all key facts: the reduction is by 5.2 percentage points, from 11.2 percent to 6.0 percent. The mention of 'by 2045' is extra detail and does not contradict the reference. All numbers and facts are consistent with the reference answer."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "abstain",
+  "answer": "No final answer.",
+  "citations": [],
+  "citations_valid": false,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "unemployment rate 2023",
+    "results": [
+     {
+      "id": "p062:t2",
+      "page": 62,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p089:t1",
+      "page": 89,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p088:t0",
+      "page": 88,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p139:t1",
+      "page": 139,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p021:v0",
+      "page": 21,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "unemployment rate Viet Nam recent years",
+    "results": [
+     {
+      "id": "p210:t2",
+      "page": 210,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p127:v0",
+      "page": 127,
+      "kind": "visual",
+      "rank": 2
+     },
+     {
+      "id": "p061:t0",
+      "page": 61,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p092:t0",
+      "page": 92,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p040:t1",
+      "page": 40,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "unemployment rate figure table",
+    "results": [
+     {
+      "id": "p236:t2",
+      "page": 236,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p236:v1",
+      "page": 236,
+      "kind": "visual",
+      "rank": 2
+     },
+     {
+      "id": "p088:t0",
+      "page": 88,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p139:t1",
+      "page": 139,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p088:v0",
+      "page": 88,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "unemployment rate 2023 Viet Nam",
+    "results": [
+     {
+      "id": "p074:t0",
+      "page": 74,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p155:t1",
+      "page": 155,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p189:t1",
+      "page": 189,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p236:t0",
+      "page": 236,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p091:t1",
+      "page": 91,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search_limit"
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 89
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 88
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 62
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 61
+   },
+   {
+    "event": "view_rejected",
+    "page": 40
+   },
+   {
+    "event": "search_limit"
+   }
+  ],
+  "context_ids": [
+   "p062:t2",
+   "p089:t1",
+   "p088:t0",
+   "p139:t1",
+   "p021:v0",
+   "p210:t2",
+   "p127:v0",
+   "p061:t0",
+   "p092:t0",
+   "p040:t1",
+   "p236:t2",
+   "p236:v1",
+   "p088:v0",
+   "p074:t0",
+   "p155:t1",
+   "p189:t1",
+   "p236:t0",
+   "p091:t1"
+  ],
+  "viewed_pages": [
+   89,
+   88,
+   62,
+   61
+  ],
+  "usage": {
+   "prompt": 60245,
+   "completion": 184,
+   "calls": 11,
+   "seconds": 205.6,
+   "searches": 4,
+   "views": 4,
+   "cost_usd": 0.12196
+  },
+  "query_id": "t25",
+  "pass_auto": true
+ },
+ {
+  "status": "abstain",
+  "answer": "No final answer.",
+  "citations": [],
+  "citations_valid": false,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Ngoc Hoi station project investment cost",
+    "results": [
+     {
+      "id": "p166:t2",
+      "page": 166,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p166:t3",
+      "page": 166,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p167:t1",
+      "page": 167,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p173:t0",
+      "page": 173,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p171:t2",
+      "page": 171,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Ngoc Hoi station project total investment cost US dollars",
+    "results": [
+     {
+      "id": "p166:t2",
+      "page": 166,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p166:t3",
+      "page": 166,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p167:t1",
+      "page": 167,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p171:t2",
+      "page": 171,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p173:t0",
+      "page": 173,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Ngoc Hoi station project investment amount",
+    "results": [
+     {
+      "id": "p166:t2",
+      "page": 166,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p167:t1",
+      "page": 167,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p166:t3",
+      "page": 166,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p173:t0",
+      "page": 173,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p171:t2",
+      "page": 171,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Ngoc Hoi station project cost",
+    "results": [
+     {
+      "id": "p166:t2",
+      "page": 166,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p166:t3",
+      "page": 166,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p167:t1",
+      "page": 167,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p173:t0",
+      "page": 173,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p171:t2",
+      "page": 171,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search_limit"
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 166
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 167
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 168
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 165
+   },
+   {
+    "event": "view_rejected",
+    "page": 164
+   },
+   {
+    "event": "view_rejected",
+    "page": 173
+   }
+  ],
+  "context_ids": [
+   "p166:t2",
+   "p166:t3",
+   "p167:t1",
+   "p173:t0",
+   "p171:t2"
+  ],
+  "viewed_pages": [
+   166,
+   167,
+   168,
+   165
+  ],
+  "usage": {
+   "prompt": 51841,
+   "completion": 191,
+   "calls": 11,
+   "seconds": 202.8,
+   "searches": 4,
+   "views": 4,
+   "cost_usd": 0.10521
+  },
+  "query_id": "t26",
+  "pass_auto": true
+ },
+ {
+  "status": "abstain",
+  "answer": "No final answer.",
+  "citations": [],
+  "citations_valid": false,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "number of unicorn companies",
+    "results": [
+     {
+      "id": "p099:v0",
+      "page": 99,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p113:t2",
+      "page": 113,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p112:t1",
+      "page": 112,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p115:v0",
+      "page": 115,
+      "kind": "visual",
+      "rank": 4
+     },
+     {
+      "id": "p076:t3",
+      "page": 76,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "unicorn startups",
+    "results": [
+     {
+      "id": "p114:t1",
+      "page": 114,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p113:t1",
+      "page": 113,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p112:t0",
+      "page": 112,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p116:t4",
+      "page": 116,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p112:t1",
+      "page": 112,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "unicorn",
+    "results": [
+     {
+      "id": "p153:v2",
+      "page": 153,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p002:t0",
+      "page": 2,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p192:t3",
+      "page": 192,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p185:t1",
+      "page": 185,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p017:t1",
+      "page": 17,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "startup unicorn",
+    "results": [
+     {
+      "id": "p114:t1",
+      "page": 114,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p113:t1",
+      "page": 113,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p112:t0",
+      "page": 112,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p116:t4",
+      "page": 116,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p114:t2",
+      "page": 114,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search_limit"
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 113
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 114
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 115
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 116
+   },
+   {
+    "event": "view_rejected",
+    "page": 117
+   },
+   {
+    "event": "search_limit"
+   }
+  ],
+  "context_ids": [
+   "p099:v0",
+   "p113:t2",
+   "p112:t1",
+   "p115:v0",
+   "p076:t3",
+   "p114:t1",
+   "p113:t1",
+   "p112:t0",
+   "p116:t4",
+   "p153:v2",
+   "p002:t0",
+   "p192:t3",
+   "p185:t1",
+   "p017:t1",
+   "p114:t2"
+  ],
+  "viewed_pages": [
+   113,
+   114,
+   115,
+   116
+  ],
+  "usage": {
+   "prompt": 56855,
+   "completion": 166,
+   "calls": 11,
+   "seconds": 121.9,
+   "searches": 4,
+   "views": 4,
+   "cost_usd": 0.11504
+  },
+  "query_id": "t27",
+  "pass_auto": true
+ },
+ {
+  "status": "abstain",
+  "answer": "No final answer.",
+  "citations": [],
+  "citations_valid": false,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "average retail electricity price US cents per kWh",
+    "results": [
+     {
+      "id": "p083:t4",
+      "page": 83,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p078:t1",
+      "page": 78,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p239:t0",
+      "page": 239,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p078:v0",
+      "page": 78,
+      "kind": "visual",
+      "rank": 4
+     },
+     {
+      "id": "p025:t2",
+      "page": 25,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "retail electricity tariff US cents per kWh",
+    "results": [
+     {
+      "id": "p083:t4",
+      "page": 83,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p122:t1",
+      "page": 122,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p119:t2",
+      "page": 119,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p078:t1",
+      "page": 78,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p078:v0",
+      "page": 78,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "electricity price US cents per kWh",
+    "results": [
+     {
+      "id": "p083:t4",
+      "page": 83,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p239:t0",
+      "page": 239,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p078:t1",
+      "page": 78,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p025:t2",
+      "page": 25,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p078:v0",
+      "page": 78,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "electricity tariff comparison Viet Nam US cents per kWh",
+    "results": [
+     {
+      "id": "p119:t2",
+      "page": 119,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p121:v0",
+      "page": 121,
+      "kind": "visual",
+      "rank": 2
+     },
+     {
+      "id": "p123:t1",
+      "page": 123,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p122:t1",
+      "page": 122,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p056:t0",
+      "page": 56,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search_limit"
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 83
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 78
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 119
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 121
+   },
+   {
+    "event": "view_rejected",
+    "page": 122
+   },
+   {
+    "event": "view_rejected",
+    "page": 123
+   }
+  ],
+  "context_ids": [
+   "p083:t4",
+   "p078:t1",
+   "p239:t0",
+   "p078:v0",
+   "p025:t2",
+   "p122:t1",
+   "p119:t2",
+   "p121:v0",
+   "p123:t1",
+   "p056:t0"
+  ],
+  "viewed_pages": [
+   83,
+   78,
+   119,
+   121
+  ],
+  "usage": {
+   "prompt": 62918,
+   "completion": 196,
+   "calls": 11,
+   "seconds": 145.7,
+   "searches": 4,
+   "views": 4,
+   "cost_usd": 0.1274
+  },
+  "query_id": "t28",
+  "pass_auto": true
+ },
+ {
+  "status": "abstain",
+  "answer": "The report does not provide the exact amount of FDI disbursed by Viet Nam in 2024 in billions of US dollars. The available information discusses FDI as a percentage of GDP and its role in the economy, but does not state the specific disbursed value for 2024.",
+  "citations": [
+   "p186",
+   "p187"
+  ],
+  "citations_valid": false,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "FDI disbursement 2024",
+    "results": [
+     {
+      "id": "p075:t1",
+      "page": 75,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p109:t2",
+      "page": 109,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p035:t0",
+      "page": 35,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p083:t0",
+      "page": 83,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p187:t0",
+      "page": 187,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "FDI disbursement amount 2024 US dollars",
+    "results": [
+     {
+      "id": "p075:t1",
+      "page": 75,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p187:t0",
+      "page": 187,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p187:v0",
+      "page": 187,
+      "kind": "visual",
+      "rank": 3
+     },
+     {
+      "id": "p109:t2",
+      "page": 109,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p075:t0",
+      "page": 75,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "FDI disbursement 2023 2024",
+    "results": [
+     {
+      "id": "p075:t1",
+      "page": 75,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p109:t2",
+      "page": 109,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p164:t2",
+      "page": 164,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p075:t0",
+      "page": 75,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p186:t1",
+      "page": 186,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "FDI disbursement actual value 2024",
+    "results": [
+     {
+      "id": "p075:t1",
+      "page": 75,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p109:t2",
+      "page": 109,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p187:t0",
+      "page": 187,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p186:t1",
+      "page": 186,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p075:t0",
+      "page": 75,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search_limit"
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 187
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 186
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 75
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 35
+   },
+   {
+    "event": "no_tool_call"
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": false
+   }
+  ],
+  "context_ids": [
+   "p075:t1",
+   "p109:t2",
+   "p035:t0",
+   "p083:t0",
+   "p187:t0",
+   "p187:v0",
+   "p075:t0",
+   "p164:t2",
+   "p186:t1"
+  ],
+  "viewed_pages": [
+   187,
+   186,
+   75,
+   35
+  ],
+  "usage": {
+   "prompt": 60566,
+   "completion": 324,
+   "calls": 11,
+   "seconds": 111.5,
+   "searches": 4,
+   "views": 4,
+   "cost_usd": 0.12372
+  },
+  "query_id": "t29",
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "The average monthly salary of a worker in Viet Nam is approximately 8,000,000 VND for private enterprise employees, based on the Viet Nam Labor Force Survey 2022. Other sectors vary, with state-owned enterprise workers earning about 8,500,000 VND and FDI sector workers about 9,000,000 VND per month. These figures are for full-time employees and are shown in Figure 134.",
+  "citations": [
+   "p206"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "average monthly salary worker VND",
+    "results": [
+     {
+      "id": "p094:t0",
+      "page": 94,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p009:t1",
+      "page": 9,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p155:t2",
+      "page": 155,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p236:t0",
+      "page": 236,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p061:t0",
+      "page": 61,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "average wage monthly VND",
+    "results": [
+     {
+      "id": "p087:t0",
+      "page": 87,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p088:t0",
+      "page": 88,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p066:t1",
+      "page": 66,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p206:v0",
+      "page": 206,
+      "kind": "visual",
+      "rank": 4
+     },
+     {
+      "id": "p009:t1",
+      "page": 9,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 206
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 207
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 205
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 204
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "average monthly income VND",
+    "results": [
+     {
+      "id": "p066:t1",
+      "page": 66,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p236:t0",
+      "page": 236,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p155:t2",
+      "page": 155,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p206:v0",
+      "page": 206,
+      "kind": "visual",
+      "rank": 4
+     },
+     {
+      "id": "p206:t0",
+      "page": 206,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p094:t0",
+   "p009:t1",
+   "p155:t2",
+   "p236:t0",
+   "p061:t0",
+   "p087:t0",
+   "p088:t0",
+   "p066:t1",
+   "p206:v0",
+   "p206:t0"
+  ],
+  "viewed_pages": [
+   206,
+   207,
+   205,
+   204
+  ],
+  "usage": {
+   "prompt": 37352,
+   "completion": 225,
+   "calls": 8,
+   "seconds": 130.2,
+   "searches": 3,
+   "views": 4,
+   "cost_usd": 0.0765
+  },
+  "query_id": "t30",
+  "pass_auto": false
+ }
+]

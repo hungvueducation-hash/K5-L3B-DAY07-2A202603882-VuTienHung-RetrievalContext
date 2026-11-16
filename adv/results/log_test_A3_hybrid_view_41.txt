@@ -1,0 +1,8 @@
+{"config": "A3_hybrid_view_41", "split": "test", "cfg": {"r": "hybrid", "model": "gpt-4.1", "use_view": true}, "n": 30, "errors": 0, "pass_auto": "23/30", "by_category": {"table": "6/6", "image": "5/5", "chart": "2/5", "multihop": "2/4", "text": "3/4", "absent": "5/6"}, "answerable_pass": "18/24", "tool_use": "30/30", "avg_views": 2.1, "seconds_total": 2286.0, "cost_usd": 1.274}
+FAIL t13 chart answered | The high-income group has the highest scores on both due process and independence indicators in the chart. Both scores are approximately 0.6 | cites ['p211'] gold [47] | judge correct
+FAIL t15 chart abstain | No final answer. | cites [] gold [130] | judge wrong
+FAIL t16 chart answered | The channel accounting for the largest share of economic damages is heat stress. Its share rises slightly between 2030 and 2045, remaining d | cites ['p182'] gold [182] | judge partial
+FAIL t18 multihop answered | At the baseline, the cost-effectiveness of cash transfers in Viet Nam is 0.6 points of inequality reduction per point of GDP spent. The glob | cites ['p236', 'p237'] gold [234, 237] | judge partial
+FAIL t19 multihop answered | The policy package meant to ensure everyone gains from the high-income transition is Policy Package 4: Ensuring Everyone Gains from the HIC  | cites ['p049', 'p007', 'p060', 'p215', 'p032'] gold [33, 60] | judge correct
+FAIL t21 text answered | Between 2000 and 2010, gross capital formation in Viet Nam increased from 30 percent to 37 percent of GDP, an increase of 7 percentage point | cites ['p022'] gold [60] | judge correct
+FAIL t30 absent answered | The average monthly salary of a worker in Viet Nam is approximately 8,000,000 VND for private enterprise employees, based on the Viet Nam La | cites ['p206'] gold None | judge None

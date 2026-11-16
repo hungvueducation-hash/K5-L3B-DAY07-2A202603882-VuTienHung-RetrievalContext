@@ -1,0 +1,1942 @@
+[
+ {
+  "status": "answered",
+  "answer": "The recommended moderate carbon tax level is $7.5–15 per ton, introduced by reforming the EPT fuel excise tax to reflect carbon content, starting with coal.",
+  "citations": [
+   "p125:v0",
+   "p125:t2"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "green growth reform agenda carbon tax level",
+    "results": [
+     {
+      "id": "p125:v0",
+      "page": 125,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p125:t1",
+      "page": 125,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p125:t2",
+      "page": 125,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p241:t1",
+      "page": 241,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p241:v0",
+      "page": 241,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p125:v0",
+   "p125:t1",
+   "p125:t2",
+   "p241:t1",
+   "p241:v0"
+  ],
+  "viewed_pages": [],
+  "usage": {
+   "prompt": 1892,
+   "completion": 89,
+   "calls": 2,
+   "seconds": 4.6,
+   "searches": 1,
+   "views": 0,
+   "cost_usd": 0.0009
+  },
+  "query_id": "d01",
+  "gold_pages": [
+   125
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer includes the recommended moderate carbon tax level ($7.5–15 per ton), mentions reforming the EPT fuel excise tax, and specifies starting with coal. All key facts from the reference are present and consistent."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "The 'Promotion' objective corresponds to the 'Labor Market' pillar in the social protection system.",
+  "citations": [
+   "p140"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "social protection system objectives policy pillars Promotion",
+    "results": [
+     {
+      "id": "p140:v0",
+      "page": 140,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p140:t0",
+      "page": 140,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p139:t2",
+      "page": 139,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p139:t3",
+      "page": 139,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p153:v0",
+      "page": 153,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 140
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p140:v0",
+   "p140:t0",
+   "p139:t2",
+   "p139:t3",
+   "p153:v0"
+  ],
+  "viewed_pages": [
+   140
+  ],
+  "usage": {
+   "prompt": 4774,
+   "completion": 79,
+   "calls": 3,
+   "seconds": 7.2,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.00204
+  },
+  "query_id": "d02",
+  "gold_pages": [
+   140
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly states that the 'Promotion' objective corresponds to the 'Labor Market' pillar, which matches the reference answer. No key facts are missing or incorrect."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "Under the domestic revenue mobilization package, the tax instruments that should be modernized first are VAT exemptions, Personal Income Tax (PIT), Corporate Income Tax (CIT), and property taxes. This includes updating the fiscal policy framework to enhance revenue mobilization from these taxes, improving tax policy design, administration, and compliance through digitalization and risk-based audits, and reviewing tax simplification and administration for greater compliance.",
+  "citations": [
+   "p196:t0",
+   "p196:t1",
+   "p196:v0"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "resource mobilization reform agenda tax instruments modernized first domestic revenue mobilization",
+    "results": [
+     {
+      "id": "p196:v0",
+      "page": 196,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p196:t0",
+      "page": 196,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p039:t0",
+      "page": 39,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p196:t1",
+      "page": 196,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p195:t3",
+      "page": 195,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p196:v0",
+   "p196:t0",
+   "p039:t0",
+   "p196:t1",
+   "p195:t3"
+  ],
+  "viewed_pages": [],
+  "usage": {
+   "prompt": 1822,
+   "completion": 148,
+   "calls": 2,
+   "seconds": 5.0,
+   "searches": 1,
+   "views": 0,
+   "cost_usd": 0.00097
+  },
+  "query_id": "d03",
+  "gold_pages": [
+   196
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly identifies all the tax instruments listed in the reference answer (VAT exemptions, PIT, CIT, and property taxes) as those to be modernized first. The additional details provided are accurate and do not contradict the reference."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "The medium-term funding target set for social protection is to increase social protection funding to 6 percent of GDP.",
+  "citations": [
+   "p153"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "social protection reform agenda medium-term funding target",
+    "results": [
+     {
+      "id": "p153:t0",
+      "page": 153,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p153:v1",
+      "page": 153,
+      "kind": "visual",
+      "rank": 2
+     },
+     {
+      "id": "p153:t1",
+      "page": 153,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p014:t0",
+      "page": 14,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p153:v0",
+      "page": 153,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 153
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p153:t0",
+   "p153:v1",
+   "p153:t1",
+   "p014:t0",
+   "p153:v0"
+  ],
+  "viewed_pages": [
+   153
+  ],
+  "usage": {
+   "prompt": 4864,
+   "completion": 83,
+   "calls": 3,
+   "seconds": 7.1,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.00208
+  },
+  "query_id": "d04",
+  "gold_pages": [
+   153
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly states that the medium-term funding target for social protection is 6 percent of GDP, matching the reference answer. The additional detail about increasing funding is accurate and does not contradict the reference."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "The four components under Social Protection in the Resolution 15 framework diagram are:\n1. Social Assistance\n2. Social Insurance\n3. Employment, Incomes, and Poverty Reduction\n4. Minimum Basic Social Services",
+  "citations": [
+   "p141"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Resolution 15 social protection framework diagram components",
+    "results": [
+     {
+      "id": "p141:v0",
+      "page": 141,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p149:v0",
+      "page": 149,
+      "kind": "visual",
+      "rank": 2
+     },
+     {
+      "id": "p140:t2",
+      "page": 140,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p140:t1",
+      "page": 140,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p060:v0",
+      "page": 60,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 141
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p141:v0",
+   "p149:v0",
+   "p140:t2",
+   "p140:t1",
+   "p060:v0"
+  ],
+  "viewed_pages": [
+   141
+  ],
+  "usage": {
+   "prompt": 5793,
+   "completion": 105,
+   "calls": 3,
+   "seconds": 8.5,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.00249
+  },
+  "query_id": "d05",
+  "gold_pages": [
+   141
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer lists all four components under Social Protection exactly as in the reference answer, with no missing or incorrect information."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "The maximum number of days on the legend scale for the Mekong Delta maps of extreme heat (1983-2016) is 40 days.",
+  "citations": [
+   "p181"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "Mekong Delta extreme heat maps 1983-2016 legend scale maximum days",
+    "results": [
+     {
+      "id": "p181:v0",
+      "page": 181,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p224:v0",
+      "page": 224,
+      "kind": "visual",
+      "rank": 2
+     },
+     {
+      "id": "p181:t2",
+      "page": 181,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p224:t0",
+      "page": 224,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p181:t1",
+      "page": 181,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 181
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p181:v0",
+   "p224:v0",
+   "p181:t2",
+   "p224:t0",
+   "p181:t1"
+  ],
+  "viewed_pages": [
+   181
+  ],
+  "usage": {
+   "prompt": 6150,
+   "completion": 100,
+   "calls": 3,
+   "seconds": 8.4,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.00262
+  },
+  "query_id": "d06",
+  "gold_pages": [
+   181
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly states that the maximum number of days on the legend scale is 40 days, which matches the reference answer. The answer is complete and accurate."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "The two ASEAN maps of levelized cost of energy compare solar energy (Solar PV) and wind energy.",
+  "citations": [
+   "p124"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "ASEAN maps levelized cost of energy",
+    "results": [
+     {
+      "id": "p124:t2",
+      "page": 124,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p124:v0",
+      "page": 124,
+      "kind": "visual",
+      "rank": 2
+     },
+     {
+      "id": "p123:t1",
+      "page": 123,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p124:t1",
+      "page": 124,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p243:t3",
+      "page": 243,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 124
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p124:t2",
+   "p124:v0",
+   "p123:t1",
+   "p124:t1",
+   "p243:t3"
+  ],
+  "viewed_pages": [
+   124
+  ],
+  "usage": {
+   "prompt": 5623,
+   "completion": 82,
+   "calls": 3,
+   "seconds": 7.6,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.00238
+  },
+  "query_id": "d07",
+  "gold_pages": [
+   124
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly identifies that the two ASEAN maps of levelized cost of energy compare solar energy (Solar PV) and wind energy, matching the reference answer."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "According to the PDP8 power-mix chart, the share of solar power is 21% in 2022 and is projected to increase to 34% by 2050.",
+  "citations": [
+   "p122"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "PDP8 power mix solar share 2022 2050",
+    "results": [
+     {
+      "id": "p122:v0",
+      "page": 122,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p122:t0",
+      "page": 122,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p121:t1",
+      "page": 121,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p038:t2",
+      "page": 38,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p010:t2",
+      "page": 10,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 122
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p122:v0",
+   "p122:t0",
+   "p121:t1",
+   "p038:t2",
+   "p010:t2"
+  ],
+  "viewed_pages": [
+   122
+  ],
+  "usage": {
+   "prompt": 5410,
+   "completion": 119,
+   "calls": 3,
+   "seconds": 7.5,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.00235
+  },
+  "query_id": "d08",
+  "gold_pages": [
+   122
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly states the solar power shares as 21% in 2022 and 34% in 2050, matching the reference answer exactly."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "Venture capital investments in Viet Nam peaked in the year 2021, reaching approximately $1.5 billion in deal value and 165 deals, the highest recorded in the period 2014-2022.",
+  "citations": [
+   "p114:t2",
+   "p115:t0",
+   "p115:v0"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "venture capital investments peak year Viet Nam",
+    "results": [
+     {
+      "id": "p114:t2",
+      "page": 114,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p115:t0",
+      "page": 115,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p115:v0",
+      "page": 115,
+      "kind": "visual",
+      "rank": 3
+     },
+     {
+      "id": "p115:t1",
+      "page": 115,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p192:t0",
+      "page": 192,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p114:t2",
+   "p115:t0",
+   "p115:v0",
+   "p115:t1",
+   "p192:t0"
+  ],
+  "viewed_pages": [],
+  "usage": {
+   "prompt": 2415,
+   "completion": 101,
+   "calls": 2,
+   "seconds": 2.6,
+   "searches": 1,
+   "views": 0,
+   "cost_usd": 0.00113
+  },
+  "query_id": "d09",
+  "gold_pages": [
+   115
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly states that venture capital investments in Viet Nam peaked in 2021, which matches the reference answer. The additional details about deal value and number of deals are accurate and do not contradict the reference."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "Electricity demand was 85.7 TWh in 2010 and 251.3 TWh in 2023. The demand in 2023 is approximately 2.93 times higher than in 2010 (251.3 / 85.7 ≈ 2.93).",
+  "citations": [
+   "p078:v0"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "electricity demand load growth chart",
+    "results": [
+     {
+      "id": "p078:v0",
+      "page": 78,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p078:t2",
+      "page": 78,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p078:t1",
+      "page": 78,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p121:v0",
+      "page": 121,
+      "kind": "visual",
+      "rank": 4
+     },
+     {
+      "id": "p121:t1",
+      "page": 121,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 78
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p078:v0",
+   "p078:t2",
+   "p078:t1",
+   "p121:v0",
+   "p121:t1"
+  ],
+  "viewed_pages": [
+   78
+  ],
+  "usage": {
+   "prompt": 6259,
+   "completion": 123,
+   "calls": 3,
+   "seconds": 4.5,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.0027
+  },
+  "query_id": "d10",
+  "gold_pages": [
+   78
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer provides both the 2010 and 2023 electricity demand values (85.7 TWh and 251.3 TWh), and correctly calculates the ratio as approximately 2.93 times higher, which is consistent with the reference answer. All required facts are present and accurate."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "Electricity demand in 2023 was 251.3 terawatt-hours (TWh). The planned share of solar power in the power mix for 2050 is 34%.",
+  "citations": [
+   "p078:v0",
+   "p122:v0"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "electricity demand 2023",
+    "results": [
+     {
+      "id": "p078:v0",
+      "page": 78,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p121:t1",
+      "page": 121,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p078:t1",
+      "page": 78,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p121:v0",
+      "page": 121,
+      "kind": "visual",
+      "rank": 4
+     },
+     {
+      "id": "p121:t0",
+      "page": 121,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "power mix solar 2050",
+    "results": [
+     {
+      "id": "p122:v0",
+      "page": 122,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p122:t0",
+      "page": 122,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p124:t2",
+      "page": 124,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p123:t3",
+      "page": 123,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p078:t1",
+      "page": 78,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p078:v0",
+   "p121:t1",
+   "p078:t1",
+   "p121:v0",
+   "p121:t0",
+   "p122:v0",
+   "p122:t0",
+   "p124:t2",
+   "p123:t3"
+  ],
+  "viewed_pages": [],
+  "usage": {
+   "prompt": 3663,
+   "completion": 126,
+   "calls": 2,
+   "seconds": 3.2,
+   "searches": 2,
+   "views": 0,
+   "cost_usd": 0.00167
+  },
+  "query_id": "d11",
+  "gold_pages": [
+   78,
+   122
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer accurately states the electricity demand in 2023 as 251.3 TWh and the planned share of solar in the 2050 power mix as 34%, matching the reference answer exactly."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "The social protection framework diagram shows four main components: Social Assistance, Social Insurance, Employment, Incomes, and Poverty Reduction, and Minimum Basic Social Services. The pillar that covers programs promoting people's movement out of poverty is the \"Labor Market\" pillar, which corresponds to the Employment, Incomes, and Poverty Reduction component in the diagram.",
+  "citations": [
+   "p141:v0",
+   "p140:t0"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "social protection framework diagram components pillars",
+    "results": [
+     {
+      "id": "p141:v0",
+      "page": 141,
+      "kind": "visual",
+      "rank": 1
+     },
+     {
+      "id": "p140:v0",
+      "page": 140,
+      "kind": "visual",
+      "rank": 2
+     },
+     {
+      "id": "p149:v0",
+      "page": 149,
+      "kind": "visual",
+      "rank": 3
+     },
+     {
+      "id": "p140:t0",
+      "page": 140,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p139:t2",
+      "page": 139,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 141
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "pillar that promotes movement out of poverty",
+    "results": [
+     {
+      "id": "p051:t0",
+      "page": 51,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p139:t2",
+      "page": 139,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p228:t0",
+      "page": 228,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p040:t4",
+      "page": 40,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p140:t0",
+      "page": 140,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 140
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p141:v0",
+   "p140:v0",
+   "p149:v0",
+   "p140:t0",
+   "p139:t2",
+   "p051:t0",
+   "p228:t0",
+   "p040:t4"
+  ],
+  "viewed_pages": [
+   141,
+   140
+  ],
+  "usage": {
+   "prompt": 15876,
+   "completion": 167,
+   "calls": 5,
+   "seconds": 10.1,
+   "searches": 2,
+   "views": 2,
+   "cost_usd": 0.00662
+  },
+  "query_id": "d12",
+  "gold_pages": [
+   140,
+   141
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "partial",
+   "reason": "The candidate correctly identifies that there are four main components and that the Labor Market pillar covers programs promoting movement out of poverty. However, the candidate lists more than four components (including Social Assistance, Social Insurance, Employment, Incomes and Poverty Reduction, and Minimum Basic Social Services), which is inconsistent with the reference. The reference answer only lists four components and specifically names the Labor Market pillar, not 'Employment, Incomes, and Poverty Reduction' as a separate component."
+  },
+  "pass_auto": false
+ },
+ {
+  "status": "answered",
+  "answer": "The report cites the current UMIC averages as 2.0 percent of GDP on social assistance and 4.1 percent of GDP on social insurance as a reasonable medium-term financing target.",
+  "citations": [
+   "p153"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "UMIC averages GDP spending social assistance social insurance financing target",
+    "results": [
+     {
+      "id": "p153:t0",
+      "page": 153,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p230:t0",
+      "page": 230,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p143:t0",
+      "page": 143,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p144:t0",
+      "page": 144,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p230:v0",
+      "page": 230,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 153
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p153:t0",
+   "p230:t0",
+   "p143:t0",
+   "p144:t0",
+   "p230:v0"
+  ],
+  "viewed_pages": [
+   153
+  ],
+  "usage": {
+   "prompt": 6094,
+   "completion": 102,
+   "calls": 3,
+   "seconds": 4.2,
+   "searches": 1,
+   "views": 1,
+   "cost_usd": 0.0026
+  },
+  "query_id": "d13",
+  "gold_pages": [
+   153
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer accurately states both the UMIC averages: 2.0 percent of GDP for social assistance and 4.1 percent of GDP for social insurance, matching the reference answer. The additional phrase about these being reasonable medium-term financing targets is consistent with the context and does not contradict the reference."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "A domestic carbon market under an emissions trading system is planned to be developed by 2028.",
+  "citations": [
+   "p122:t2"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "domestic carbon market emissions trading system timeline",
+    "results": [
+     {
+      "id": "p122:t2",
+      "page": 122,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p125:t0",
+      "page": 125,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p122:t1",
+      "page": 122,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p123:t3",
+      "page": 123,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p120:t1",
+      "page": 120,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p122:t2",
+   "p125:t0",
+   "p122:t1",
+   "p123:t3",
+   "p120:t1"
+  ],
+  "viewed_pages": [],
+  "usage": {
+   "prompt": 1831,
+   "completion": 68,
+   "calls": 2,
+   "seconds": 2.2,
+   "searches": 1,
+   "views": 0,
+   "cost_usd": 0.00084
+  },
+  "query_id": "d14",
+  "gold_pages": [
+   122
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly states that a domestic carbon market under an emissions trading system is planned to be developed by 2028, matching the reference answer exactly."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "answered",
+  "answer": "Viet Nam had an installed power capacity of 78 gigawatts in 2021. The installed capacity must be doubled every ten years to meet growing demand and infrastructure needs.",
+  "citations": [
+   "p078:t1"
+  ],
+  "citations_valid": true,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "installed power capacity 2021 Viet Nam doubling frequency",
+    "results": [
+     {
+      "id": "p121:t1",
+      "page": 121,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p078:t1",
+      "page": 78,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p084:t0",
+      "page": 84,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p122:t0",
+      "page": 122,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p121:v0",
+      "page": 121,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": true
+   }
+  ],
+  "context_ids": [
+   "p121:t1",
+   "p078:t1",
+   "p084:t0",
+   "p122:t0",
+   "p121:v0"
+  ],
+  "viewed_pages": [],
+  "usage": {
+   "prompt": 2254,
+   "completion": 87,
+   "calls": 2,
+   "seconds": 2.6,
+   "searches": 1,
+   "views": 0,
+   "cost_usd": 0.00104
+  },
+  "query_id": "d15",
+  "gold_pages": [
+   78
+  ],
+  "cites_all_gold_pages": true,
+  "evidence_seen": true,
+  "judge": {
+   "grade": "correct",
+   "reason": "The candidate answer correctly states that Viet Nam had 78 gigawatts of installed power capacity in 2021 and that this capacity must be doubled every ten years, matching all key facts from the reference answer."
+  },
+  "pass_auto": true
+ },
+ {
+  "status": "abstain",
+  "answer": "The report does not provide a specific number for university student enrollment in Viet Nam in 2023. It mentions a projected undersupply of university graduates and the need to produce around 750,000 graduates each year to meet labor force targets, but the exact enrollment number for 2023 is not stated.",
+  "citations": [
+   "p092"
+  ],
+  "citations_valid": false,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "university students enrollment 2023 Viet Nam",
+    "results": [
+     {
+      "id": "p092:t0",
+      "page": 92,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p106:t0",
+      "page": 106,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p009:t2",
+      "page": 9,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p098:t0",
+      "page": 98,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p102:t0",
+      "page": 102,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "number of university students enrolled in Viet Nam 2023",
+    "results": [
+     {
+      "id": "p092:t1",
+      "page": 92,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p092:t0",
+      "page": 92,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p099:t1",
+      "page": 99,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p098:t0",
+      "page": 98,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p009:t2",
+      "page": 9,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 92
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "number of university students enrolled in Viet Nam 2023",
+    "results": [
+     {
+      "id": "p092:t1",
+      "page": 92,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p092:t0",
+      "page": 92,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p099:t1",
+      "page": 99,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p098:t0",
+      "page": 98,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p009:t2",
+      "page": 9,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "university student enrollment number 2023",
+    "results": [
+     {
+      "id": "p106:t0",
+      "page": 106,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p099:t1",
+      "page": 99,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p043:v0",
+      "page": 43,
+      "kind": "visual",
+      "rank": 3
+     },
+     {
+      "id": "p092:t0",
+      "page": 92,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p102:t0",
+      "page": 102,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search_limit"
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": false
+   }
+  ],
+  "context_ids": [
+   "p092:t0",
+   "p106:t0",
+   "p009:t2",
+   "p098:t0",
+   "p102:t0",
+   "p092:t1",
+   "p099:t1",
+   "p043:v0"
+  ],
+  "viewed_pages": [
+   92
+  ],
+  "usage": {
+   "prompt": 27490,
+   "completion": 214,
+   "calls": 7,
+   "seconds": 23.0,
+   "searches": 4,
+   "views": 1,
+   "cost_usd": 0.01134
+  },
+  "query_id": "d16",
+  "pass_auto": true
+ },
+ {
+  "status": "abstain",
+  "answer": "No final answer.",
+  "citations": [],
+  "citations_valid": false,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "internet users Vietnam",
+    "results": [
+     {
+      "id": "p168:t0",
+      "page": 168,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p162:t0",
+      "page": 162,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p164:v0",
+      "page": 164,
+      "kind": "visual",
+      "rank": 3
+     },
+     {
+      "id": "p163:t0",
+      "page": 163,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p022:v0",
+      "page": 22,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 168
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "number of internet users Vietnam",
+    "results": [
+     {
+      "id": "p168:t0",
+      "page": 168,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p169:v0",
+      "page": 169,
+      "kind": "visual",
+      "rank": 2
+     },
+     {
+      "id": "p164:v0",
+      "page": 164,
+      "kind": "visual",
+      "rank": 3
+     },
+     {
+      "id": "p162:t0",
+      "page": 162,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p163:t0",
+      "page": 163,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 169
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "internet users number Vietnam",
+    "results": [
+     {
+      "id": "p168:t0",
+      "page": 168,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p162:t0",
+      "page": 162,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p164:v0",
+      "page": 164,
+      "kind": "visual",
+      "rank": 3
+     },
+     {
+      "id": "p169:v0",
+      "page": 169,
+      "kind": "visual",
+      "rank": 4
+     },
+     {
+      "id": "p022:v0",
+      "page": 22,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "internet users number Vietnam 2023",
+    "results": [
+     {
+      "id": "p168:t0",
+      "page": 168,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p169:v0",
+      "page": 169,
+      "kind": "visual",
+      "rank": 2
+     },
+     {
+      "id": "p222:t0",
+      "page": 222,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p090:t1",
+      "page": 90,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p221:t0",
+      "page": 221,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search_limit"
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 169
+   },
+   {
+    "event": "search_limit"
+   },
+   {
+    "event": "search_limit"
+   },
+   {
+    "event": "search_limit"
+   }
+  ],
+  "context_ids": [
+   "p168:t0",
+   "p162:t0",
+   "p164:v0",
+   "p163:t0",
+   "p022:v0",
+   "p169:v0",
+   "p222:t0",
+   "p090:t1",
+   "p221:t0"
+  ],
+  "viewed_pages": [
+   168,
+   169,
+   169
+  ],
+  "usage": {
+   "prompt": 82939,
+   "completion": 190,
+   "calls": 11,
+   "seconds": 41.2,
+   "searches": 4,
+   "views": 3,
+   "cost_usd": 0.03348
+  },
+  "query_id": "d17",
+  "pass_auto": true
+ },
+ {
+  "status": "abstain",
+  "answer": "The report does not provide information on the ticket price of a Hanoi-Ho Chi Minh City train.",
+  "citations": [],
+  "citations_valid": false,
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "ticket price Hanoi Ho Chi Minh City train",
+    "results": [
+     {
+      "id": "p158:t1",
+      "page": 158,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p160:t0",
+      "page": 160,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p038:t1",
+      "page": 38,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p159:v0",
+      "page": 159,
+      "kind": "visual",
+      "rank": 4
+     },
+     {
+      "id": "p159:t1",
+      "page": 159,
+      "kind": "text",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "train ticket price Hanoi Ho Chi Minh City",
+    "results": [
+     {
+      "id": "p158:t1",
+      "page": 158,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p160:t0",
+      "page": 160,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p038:t1",
+      "page": 38,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p159:t1",
+      "page": 159,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p159:v0",
+      "page": 159,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "train ticket price Hanoi Ho Chi Minh City",
+    "results": [
+     {
+      "id": "p158:t1",
+      "page": 158,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p160:t0",
+      "page": 160,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p038:t1",
+      "page": 38,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p159:t1",
+      "page": 159,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p159:v0",
+      "page": 159,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 100
+   },
+   {
+    "event": "view",
+    "tool": "view_page",
+    "page": 101
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "query": "train ticket price Hanoi Ho Chi Minh City",
+    "results": [
+     {
+      "id": "p158:t1",
+      "page": 158,
+      "kind": "text",
+      "rank": 1
+     },
+     {
+      "id": "p160:t0",
+      "page": 160,
+      "kind": "text",
+      "rank": 2
+     },
+     {
+      "id": "p038:t1",
+      "page": 38,
+      "kind": "text",
+      "rank": 3
+     },
+     {
+      "id": "p159:t1",
+      "page": 159,
+      "kind": "text",
+      "rank": 4
+     },
+     {
+      "id": "p159:v0",
+      "page": 159,
+      "kind": "visual",
+      "rank": 5
+     }
+    ]
+   },
+   {
+    "event": "answer",
+    "sufficient_evidence": false
+   }
+  ],
+  "context_ids": [
+   "p158:t1",
+   "p160:t0",
+   "p038:t1",
+   "p159:v0",
+   "p159:t1"
+  ],
+  "viewed_pages": [
+   100,
+   101
+  ],
+  "usage": {
+   "prompt": 34914,
+   "completion": 217,
+   "calls": 7,
+   "seconds": 23.6,
+   "searches": 4,
+   "views": 2,
+   "cost_usd": 0.01431
+  },
+  "query_id": "d18",
+  "pass_auto": true
+ }
+]

@@ -1,6 +1,6 @@
 # Báo cáo Day 7 — 2A202603882 — Vũ Tiến Hùng
 
-> **Khai báo dùng AI:** code, thí nghiệm và bản nháp báo cáo được tạo với sự hỗ trợ của Claude Code (theo RULES.md cho phép AI hỗ trợ lập trình). Các nhãn chấm tay do Claude đề xuất từ việc đọc trace; Hùng đã đọc và duyệt trước khi nộp. Phần thử thách nâng cao (+15) **chưa làm**.
+> **Khai báo dùng AI:** code, thí nghiệm và bản nháp báo cáo được tạo với sự hỗ trợ của Claude Code (theo RULES.md cho phép AI hỗ trợ lập trình). Các nhãn chấm tay do Claude đề xuất từ việc đọc trace; Hùng đã đọc và duyệt trước khi nộp. Phần thử thách nâng cao (+15) đã làm nhưng **không đạt ngưỡng 90%** (xem cuối báo cáo).
 
 ## Dữ liệu và benchmark
 
@@ -89,4 +89,48 @@ Không câu nào chấm mức 1: mọi chunk trả về đều mang nguồn/tran
 
 ## Thử thách nâng cao (nếu thực hiện)
 
-Chưa thực hiện.
+**Kết luận ngắn (nói thẳng): phần nâng cao KHÔNG đạt ngưỡng 90%, không nhận bonus +15.** Cấu hình tốt nhất trên test đạt **24/30 = 80%** (cần ≥27/30); cấu hình tôi đã chọn trước khi chạy test chỉ đạt **19/30 = 63,3%** (chấm nghiêm ngặt). Chi tiết và các lỗi của chính quy trình tôi ở dưới.
+
+- Tài liệu, nguồn, quyền sử dụng, số trang và phiên bản: World Bank, *Viet Nam Rising: Pathways to a High-Income Future* (23/07/2025), bản tiếng Anh **248 trang** (trang PDF), hdl.handle.net/10986/43481, giấy phép **CC BY-NC 3.0 IGO** (dùng phi thương mại, ghi nguồn). PDF **không** nằm trong repo; `adv/download.sh` tải lại và kiểm SHA-256 `e2974ce5…c552`. Có 154 hình và 19 bảng (biểu đồ, sơ đồ khung, bản đồ Đồng bằng sông Cửu Long, bảng số và bảng chính sách).
+- Cách xử lý text, bảng, ảnh, biểu đồ; phạm vi index và phần chưa xử lý: (1) text layer PDF bằng pypdf → 829 chunk text (~900 ký tự), mỗi chunk giữ số trang. Text layer **làm xáo trộn bảng** (số rời khỏi nhãn hàng/cột) nên không đủ cho câu bảng. (2) Mỗi trang dựng thành ảnh (pypdfium2) rồi `gpt-4.1-mini` (vision) mô tả bảng/biểu đồ/sơ đồ → 164 chunk "visual" (có thể sai, chỉ dùng để tìm). (3) Embedding `text-embedding-3-small` (1536 chiều), lưu .npy. (4) Agent có thêm tool `view_page(page)` xem ảnh trang gốc để tự đọc số. Phạm vi: cả 248 trang đều được index (không trang lỗi); không có ảnh crop theo vùng; mô tả visual **chưa được kiểm toàn bộ** với bản gốc (chỉ kiểm các trang trong benchmark).
+- Cách chia benchmark, schema evidence, model và cấu hình: 54 câu = **dev 18** (15 có đáp án + 3 thiếu bằng chứng) và **test 30** (24 + 6) với đúng phân bố yêu cầu (test: bảng 6, ảnh/sơ đồ 5, biểu đồ 5, multi-hop 4, text 4, thiếu bằng chứng 6). Gold do tôi đọc **trực tiếp trên ảnh trang gốc**, không từ mô tả của model; mỗi gold ghi trang PDF, vùng (Table/Figure, hàng/cột) và nội dung; dev/test không dùng chung trang gold. Câu hỏi tiếng Anh (khớp ngôn ngữ tài liệu). `adv/benchmark.json`. Câu thiếu bằng chứng kiểm bằng regex trên text 248 trang + mô tả visual (xem `absence_check`).
+
+**So sánh retrieval thuần (query gốc, hit theo trang gold; multi-hop cần đủ mọi trang):**
+
+| Phương pháp | Dev Hit@1 | Dev Ev.Hit@3 | Dev @5 | Test Hit@1 | Test Ev.Hit@3 | Test @5 |
+|---|---|---|---|---|---|---|
+| dense (embedding) | 12/15 | 15/15 | 15/15 | 16/24 | 20/24 | 23/24 |
+| BM25 | 13/15 | 13/15 | 13/15 | 20/24 | 21/24 | 21/24 |
+| hybrid RRF | 13/15 | 14/15 | 15/15 | 18/24 | 22/24 | 22/24 |
+| dense chỉ chunk visual | 13/15 | 13/15 | 14/15 | 14/24 | 18/24 | 20/24 |
+
+**Agent (chấm nghiêm ngặt = trả lời đúng theo đáp án chuẩn và trích đủ trang gold; câu thiếu bằng chứng chỉ đạt khi agent nộp lời từ chối thật; lỗi/không có kết quả = không đạt, vẫn nằm trong mẫu số):**
+
+| Cấu hình | Mô tả | Dev (n=18) | Test (n=30) | Test theo nhóm (bảng/ảnh/biểu đồ/multihop/text/thiếu) | Thời gian / chi phí test |
+|---|---|---|---|---|---|
+| A0 baseline | dense, chỉ text+mô tả, gpt-4.1-mini | 17/18 | **24/30 (80%)** | 6/6, 5/5, 2/5, 2/4, 4/4, 5/6 | 162s / $0.06 |
+| A2 | hybrid RRF + view_page, gpt-4.1-mini | 16/18 | 23/30 | 6/6, 4/5, 3/5, 1/4, 4/4, 5/6 | 822s / $0.17 |
+| **A3 (đã chọn trước khi chạy test)** | hybrid + view_page, gpt-4.1 | 15/18 | **19/30 (63%)** | 6/6, 5/5, 2/5, 2/4, 3/4, 1/6 | 2286s / $1.27 |
+| A1 | dense + view_page, gpt-4.1-mini | 16/18 | (không chạy test) | | |
+
+Không có lỗi API/timeout nào (0/30). Với A2 trên dev, máy chấm gán d12 là "partial" dù câu trả lời đúng khi đọc tay, nên A2 dev thực tế có thể là 17/18; tôi giữ số theo máy chấm cho nhất quán.
+
+**Điều đã sai trong quy trình của tôi (trung thực):**
+1. **Chọn cấu hình dựa trên số liệu sai.** Bộ chấm tự động ban đầu coi "abstain" là đạt cho câu thiếu bằng chứng, kể cả khi agent **hết lượt mà không nộp câu trả lời** ("No final answer"). Trên dev, A3 có 3 câu như vậy (d16, d17, d18) nên con số "18/18" ban đầu là sai; chấm đúng A3 chỉ 15/18 và A0 là tốt nhất (17/18). Tôi chốt A3 (theo tiêu chí dự phòng "dev hòa → chọn model mạnh hơn") khi số liệu dev còn sai. Nếu chấm đúng từ đầu, tiêu chí đã công bố sẽ chọn A0. Tôi **không** chọn lại sau khi xem test; A3 vẫn là "cấu hình đã chốt".
+2. **Lỗi hệ thống trong agent:** khi hết lượt search/xem ảnh mà chưa nộp, vòng lặp trả "No final answer" thay vì ép nộp. Trên test, A3 gặp 5 câu (t15 và t25–t28); 4 câu thiếu bằng chứng trong đó từng được máy chấm tính "đạt" sai. Đây là lỗi thiết kế agent, **chưa sửa**, vì sửa rồi chạy lại trên test là chỉnh theo test.
+3. **Lỗi nhãn của tôi (phát hiện khi đọc tay kết quả test):** (a) bỏ sót trang thay thế: t13 (biểu đồ lặp ở trang 211), t21 (đoạn văn lặp ở trang 22), t19 (gói PP4 còn được mô tả ở trang 49) và t12 (trang 56), nên các câu trả lời đúng nhưng trích trang khác trang gold bị chấm trượt; (b) **t30 không hợp lệ**: báo cáo có số liệu lương trung bình (agent trích trang 206), câu "thiếu bằng chứng" của tôi sai; (c) t18 mơ hồ: Table 15 cho cost-effectiveness của cash transfers là 0,03 nhưng Table 16 baseline CE là 0,6, agent dùng bảng sau. Sửa các nhãn này sau khi đã xem test nên **test này không còn độc lập**: số "đã sửa nhãn" dưới đây chỉ để tham khảo, không dùng để nhận bonus.
+
+| Cấu hình | Test chấm nghiêm ngặt, nhãn gốc | Sau khi sửa nhãn (bỏ t30; thêm trang thay thế), chỉ tham khảo |
+|---|---|---|
+| A0 | 24/30 (80,0%) | 24/29 (82,8%) |
+| A2 | 23/30 (76,7%) | 23/29 (79,3%) |
+| A3 | 19/30 (63,3%) | 22/29 (75,9%) |
+
+Cả ba đều thấp hơn ngưỡng 90% (≥27/30). Để báo điểm bonus chặt chẽ cần **bộ test mới** (đề yêu cầu) sau khi sửa agent; tôi chưa làm.
+
+**Lỗi đã đọc, nguyên nhân (A3 trên test):** t15 (Figure 67): xem trang 130 rồi xem thêm trang khác, hết lượt, không nộp → lỗi vòng lặp. t16 (Figure 109): đúng kênh "heat stress" và xu hướng tăng nhưng nói "70–80% suốt giai đoạn" trong khi biểu đồ cho khoảng 63% (2030) đến 77% (2045): đọc giá trị biểu đồ chưa chính xác. t25–t28: model liên tục gọi view_page để "tìm cho chắc" câu không có đáp án rồi hết lượt. Biểu đồ là nhóm yếu nhất ở mọi cấu hình (2–3/5).
+
+**Mức đạt theo nhóm (A3 test, nghiêm ngặt):** bảng 6/6, ảnh/sơ đồ 5/5, biểu đồ 2/5, multi-hop 2/4, text 3/4, thiếu bằng chứng 1/6 → tổng 19/30.
+
+- Trace, nhãn và evidence từng câu; thời gian, chi phí, lỗi hệ thống: `adv/results/agent-{dev,test}/traces_*.json` (mỗi trace: tool call, trang đã xem, context, câu trả lời, citation, token, chi phí), `summary_*.json`, `retrieval_{dev,test}.json`, `selection.md` (tiêu chí viết trước khi chạy test), `benchmark.json`. Nhãn cuối của test do Claude đọc đối chiếu; máy chấm (gpt-4.1) chỉ là bước sơ bộ và từng sai (vd. d12). Hùng cần xem lại các nhãn này. Chi phí ước tính toàn bộ phần nâng cao ≈ $2,7 (mô tả ảnh 248 trang $0,28; embedding <$0,01; agent dev ≈ $0,86; agent test ≈ $1,5; chấm điểm vài cent). Giá đã đối chiếu trang OpenAI ngày 2026-11-16: gpt-4.1-mini $0,40/$1,60, gpt-4.1 $2/$8, text-embedding-3-small $0,02 mỗi 1M token; hai model chat bị OpenAI đánh dấu deprecated.
+- Giới hạn và cách tái lập: giới hạn: benchmark do một người viết (gold chưa có người thứ hai kiểm); câu hỏi viết bám tài liệu; mô tả visual do model sinh; chưa sửa lỗi hết lượt; chưa có test độc lập mới. Tái lập (venv Day 6 + `pypdfium2`, `pillow`, `pypdf`; cần `OPENAI_API_KEY`): `sh adv/download.sh` → `python adv/prepare.py <pdf> adv/work` → `python adv/describe_pages.py gpt-4.1-mini` → `python adv/build_benchmark.py` → `python adv/index.py` → `python adv/retrieval_eval.py dev|test` → `python adv/run_agent.py <A0_dense_text|A2_hybrid_view|A3_hybrid_view_41> dev|test`. Thư mục `adv/work/` (ảnh trang, text, mô tả) không được commit.

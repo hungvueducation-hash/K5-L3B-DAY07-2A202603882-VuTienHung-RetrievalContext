@@ -1,0 +1,4 @@
+test dense              Hit@1 16/24 EvHit@3 20/24 @5 23/24 @10 23/24 {'chart': '5/5', 'image': '5/5', 'multihop': '3/4', 'table': '6/6', 'text': '4/4'}
+test bm25               Hit@1 20/24 EvHit@3 21/24 @5 21/24 @10 23/24 {'chart': '5/5', 'image': '5/5', 'multihop': '1/4', 'table': '6/6', 'text': '4/4'}
+test hybrid_rrf         Hit@1 18/24 EvHit@3 22/24 @5 22/24 @10 23/24 {'chart': '5/5', 'image': '5/5', 'multihop': '2/4', 'table': '6/6', 'text': '4/4'}
+test dense_visual_only  Hit@1 14/24 EvHit@3 18/24 @5 20/24 @10 20/24 {'chart': '5/5', 'image': '5/5', 'multihop': '1/4', 'table': '6/6', 'text': '3/4'}

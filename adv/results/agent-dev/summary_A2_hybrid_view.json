@@ -1,0 +1,25 @@
+{
+ "config": "A2_hybrid_view",
+ "split": "dev",
+ "cfg": {
+  "r": "hybrid",
+  "model": "gpt-4.1-mini",
+  "use_view": true
+ },
+ "n": 18,
+ "errors": 0,
+ "pass_auto": "17/18",
+ "by_category": {
+  "table": "4/4",
+  "image": "3/3",
+  "chart": "3/3",
+  "multihop": "1/2",
+  "text": "3/3",
+  "absent": "3/3"
+ },
+ "answerable_pass": "14/15",
+ "tool_use": "18/18",
+ "avg_views": 0.89,
+ "seconds_total": 173.0,
+ "cost_usd": 0.092
+}
